@@ -3,17 +3,52 @@ project:
   type: website
 
 website:
-  title: ""
+  title: "Erik Andersen"
+  description: "PhD Student, University of Washington"
+  image: "images/profile.jpeg"
+  reader-mode: true
+  twitter-card: true
+  open-graph: true
   navbar:
-    background: primary
+    collapse: true
+    background: light
     search: true
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: "CV"
+        href: files/CV.pdf
+      - text: Research
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Service"
+        href: service.qmd
+      - text: "Blog"
+        href: blog/blog.qmd
+      - text: "More"
+        menu: 
+          - text: Useful Tools
+            href: tools.qmd
+    right:
+      - icon: github
+        href: https://github.com/eander462
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/eander462/
+        target: _blank
+  page-footer:
+    center: 
+      - text: "eander46@uw.edu"
+        icon: envelope
+        href: "mailto:eander46@uw.edu"
+      - text: "319C Savery Hall, University of Washington, Seattle, WA"
+          
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      dark: darkly
+      light: flatly 
     css: styles.css
     toc: true

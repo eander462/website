@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Erik Andersen">
+<meta name="dcterms.date" content="2022-05-23">
+<meta name="description" content="When you really need two monitors">
+
+<title>Making Monitors Work-Ubuntu Edition – Erik Andersen</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-670404ef3e7fb97f676bccdd2c52df05.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-70984d9c0efd681df462c1660833bed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Making Monitors Work-Ubuntu Edition – Erik Andersen">
+<meta property="og:description" content="When you really need two monitors">
+<meta property="og:image" content="images/profile.jpeg">
+<meta property="og:site_name" content="Erik Andersen">
+<meta name="twitter:title" content="Making Monitors Work-Ubuntu Edition – Erik Andersen">
+<meta name="twitter:description" content="When you really need two monitors">
+<meta name="twitter:image" content="images/profile.jpeg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Erik Andersen</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../files/CV.pdf"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../service.html"> 
+<span class="menu-text">Service</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blog/blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">More</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-more">    
+        <li>
+    <a class="dropdown-item" href="../tools.html">
+ <span class="dropdown-text">Useful Tools</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/eander462" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/eander462/" target="_blank"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#intro" id="toc-intro" class="nav-link active" data-scroll-target="#intro">Intro</a></li>
+  <li><a href="#solution3" id="toc-solution3" class="nav-link" data-scroll-target="#solution3">Solution</a>
+  <ul class="collapse">
+  <li><a href="#whats-the-command" id="toc-whats-the-command" class="nav-link" data-scroll-target="#whats-the-command">What’s the command?</a></li>
+  <li><a href="#how-to-make-it-run6" id="toc-how-to-make-it-run6" class="nav-link" data-scroll-target="#how-to-make-it-run6">How to make it run</a></li>
+  </ul></li>
+  <li><a href="#but-wait-how-did-you-figure-that-out" id="toc-but-wait-how-did-you-figure-that-out" class="nav-link" data-scroll-target="#but-wait-how-did-you-figure-that-out">But wait! How did you figure that out?</a>
+  <ul class="collapse">
+  <li><a href="#built-in-startup" id="toc-built-in-startup" class="nav-link" data-scroll-target="#built-in-startup">Built in startup</a></li>
+  <li><a href="#config-folder" id="toc-config-folder" class="nav-link" data-scroll-target="#config-folder">.config folder</a></li>
+  <li><a href="#cron" id="toc-cron" class="nav-link" data-scroll-target="#cron">Cron</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Making Monitors Work-Ubuntu Edition</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Linux</div>
+    <div class="quarto-category">Technology</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    When you really need two monitors
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Erik Andersen </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 23, 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="intro" class="level2">
+<h2 class="anchored" data-anchor-id="intro">Intro</h2>
+<p>This blog is going to focus on the important issues. You know, the real down to earth stuff that affects everyone. Not just first world issues either, we will practice inclusiveness. To demonstrate my commitment, this first post will be all about making sure your dual monitor setup runs smoothly when you switch to linux.</p>
+<p>If you’re anything like me (and I assume you are), you took a machine learning class in college, realized windows doesn’t let you run code in parallel as easiliy as UNIX based systems, so you <em>very</em> sneakily convinced you dad you needed a new 500 GB ssd to dual boot linux on. Then as soon as you booted it up, the OS decided that your secondary monitor should really be the main one: <em>very</em> frustrating. Power user that you are (you swapped to linux after all), you used all of your skills built up from years of using windows, booted up the <a href="https://forum.manjaro.org/t/how-do-you-use-nvidia-x-server-settings-exactly/96678">Nvidia menu</a>, toggled the switch that swaps your default monitor, then calmly went about your business. Now your monitors were working perfectly, and you were all ready to be a new linux hacker until… you restarted your computer and it swapped back. This was when you first learned that in linux many settings aren’t persistent like they are on windows, and <em>gasp</em> this is a <a href="https://stackoverflow.com/questions/15977171/why-when-i-restart-the-terminal-the-environment-variables-are-restarted">feature</a>!</p>
+<p>I have two goals for this post. Nominally, it is about how to use Nvidia settings correctly on Ubuntu 20.04 and above, but the more important message I hope to convey is how to how to go about trouble shooting a linux system as a new user. There is extensive documentation online detailing just about everything you can do on a linux system online, but for a brand new user, its not very helpful. You have to know what you want to do, how to look it up, and then what to do with that knowledge. In the long-run this will be a much more useful skill than knowing the <a href="https://www.x.org/releases/X11R7.5/doc/man/man1/xrandr.1.html">xrandr</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> command is the correct one to swap your display settings. Next time, you (and I) won’t have my blog post available with the perfect answer available<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, so knowing the basics of how to problem solve in linux will be necessary. Hadley Wickham preaches having a <a href="https://adv-r.hadley.nz/introduction.html#meta-techniques">scientific mindset</a> when doing data science; you should do the same when working in linux.</p>
+</section>
+<section id="solution3" class="level2">
+<h2 class="anchored" data-anchor-id="solution3">Solution<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></h2>
+<p>I don’t want to be accused on my very first blog post of being one of those cooking blogs where they bury the recipe after their whole life story (ignore the three paragraphs above), so I will skip to the punchline and start out telling you the commands to make your monitors work correctly.</p>
+<section id="whats-the-command" class="level3">
+<h3 class="anchored" data-anchor-id="whats-the-command">What’s the command?</h3>
+<p>The command we’ll be using is <strong>xrandr</strong>. Xrandr stands for <em>resize, rotate, and reflect extension</em>. This is a powerful command that lets you tinker with pretty much any setting you could think of for your monitors. Let’s look at the output first to see what we’re dealing with.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">xrandr</span> <span class="at">-q</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<pre><code>## Screen 0: minimum 8 x 8, current 3840 x 1080, maximum 32767 x 32767
+## DP-0 connected 1920x1080+0+0 (normal left inverted right x axis y axis) 597mm x 336mm
+##    1920x1080     60.00 + 143.98*  119.98   119.93    59.94    50.00  
+##    1680x1050    119.99    59.95  
+##    1440x900     119.85    59.89  
+##    1280x1024    119.96    75.02    60.02  
+##    1280x720      59.94    50.00  
+##    1024x768      75.03    70.07    60.00  
+##    800x600       75.00    72.19    60.32    56.25  
+##    720x576       50.00  
+##    720x480       59.94  
+##    640x480       75.00    72.81    59.94    59.93  
+## DP-1 disconnected (normal left inverted right x axis y axis)
+## HDMI-0 connected primary 1920x1080+1920+0 (normal left inverted right x axis y axis) 598mm x 336mm
+##    1920x1080     60.00*+  59.94    50.00  
+##    1280x1024     75.02    60.02  
+##    1280x720      60.00    59.94    50.00  
+##    1152x864      75.00  
+##    1024x768      75.03    60.00  
+##    800x600       75.00    60.32  
+##    720x576       50.00  
+##    720x480       59.94  
+##    640x480       75.00    59.94    59.93  
+## DP-2 disconnected (normal left inverted right x axis y axis)
+## DP-3 disconnected (normal left inverted right x axis y axis)
+## DP-4 disconnected (normal left inverted right x axis y axis)
+## DP-5 disconnected (normal left inverted right x axis y axis)
+## USB-C-0 disconnected (normal left inverted right x axis y axis)</code></pre>
+<p>It looks confusing but don’t worry, there’s only one bit of information we need from here: the monitor names.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> The monitor names are the strings on the left called DP-0 or HDMI-0. I have a lot of monitor ports, but only those two are connected. As you can see my HDMI-0 is the primary monitor, which is wrong. I want it to be DP-0. To switch it I run the following command.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">xrandr</span> <span class="at">--output</span> DP-0 <span class="at">--primary</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<pre><code>## Screen 0: minimum 8 x 8, current 3840 x 1080, maximum 32767 x 32767
+## DP-0 connected primary 1920x1080+0+0 (normal left inverted right x axis y axis) 597mm x 336mm
+##    1920x1080     60.00 + 143.98*  119.98   119.93    59.94    50.00  
+##    1680x1050    119.99    59.95  
+##    1440x900     119.85    59.89  
+##    1280x1024    119.96    75.02    60.02  
+##    1280x720      59.94    50.00  
+##    1024x768      75.03    70.07    60.00  
+##    800x600       75.00    72.19    60.32    56.25  
+##    720x576       50.00  
+##    720x480       59.94  
+##    640x480       75.00    72.81    59.94    59.93  
+## DP-1 disconnected (normal left inverted right x axis y axis)
+## HDMI-0 connected 1920x1080+1920+0 (normal left inverted right x axis y axis) 598mm x 336mm
+##    1920x1080     60.00*+  59.94    50.00  
+##    1280x1024     75.02    60.02  
+##    1280x720      60.00    59.94    50.00  
+##    1152x864      75.00  
+##    1024x768      75.03    60.00  
+##    800x600       75.00    60.32  
+##    720x576       50.00  
+##    720x480       59.94  
+##    640x480       75.00    59.94    59.93  
+## DP-2 disconnected (normal left inverted right x axis y axis)
+## DP-3 disconnected (normal left inverted right x axis y axis)
+## DP-4 disconnected (normal left inverted right x axis y axis)
+## DP-5 disconnected (normal left inverted right x axis y axis)
+## USB-C-0 disconnected (normal left inverted right x axis y axis)</code></pre>
+<p>It swapped! For many of you, this is all the info you need, but for beginning linux users (like me mostly), this still isn’t perfect. We know how to swap the primary monitor, but we still have to run this script on every time on startup. There are a number of this to try that I’ll discuss later on, but to start out with I’ll show you the option I settled for. We’re going to make our command into a script, then put that script in our <a href="https://www.journaldev.com/41479/bashrc-file-in-linux"><strong>.bashrc</strong></a> file.</p>
+</section>
+<section id="how-to-make-it-run6" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-make-it-run6">How to make it run<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></h3>
+<p>We could just put the command directly into the .bashrc file, which would probably be fine since it’s only a single line, but it is better practice<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> to make script files, then have .bashrc call the scripts. So, let’s make the script.</p>
+<p>We’ll start by creating a text file that contains the command from above.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Go to the demonstration directory</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ../playground</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># This line assigns assigns the command from above to the file monitor.txt. I have to echo it and put it in quotes, or bash will put the output from the command into the text file. </span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"xrandr --output DP-0 --primary"</span> <span class="op">&gt;</span> monitor.txt</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Now we print the text file to the screen to check it worked</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> monitor.txt</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Note, you can just edit a text file directly with vim or nano, but this lets me show the whole process without making a gif.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<pre><code>## xrandr --output DP-0 --primary</code></pre>
+<p>Great! Now we have a text file<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> containing our command, but its not executable yet, so it won’t work. We have to work with linux file permissions<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> to make it work. I won’t go in depth here, but the spark notes versions should be enough for out purposes.</p>
+<p>So what are file permissions? Simply, they are a way for the computer to know who is allowed to do what. Linux systems were designed not with personal computers in mind, but rather large centralized computers accessed by many people all the time. The file permission system lets this work without users being able to ruin the whole system for each other. There are three types of access a file can have: read, write, and execute shown by the r, w, and x below.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reset the directory because knitting sets us to the project directory every time</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ../playground</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co"># The permissions are shown on the left. They look like -rw-rw-r--</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="at">-lh</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<pre><code>## total 4.0K
+## -rwxrwxrwx 1 eander462 eander462 31 May 23 19:30 monitor.txt</code></pre>
+<p>The permissions are the first thing shown in the second line after the ##. So, our fancy monitor.txt file has permissions -rw-rw-r–<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>. Very impressive! To make it run, we will have to give execution permission to the file. We’ll do that with the <a href="http://manpages.ubuntu.com/manpages/trusty/man1/chmod.1.html"><strong>chmod</strong></a> command. There are two ways of telling the command what permissions we want to give, but this is the spark notes version, so see one of the links in this paragraph for more information; all we need to know is that to give every type of user full permission, we use the following command.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reset the directory because knitting sets us to the project directory every time</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ../playground</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Change the permissions. 777 Tells the command that we want to give each user group full permissions</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> 777 monitor.txt</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="co"># See now the permissions give each user access to reading, writing, and executing</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="at">-lh</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<pre><code>## total 4.0K
+## -rwxrwxrwx 1 eander462 eander462 31 May 23 19:30 monitor.txt</code></pre>
+<p>And now we’ve successfully hacked (read: done a simple, standard operation) linux. There’s just one more step to get this bad boy running: we need to put it in our .bashrc file<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>, so it executes when we startup our terminal on first boot.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Make sure to use &gt;&gt; instead of &gt; like we did last time. This is VERY IMPORTANT. If you just use a single &gt; it will over write your .bashrc file to only say monitor.txt which is definitely what you want.</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Alternatively, you can just directly edit .bashrc using your preffered editor</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"monitor.txt"</span> <span class="op">&gt;&gt;</span> .bashrc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>And we’re done! Now when you first run your terminal on startup, the monitor.txt program will run and set up your monitors correctly. This may have seemed like a lot, but there we’re really only three steps, and remembering how to get a script to run when you boot up your computer is a powerful tool, which will set you well on your way to be a cool linux hacker.</p>
+<p>This isn’t the end of the blog. It would be the end of most blogs, but I’m usually left with a feeling that blog writings just know how to do everything, and don’t struggle to figure out the complex topics their blogs deal with. I don’t want that to be the case here. I was entirely new to linux when I tried to make my monitors work correctly, and it took me three days to work out how to run the few basic steps I’ve described. In the rest of this post, I want to show you to process of troubleshooting and discovery of the solution. I hope it will be helpful in solving the next issue that comes up.</p>
+</section>
+</section>
+<section id="but-wait-how-did-you-figure-that-out" class="level2">
+<h2 class="anchored" data-anchor-id="but-wait-how-did-you-figure-that-out">But wait! How did you figure that out?</h2>
+<p>How do we start out troubleshooting a problem? My first instinct was to call my dad and hope he already knew the solution, but he hates talking on the phone, so this solution probably won’t work for you. <em>Annoying</em>. Guess we’ll have to use that <a href="https://adv-r.hadley.nz/introduction.html#meta-techniques">scientific mindset</a> I talked about earlier.<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> This section is mostly going to be a narrative of my problem solving process. I learned about many new system features like cron while trying to work it out, so I hope that my learning will be helpful to you (and future me).</p>
+<p>The first step to science (at least computer science) is always to google it. When I google “change primary monitor ubuntu”, I get <a href="https://askubuntu.com/questions/300670/is-there-any-ability-to-set-my-primary-monitor">this</a>. Confusingly for a new linux user, not one of the responses give the correct answer, or even mentions using the command line. Coming from windows where you never interact with the terminal, moving away from the safe <a href="https://en.wikipedia.org/wiki/Graphical_user_interface">gui</a> toggle switches to the scary maroon maze of the command line is a hurdle. I’ll save you my pain, but it took a few hours of googling and trying their solutions to learn that I was going to need to use the terminal.</p>
+<p>With the new found power of the command line we’ll update the google: <a href="https://superuser.com/questions/155004/switch-monitors-from-the-command-line">“change primary monitor ubuntu command line”</a>. And there we go; the top answer is the solution I came to using xrandr<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>. Excellent. At this point, I was spinning around in my chair celebrating, scaring my cats away, thinking I was done finally. I copied the command into my terminal<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a>, ran it and went on with my day.</p>
+<p>Sadly, upon reboot my monitors swapped back and I despaired thinking I would have to type the xrandr command into my terminal every time I booted up the computer. On the advice of my dad, I turned the command into a script in the process I described above. We couldn’t initially figure out how to run the script on startup, so for a few week, I had to type “./monitor” every time I booted the system. That was totally unacceptable, so I needed to figure out how to run a script on startup.</p>
+<section id="built-in-startup" class="level3">
+<h3 class="anchored" data-anchor-id="built-in-startup">Built in startup</h3>
+<p>Ubuntu comes with a built-in method for running scripts on startup, so let’s start by trying that. To access the startup menu, press the <a href="https://help.ubuntu.com/stable/ubuntu-help/keyboard-key-super.html.en">super key</a> (the windows key or the command key depending on where your keyboard is from), type in “startup”, and push enter. A GUI will open with three buttons on the right. Press the top-most which says “Add”, name the script something helpful, then type in the path to the script we created earlier. Click add, and we should be good. Great let’s test it! A quick reboot, and… nothing. Hmm we’ll have to try something else.</p>
+<blockquote class="blockquote">
+<p><strong>Update:</strong> This method will work, if you don’t neglect to put a <a href="https://linuxize.com/post/bash-shebang/"><strong>shebang</strong></a> at the top of your script like I did. The shebang tells the computer what to use to interpret the command with. If we add shebang “#! /bin/bash” to the top of the monitor file, the startup program will run it. This is actually a better solution than the one I present above because it doesn’t require running the terminal on startup everytime. I’m going to leave the blog how it is because I think it better fits the theme I’m going for of being scientific and exploring the OS. It took me writing the blog post and retrying all of my potential solutions here to learn this solution.</p>
+</blockquote>
+</section>
+<section id="config-folder" class="level3">
+<h3 class="anchored" data-anchor-id="config-folder">.config folder</h3>
+<p>After some more quick googling, I decided to try the .config folder. This is a command line process, so I can show you how to do it this time. If we look inside our .config folder, we find that one of the subfolders is called “autostart”. Let’s look in there.</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> ~/.config/autostart</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<pre><code>## monitor.desktop
+## nvidia-settings-autostart.desktop
+## snake-razer.desktop</code></pre>
+<p>The nvidia and snake files I have in there are extra additions by me, so we’ll focus on the monitor.desktop file. We’ll use <a href="https://man7.org/linux/man-pages/man1/cat.1.html"><strong>cat</strong></a> to view the contents.</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> ~/.config/autostart/monitor.desktop</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<pre><code>## [Desktop Entry]
+## Type=Application
+## Exec=/home/eander462/monitor
+## Hidden=false
+## NoDisplay=false
+## X-GNOME-Autostart-enabled=true
+## Name[en_US]=Montior Swap
+## Name=Montior Swap
+## Comment[en_US]=Swaps the monitor to have the left one be the default
+## Comment=Swaps the monitor to have the left one be the default</code></pre>
+<p>This looks awfully like the command we just put into the startup menu. Turns out, its exactly that! The startup menu puts the scripts to run into this folder. This is a behind the scenes look at how the linux OS actually works. Most operations are reading in data from a text file stored somewhere on the system. Unfortunately, if this is just our input from earlier, its not going to solve our problem<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a>, so let’s move onto cron.</p>
+</section>
+<section id="cron" class="level3">
+<h3 class="anchored" data-anchor-id="cron">Cron</h3>
+<p><a href="https://vitux.com/how-to-schedule-tasks-on-ubuntu-20-04-using-crontab/">Cron</a> is a very helpful system resource that allows users to schedule tasks to happen at certain times. I was directed away from cron immediately in my quest because my dad didn’t know that cron supports running programs on reboot, but it turns out it does! Let’s try it out.</p>
+<p>This is going to be a very cursory examination of cron because there is much to explore<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a>. To open your crontab write “crontab -e” into the terminal. If you don’t have a crontab yet this will create one for you. Inside, we just need to write down what we want the computer to do and when. We want it to execute our monitor script at reboot. To run a task on reboot, we use “<span class="citation" data-cites="reboot">@reboot</span>”. To specify the script to run, we just give the computer the path. So we put the following into our crontab.</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">@reboot</span> ~/monitor</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Press ctrl-x to exit cron, press y to save the changes, and we’re ready to test it out. One reboot later and… nothing again<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a> Very frustrating.</p>
+<p>Full disclosure, this process took place over the course of about a month for me. I found solutions that worked well enough, then left it for a while until I felt inspired to troubleshoot some more. Reading it as a blog makes it seem like a very linear process to troubleshoot, but its not. Its a long, frustrating process full of mostly failures.</p>
+<p>This brings us to the .bashrc solution I presented above. This works, but has downsides. You have to launch the terminal on startup to flip your monitors, and every time you open a new terminal, it runs the command again which sometimes blacks out the monitors for a few seconds. At the time, I theorized that this was the only solution that worked because of the <a href="http://manpages.ubuntu.com/manpages/impish/man1/Xserver.1.html">x-windows</a> system. This is what allows a system to have a GUI. I hypothesized that my xrandr command needed this to be running, and that the startup commands ran before x-windows had launched. This turns out not to be the case; the problem was I hadn’t put a shebang in the file, so the system didn’t know what to run it with. The file executed in the .bashrc file because that file runs everything through bash.</p>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Here we are at the end of our troubleshooting journey, and whirlwind tour of various linux features. You are now prepared to go out and be a hacker by delving into the depths of you linux OS. My hope is you take away from this blog that linux is complicated, especially for beginners. The only way to solve your problems is to experiment. You’re (probably) not going to hurt your computer, and even if you do its fairly easy to reload from a prior backup. Don’t let the novelty scare you, just give it a go and try it out!</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Note: Since the first draft, I have found a different (possibly easier) way to solve this for Nvidia cards. The solution is linked <a href="https://askubuntu.com/questions/379483/nvidia-x-server-settings-lost-on-every-reboot">here</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>I definitely will be SEO boosting this thing, so it will appear over Stack overflow for anyone trying to solve this issue<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Note: this probably isn’t the best solution, but it works, and its one I discovered myself, so it fits the spirit of this blog.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>^4<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>You can also use the following command to extract the names directly, but I find regular expressions a bit confusing, so I currently prefer to do it manually. xrandr | grep -e ” connected”<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>While writing this post, I figured out a better solution to running the script on startup, see the final section.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Source my dad, a 60 year old senior dev.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Fun fact about linux, <a href="https://medium.com/@smohajer85/file-extensions-in-linux-c619690941c4">file extensions</a> don’t <em>usually</em> matter. We could have named our file monitor.png, and it would still work exactly the same except for in a few edge cases. It is good practice to give your file a logical extension name though to avoid confusion.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>I recommend chapter 9 of <a href="https://nostarch.com/tlcl2">this</a> book for a good explanation of how the linux permissions system works if you are curious to learn more.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Why are the rw’s repeated three times? Well it has to do with <a href="https://www.redhat.com/sysadmin/manage-permissions">user groups</a>. There are three levels of permissions, each can be uniquely given access to a combination of read, write and execute. This isn’t important for our purposes here, since this is a harmless command, and we will just give everyone full permission<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Or .zshrc if you use zshell.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>I’ve only been a linux user for half a year, but I’m already much better at problem solving than I was at the start. This troubleshooting walk through is going to be at a very basic level, but for a good reason; this tutorial is aimed at past me who spent three days trying to learn linux from scratch and not knowing the most basic of things. A few of the methods I show are going to look dumb, but that is how I learned, so I hope it will be a good resource.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>A quick warning. I hadn’t gotten command line syntax down perfectly at this point, so I typed the command as “xrandr –output ‘DP-0’ –primary” with DP-0 in quotes. Don’t do this. The command runs and does what it is supposed to, but it throws up an error every time which I ignored. When I ran it automatically on startup, the error mattered. The OS refused to launch the desktop environment, and I was stuck trying to tell the OS the error was fine and it could continue the normal startup process. I recommend using the <a href="https://github.com/cheat/cheat">cheat</a> command line utility for figuring out fiddiliy things like this.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>Pro(ish) tip: ctrl-c, and ctrl-v don’t work in the terminal because the terminal was build before windows ever created those commands. Instead use ctrl-shift-c/v or middle click to copy paste.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>Except that it did perfectly solve the problem.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p><a href="https://crontab.guru/">This</a> is a helpful resource to schedule your cron jobs.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>It probably works if we did the shebang properly.<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = true;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:eander46@uw.edu">
+<p>eander46@uw.edu</p>
+</a>
+  </li>  
+    <li class="nav-item">
+ 319C Savery Hall, University of Washington, Seattle, WA
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

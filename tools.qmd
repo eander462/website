@@ -1,0 +1,25 @@
+---
+title: "Useful Tools"
+---
+
+Here's a collection of useful links and tools I use in my research.
+
+## Blogs I like
+
+[Ceteris Non Paribus](https://jasonkerwin.com/nonparibus/)
+
+[Development Impact](https://blogs.worldbank.org/en/impactevaluations)
+
+[Noahpinion](https://www.noahpinion.blog/)
+
+[Paul Krugman](https://paulkrugman.substack.com/)
+
+[An Africanist Perspective](https://www.africanistperspective.com/)
+
+[Scott's Mixtape](https://causalinf.substack.com/)
+
+[Data Colada](https://datacolada.org/)
+
+## Links
+
+[How to make a website with Quarto](https://quarto.org/docs/websites/).

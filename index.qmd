@@ -1,5 +1,35 @@
 ---
 title: "Erik Andersen"
+image: images/main_photo.jpeg
+about:
+  template: solana  
+  image-shape: round
+  image-width: 17em
+  links:
+    - icon: github
+      text: "GitHub"
+      href: https://github.com/eander462
+      target: _blank
+    - icon: linkedin
+      text: "LinkedIn"
+      href: https://www.linkedin.com/in/eander462/
+      target: _blank
+    - icon: cloud
+      text: "BlueSky"
+      href: https://bsky.app/profile/eander462.bsky.social
+      target: _blank
+    - icon: mortarboard
+      text: "UW Website"
+      href: https://econ.washington.edu/people/erik-andersen
+      target: _blank
+    - icon: envelope
+      text: "Email"
+      href: "mailto:eander46@uw.edu"
+      target: _blank
 ---
 
-Test
+I am a third year PhD student in the University of Washington department of economics specializing in development economics. My research focuses on the Economics of Education in developed and developing countries, with a particular focus on Ghana. I try to understand the choices people make about how much to invest into their own, and their children's education, and when those decisions may be biased. I am also keenly interested in (but haven't had enough spare research time) how those choices interact with changing environmental factors such as spillover effects from mining.
+
+I obtained my Bachelor's and Masters degrees (both in economics) from the University of Oregon, and before that, I lived in the beautiful Bay Area.
+
+I spend my spare time exploring Seattle and the Salish Sea area by bike, and reading lots of novels.

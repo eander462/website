@@ -1,0 +1,18 @@
+---
+title: "Research"
+toc: FALSE
+---
+
+I study development economics, which I interpret to be the study of economic and social problems in disadvantaged populations whether they be in developing countries or not. I work to design programs that help those struggling populations with their real-world problems, and uncover mechanisms working against their success. I do this in a rigorous way using both randomized control trials and advanced statistical methods using observational data.
+
+I am primarily interested in the Economics of Education, and understanding when and why people hold biased beliefs about education's value and helping to correct those so people make more informed decisions. I am also interested in studying how these decisions are adversely affected by changing environmental factors.
+
+## Work in Progress
+
+**Crossing the Threshold: Complementary Effects of School Quality and Parental Engagement in Ghana**
+
+**Integrating Educational Technology with Structured Pedagogy to Improve Learning Outcomes for Every Student (with Erik Andersen, Simon Graffy, and Monica Lambon-Quayefio)**
+
+**Disproportional Outcomes from Probationary Policies: Problems and Solutions**
+
+**At What Level Should you Cluster, Why Cluster at All? Randomization Inference Correction to Incorrect False Rejection Rates with Small Clusters**
