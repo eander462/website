@@ -3,7 +3,7 @@
   publish = "_site"
 
 [build.environment]
-  QUARTO_VERSION = "1.3.450"
+  QUARTO_VERSION = "1.6.42"
 
 [functions]
   node_bundler = "esbuild"
