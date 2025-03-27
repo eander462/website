@@ -1,6 +1,6 @@
 ---
 title: "Erik Andersen"
-image: images/main_photo.jpeg
+image: images/profile.jpeg
 about:
   template: solana  
   image-shape: round

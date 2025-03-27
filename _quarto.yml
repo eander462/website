@@ -43,6 +43,8 @@ website:
         icon: envelope
         href: "mailto:eander46@uw.edu"
       - text: "319C Savery Hall, University of Washington, Seattle, WA"
+  favicon: logo.ico
+
           
 
 format:
@@ -52,6 +54,7 @@ format:
       light: flatly 
     css: styles.css
     toc: true
+
     
 comments:
   giscus:
