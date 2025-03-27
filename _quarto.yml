@@ -52,3 +52,15 @@ format:
       light: flatly 
     css: styles.css
     toc: true
+    
+comments:
+  giscus:
+    repo: eander462/website
+    repo-id: R_kgDOOPWmQw
+    category: General
+    category-id: DIC_kwDOOPWmQ84Cofrh
+    mapping: pathname
+    reactions-enabled: true
+    loading: lazy
+    input-position: top
+    theme: light
