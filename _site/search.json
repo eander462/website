@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "blog/blog.html",
+    "href": "blog/blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "This is my (yet to be named) personal blog. As an academic economist (or any kind of academic) most of my projects don’t work out well enough to be published in a major journal be that because they returned null results, or just ended up being shall we say a different kind of interesting than journals are looking for. That however does not mean they aren’t interesting to me, or to you, so I will endeavor to share those things here. I may also have a couple of posts moonlighting as a tech bro and post tutorials for various interesting computer things. Knowledge should be shared, not only the most interesting or novel knowledge, so here is some of mine."
+  },
+  {
+    "objectID": "blog/blog.html#posts",
+    "href": "blog/blog.html#posts",
+    "title": "Blog",
+    "section": "Posts",
+    "text": "Posts"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Erik Andersen",
@@ -7,32 +21,11 @@
     "text": "I am a third year PhD student in the University of Washington department of economics specializing in development economics. My research focuses on the Economics of Education in developed and developing countries, with a particular focus on Ghana. I try to understand the choices people make about how much to invest into their own, and their children’s education, and when those decisions may be biased. I am also keenly interested in (but haven’t had enough spare research time) how those choices interact with changing environmental factors such as spillover effects from mining.\nI obtained my Bachelor’s and Masters degrees (both in economics) from the University of Oregon, and before that, I lived in the beautiful Bay Area.\nI spend my spare time exploring Seattle and the Salish Sea area by bike, and reading lots of novels."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "service.html",
+    "href": "service.html",
+    "title": "Service",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "I study development economics, which I interpret to be the study of economic and social problems in disadvantaged populations whether they be in developing countries or not. I work to design programs that help those struggling populations with their real-world problems, and uncover mechanisms working against their success. I do this in a rigorous way using both randomized control trials and advanced statistical methods using observational data.\nI am primarily interested in the Economics of Education, and understanding when and why people hold biased beliefs about education’s value and helping to correct those so people make more informed decisions. I am also interested in studying how these decisions are adversely affected by changing environmental factors."
-  },
-  {
-    "objectID": "research.html#work_in_progress",
-    "href": "research.html#work_in_progress",
-    "title": "Research",
-    "section": "Work in Progress",
-    "text": "Work in Progress"
-  },
-  {
-    "objectID": "research.html#work-in-progress",
-    "href": "research.html#work-in-progress",
-    "title": "Research",
-    "section": "Work in Progress",
-    "text": "Work in Progress\nCrossing the Threshold: Complementary Effects of School Quality and Parental Engagement in Ghana\nIntegrating Educational Technology with Structured Pedagogy to Improve Learning Outcomes for Every Student (with Erik Andersen, Simon Graffy, and Monica Lambon-Quayefio)\nDisproportional Outcomes from Probationary Policies: Problems and Solutions\nAt What Level Should you Cluster, Why Cluster at All? Randomization Inference Correction to Incorrect False Rejection Rates with Small Clusters"
+    "text": "I am an active member of the University of Washington community. I am the current president of the Department of Economics Graduate Student Committee, and have served as a member since 2022. The committee serves as a liaison to the faculty to voice student concerns, and we have worked hard to ensure all students have an equitable funding situation. I have also served as the union steward to the Department of Economics since 2024. I helped organize students within the department to ensure we reached an equitable collective bargaining contract with the university."
   },
   {
     "objectID": "teaching.html",
@@ -56,18 +49,39 @@
     "text": "Teaching Assistant\nEC 200: Introduction to Microeconoimcs\nSpring 2023, Autumn 2023, Winter 2024, Spring 2024"
   },
   {
-    "objectID": "service.html",
-    "href": "service.html",
-    "title": "Service",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "I am an active member of the University of Washington community. I am the current president of the Department of Economics Graduate Student Committee, and have served as a member since 2022. The committee serves as a liaison to the faculty to voice student concerns, and we have worked hard to ensure all students have an equitable funding situation. I have also served as the union steward to the Department of Economics since 2024. I helped organize students within the department to ensure we reached an equitable collective bargaining contract with the university."
+    "text": "I study development economics, which I interpret to be the study of economic and social problems in disadvantaged populations whether they be in developing countries or not. I work to design programs that help those struggling populations with their real-world problems, and uncover mechanisms working against their success. I do this in a rigorous way using both randomized control trials and advanced statistical methods using observational data.\nI am primarily interested in the Economics of Education, and understanding when and why people hold biased beliefs about education’s value and helping to correct those so people make more informed decisions. I am also interested in studying how these decisions are adversely affected by changing environmental factors."
   },
   {
-    "objectID": "blog/blog.html",
-    "href": "blog/blog.html",
-    "title": "Blog",
+    "objectID": "research.html#work-in-progress",
+    "href": "research.html#work-in-progress",
+    "title": "Research",
+    "section": "Work in Progress",
+    "text": "Work in Progress\nCrossing the Threshold: Complementary Effects of School Quality and Parental Engagement in Ghana\nIntegrating Educational Technology with Structured Pedagogy to Improve Learning Outcomes for Every Student (with Erik Andersen, Simon Graffy, and Monica Lambon-Quayefio)\nDisproportional Outcomes from Probationary Policies: Problems and Solutions\nAt What Level Should you Cluster, Why Cluster at All? Randomization Inference Correction to Incorrect False Rejection Rates with Small Clusters"
+  },
+  {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Useful Tools",
     "section": "",
-    "text": "This is my (yet to be named) personal blog. As an academic economist (or any kind of academic) most of my projects don’t work out well enough to be published in a major journal be that because they returned null results, or just ended up being shall we say a different kind of interesting than journals are looking for. That however does not mean they aren’t interesting to me, or to you, so I will endeavor to share those things here. I may also have a couple of posts moonlighting as a tech bro and post tutorials for various interesting computer things. Knowledge should be shared, not only the most interesting or novel knowledge, so here is some of mine."
+    "text": "Here’s a collection of useful links and tools I use in my research."
+  },
+  {
+    "objectID": "tools.html#blogs-i-like",
+    "href": "tools.html#blogs-i-like",
+    "title": "Useful Tools",
+    "section": "Blogs I like",
+    "text": "Blogs I like\nCeteris Non Paribus\nDevelopment Impact\nNoahpinion\nPaul Krugman\nAn Africanist Perspective\nScott’s Mixtape\nData Colada"
+  },
+  {
+    "objectID": "tools.html#links",
+    "href": "tools.html#links",
+    "title": "Useful Tools",
+    "section": "Links",
+    "text": "Links\nHow to make a website with Quarto."
   },
   {
     "objectID": "blog/monitors-ubuntu.html",
@@ -110,47 +124,5 @@
     "title": "Making Monitors Work-Ubuntu Edition",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nNote: Since the first draft, I have found a different (possibly easier) way to solve this for Nvidia cards. The solution is linked here↩︎\nI definitely will be SEO boosting this thing, so it will appear over Stack overflow for anyone trying to solve this issue↩︎\nNote: this probably isn’t the best solution, but it works, and its one I discovered myself, so it fits the spirit of this blog.↩︎\n^4↩︎\nYou can also use the following command to extract the names directly, but I find regular expressions a bit confusing, so I currently prefer to do it manually. xrandr | grep -e ” connected”↩︎\nWhile writing this post, I figured out a better solution to running the script on startup, see the final section.↩︎\nSource my dad, a 60 year old senior dev.↩︎\nFun fact about linux, file extensions don’t usually matter. We could have named our file monitor.png, and it would still work exactly the same except for in a few edge cases. It is good practice to give your file a logical extension name though to avoid confusion.↩︎\nI recommend chapter 9 of this book for a good explanation of how the linux permissions system works if you are curious to learn more.↩︎\nWhy are the rw’s repeated three times? Well it has to do with user groups. There are three levels of permissions, each can be uniquely given access to a combination of read, write and execute. This isn’t important for our purposes here, since this is a harmless command, and we will just give everyone full permission↩︎\nOr .zshrc if you use zshell.↩︎\nI’ve only been a linux user for half a year, but I’m already much better at problem solving than I was at the start. This troubleshooting walk through is going to be at a very basic level, but for a good reason; this tutorial is aimed at past me who spent three days trying to learn linux from scratch and not knowing the most basic of things. A few of the methods I show are going to look dumb, but that is how I learned, so I hope it will be a good resource.↩︎\nA quick warning. I hadn’t gotten command line syntax down perfectly at this point, so I typed the command as “xrandr –output ‘DP-0’ –primary” with DP-0 in quotes. Don’t do this. The command runs and does what it is supposed to, but it throws up an error every time which I ignored. When I ran it automatically on startup, the error mattered. The OS refused to launch the desktop environment, and I was stuck trying to tell the OS the error was fine and it could continue the normal startup process. I recommend using the cheat command line utility for figuring out fiddiliy things like this.↩︎\nPro(ish) tip: ctrl-c, and ctrl-v don’t work in the terminal because the terminal was build before windows ever created those commands. Instead use ctrl-shift-c/v or middle click to copy paste.↩︎\nExcept that it did perfectly solve the problem.↩︎\nThis is a helpful resource to schedule your cron jobs.↩︎\nIt probably works if we did the shebang properly.↩︎"
-  },
-  {
-    "objectID": "blog/blog.html#posts",
-    "href": "blog/blog.html#posts",
-    "title": "Blog",
-    "section": "Posts",
-    "text": "Posts"
-  },
-  {
-    "objectID": "blog/tools.html",
-    "href": "blog/tools.html",
-    "title": "Useful Tools",
-    "section": "",
-    "text": "Here’s a collection of useful links and tools I use in my research."
-  },
-  {
-    "objectID": "blog/tools.html#links",
-    "href": "blog/tools.html#links",
-    "title": "Useful Tools",
-    "section": "Links",
-    "text": "Links\nHow to make a website with Quarto."
-  },
-  {
-    "objectID": "tools.html",
-    "href": "tools.html",
-    "title": "Useful Tools",
-    "section": "",
-    "text": "Here’s a collection of useful links and tools I use in my research."
-  },
-  {
-    "objectID": "tools.html#links",
-    "href": "tools.html#links",
-    "title": "Useful Tools",
-    "section": "Links",
-    "text": "Links\nHow to make a website with Quarto."
-  },
-  {
-    "objectID": "tools.html#blogs-i-like",
-    "href": "tools.html#blogs-i-like",
-    "title": "Useful Tools",
-    "section": "Blogs I like",
-    "text": "Blogs I like\nCeteris Non Paribus\nDevelopment Impact\nNoahpinion\nPaul Krugman\nAn Africanist Perspective\nScott’s Mixtape\nData Colada"
   }
 ]
