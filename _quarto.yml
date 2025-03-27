@@ -10,6 +10,8 @@ website:
   twitter-card: true
   open-graph: true
   navbar:
+    logo: logo.ico
+    logo-alt: Icon
     collapse: true
     background: light
     search: true
