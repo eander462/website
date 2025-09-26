@@ -1,5 +1,5 @@
 ---
-title: "Do the Poorest Children in Ghana Know about Sheepskin?"
+title: "Of Sheepskin and Paradoxes"
 description: "A Simpson's Paradox in the wild."
 author: "Erik Andersen"
 date: "2025-03-27"
