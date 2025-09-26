@@ -14,18 +14,74 @@
     "text": "Posts"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Erik Andersen",
+    "objectID": "blog/simpsons_paradox.html",
+    "href": "blog/simpsons_paradox.html",
+    "title": "Do the Poorest Children in Ghana Know about Sheepskin?",
     "section": "",
-    "text": "I am a third year PhD student in the University of Washington department of economics specializing in development economics. My research focuses on the Economics of Education in developed and developing countries, with a particular focus on Ghana. I try to understand the choices people make about how much to invest into their own, and their children’s education, and when those decisions may be biased. I am also keenly interested in (but haven’t had enough spare research time to investigate) how those choices interact with changing environmental factors such as spillover effects from mining.\nI obtained my Bachelor’s and Masters degrees (both in economics) from the University of Oregon, and before that, I lived in the beautiful Bay Area.\nI spend my spare time exploring Seattle and the Salish Sea area by bike, and reading lots of novels."
+    "text": "Here’s an interesting fact reported by UNICEF: in Ghana, the poorest children drop out of school at a much higher rate than their richer peers, but unexpectedly if they finished a level of schooling, e.g. finish elementary school, they are much more likely than their peers to carry on and start middle school, high school or university. Children who don’t carry on to the next level of schooling are said to have “non-transitioned”, and the poorest children in Ghana are stunningly more likely to transition than their peers. Children whose parents earn in the bottom 20% of income non-transition only 9% of the time, while children even marginally richer whose parents fall in the bottom 20 to 40% of incomes non-transition 17% of the time! It gets even worse as children climb the income ladder with the highest income students non-transitioning 26% of the time. A full quarter of upper income students fail to carry on to the next level of schooling at some point in their academic careers. What is going on here? I had some theories and spent quite a bit of time pursuing one, only to find that what we have here is a classic statistical trick called a Simpson’s Paradox, a statistical trick where a pattern in the data can entirely reverse if you look at it at an aggregated versus disaggregated level."
   },
   {
-    "objectID": "service.html",
-    "href": "service.html",
-    "title": "Service",
+    "objectID": "blog/simpsons_paradox.html#theorize-with-me",
+    "href": "blog/simpsons_paradox.html#theorize-with-me",
+    "title": "Do the Poorest Children in Ghana Know about Sheepskin?",
+    "section": "Theorize with Me",
+    "text": "Theorize with Me\nBefore I walk you through what a Simpson’s Paradox is and where it rears its head, and I want to illustrate how dangerous they can be by telling you a theory I came up with to explain this apparent contradiction that I thought was compelling (and spent an embarrassingly long time designing a project to test)1.\nImagine two students: Erik and Thomas. Thomas is from a relatively rich, sophisticated family. His parents are not so wealthy he never has to work, in fact they are highly invested in making sure Thomas does whatever it takes to get the highest paying job he can. In their research, they discover that sheepskin effects where returns to schooling exhibit a big jump after getting a degree from completing a level of schooling are the main driver of returns to education. Finishing sophomore year in high school won’t increase your earnings by much, it’s only the high school diploma. If Thomas finishes elementary school, but is only a marginal student, unlikely to succeed in the cauldron of middle school, his parents won’t make him stick it out. They know the first two years of middle school won’t give him any boost in pay, so if he is unlikely to get the coveted middle school diploma, he should drop out right at the start. Thomas, and students like him will thus non-transition quite a lot.\nBut what about Erik? Erik is from a very poor family who don’t have enough time or resources to be able to learn about sheepskin effects. Erik seems to be learning more and more every year, so they assume his post-school income should also be increasing incrementally every year he completes.2 To them, there’s no reason to favor dropping out at a transition point any more than at any other time. If Erik is a marginal student unlikely to finish high school, so what? He’ll stay a couple years, boost his resume, then drop out when the time is right. There are no critical decision making points as there are for the rich, in the know family. If every day of school is equally valuable for earnings, then waiting a few days or years to dropout does no harm. If there are sharp, discontinuous points in the earnings function, there are critical points when parents have to make quick decisions to pull their child out of school to avoid “wasting” time with schooling that provides no direct boost to earnings.\nTogether, these effects explain UNICEF’s fact. Even though poor children drop out more, their dropouts are distributed throughout their academic careers. Rich children drop out less, but always at these critical transition points. An elegant way to explain the contradiction. I spent a long while designing an intervention to prevent this over investment in education by the poorest students by telling them about sheepskin effects, and thus boosting the lifetime earnings in important ways, and potentially digging the poorest families out of a poverty trap.\nThe only problem is, the contradiction didn’t exist in the first place."
+  },
+  {
+    "objectID": "blog/simpsons_paradox.html#lies-damned-lies-and-statistics",
+    "href": "blog/simpsons_paradox.html#lies-damned-lies-and-statistics",
+    "title": "Do the Poorest Children in Ghana Know about Sheepskin?",
+    "section": "Lies, Damned Lies, and Statistics",
+    "text": "Lies, Damned Lies, and Statistics\nA Simpson’s Paradox3 where if you consider the whole of your sample, one pattern appears, but if you look at each subgroup, the pattern disappears or reverses itself: missing the trees for the forest. This phenomenon is so clear when you look at it on a picture as to appear obvious, but when faced with real data, and no knowledge that a Simpson’s Paradox might be lurking, it is anything but. I’ll walk you through the background of Ghana’s education system, and see if you can spot the Simpson’s Paradox that explains the contradiction before I reveal it4.\n\n\n\nSource: Wikipedia\n\n\nGhana has four levels of schooling—basic school (BS), junior high school (JHS), senior high school (SHS), and university—meaning there are three possible non-transition points—BS to JHS, JHS to SHS, and SHS to university. Like many developing countries (and to a lesser extent developed countries), enrollment drops off precipitously the higher level of school you look at. The overall non-transition rates at those three breaks are given below. Most students make it to JHS, we lose some more going to SHS, then the big culling of enrollment happens as students transition to university.\n\n\n\nData source: MICS-EAGLE 2017-18\n\n\nWe’re interested in looking at this data by income level, so let’s break each of those transition points up by income level. I’ll just report the poorest and richest students for simplicity’s sake. Here’s the Simpson’s Paradox! At the first two transition points the poorest students are much more likely to non-transition than the richest ones, and at the final transition, they’re about equal5.\n\n\n\nData source: MICS-EAGLE 2017-18\n\n\nHow can it be that this fact is true, and yet if we aggregate all these together and look at total non-transition rates as UNICEF did, it looks like the poorest students transition at a much higher rate than the rich? Look closely at the table below, and notice the number of poor and rich students at each transition point. Because the rich students transition at a much higher rate at every point, more of them survive to be culled by the massive non-transition rate to university. Poor students, on the other hand, either non-transition early, or drop out at a different point in the year, and so don’t exist to be counted at the university transition when almost everyone drops out. Thus the rich students are over-represented at the non-transition points that make up the bulk of the average, while the poor students filter out before they can be properly added up in the average. We end up with a fact that while true is greatly misleading about the situation on the ground."
+  },
+  {
+    "objectID": "blog/simpsons_paradox.html#so-what",
+    "href": "blog/simpsons_paradox.html#so-what",
+    "title": "Do the Poorest Children in Ghana Know about Sheepskin?",
+    "section": "So What?",
+    "text": "So What?\nWhy am I writing a blog about this? Two reasons. First, I think this is a quite interesting example of a common statistical foible. Even spending too long working on this project and writing this blog, I still find it a bit hard to wrap my head around how this is all true at the same time, so I want to put it out there so other people don’t waste as much time figuring it out as I did.\nSecond and more importantly, this highlights the perils of misleading data presentation. The graph UNICEF made and put in their fact sheet is 100% true and reproducible, but even with their minor note about this being a Simpson’s Paradox (which I find completely unclear) it is still misleading. Put yourself in the shoes of a Ghanaian policy maker6. The fact sheet is designed to provide easily digestible information to policy makers that they can act on to improve Ghana’s education system, but any policy made on the basis of this fact alone would be harmful. My idea was that the poorest students were over investing in education and wasting potential earning years, but they are not. As we saw when we dug deeper into this data, as we might expect a priori, the poorest students get significantly less education than their richer peers, so any policy helping them prevent over investing in education would only push the poorest students farther behind. Presenting the data in a way that better represents the truth on the ground can help make sure good development money isn’t thrown after bad facts.\nAs scientists, and especially scientists in development where our work can directly impact where large amounts of money are spent, we should aspire to not just find and report all things that are true, but to represent them in the most honest way we can. Facts that are misleading are the most dangerous kind of misinformation, and having scientists (or politicians) arbitrating on what makes a fact misleading leads you down all kinds of dangerous paths, and yet it is still our responsibility to do so, to find the right route through the garden of all knowledge, keep discovering things about the world, and share them."
+  },
+  {
+    "objectID": "blog/simpsons_paradox.html#footnotes",
+    "href": "blog/simpsons_paradox.html#footnotes",
+    "title": "Do the Poorest Children in Ghana Know about Sheepskin?",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis theory turned out to be wrong, so there are a lot of holes you can poke in it, but the point is you can pretty easily develop a compelling theory to explain whatever statistical artifact you want↩︎\nOr every day he completes at the extreme.↩︎\nUnfortunately not named after the TV family, but the much less cool Edward H. Simpson who worked as a code breaker during WW2 at Bletchley Park.↩︎\nThe data is available here if you want to play around with it yourself. It’s the Ghana MICS6 survey from 2017-18.↩︎\nThe reversal at the final transition point is probably a form of survivor bias. It takes an exceptional student to make it all the way through twelve grades when they have hardly any resources, so by the end you are left with only the best.↩︎\nOr a poor PhD student looking for a project.↩︎"
+  },
+  {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Useful Tools",
     "section": "",
-    "text": "I am an active member of the University of Washington community. I am the current president of the Department of Economics Graduate Student Committee, and have served as a member since 2022. The committee serves as a liaison to the faculty to voice student concerns, and we have worked hard to ensure all students have an equitable funding situation. I have also served as the union steward to the Department of Economics since 2024. I helped organize students within the department to ensure we reached an equitable collective bargaining contract with the university."
+    "text": "Here’s a collection of useful links and tools I use in my research."
+  },
+  {
+    "objectID": "tools.html#blogs-i-like",
+    "href": "tools.html#blogs-i-like",
+    "title": "Useful Tools",
+    "section": "Blogs I like",
+    "text": "Blogs I like\nCeteris Non Paribus\nDevelopment Impact\nNoahpinion\nPaul Krugman\nAn Africanist Perspective\nScott’s Mixtape\nData Colada"
+  },
+  {
+    "objectID": "tools.html#links",
+    "href": "tools.html#links",
+    "title": "Useful Tools",
+    "section": "Links",
+    "text": "Links\nHow to make a website with Quarto."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "I study development economics, which I interpret to be the study of economic and social problems in disadvantaged populations whether they be in developing countries or not. I work to design programs that help those struggling populations with their real-world problems, and uncover mechanisms working against their success. I do this in a rigorous way using both randomized control trials and advanced statistical methods using observational data.\nI am primarily interested in the Economics of Education, and understanding when and why people hold biased beliefs about education’s value and helping to correct those so people make more informed decisions. I am also interested in studying how these decisions are adversely affected by changing environmental factors."
+  },
+  {
+    "objectID": "research.html#work-in-progress",
+    "href": "research.html#work-in-progress",
+    "title": "Research",
+    "section": "Work in Progress",
+    "text": "Work in Progress\nCrossing the Threshold: Complementary Effects of School Quality and Parental Engagement in Ghana\nIntegrating Educational Technology with Structured Pedagogy to Improve Learning Outcomes for Every Student (with Erik Andersen, Simon Graffy, Jason Kerwin, and Monica Lambon-Quayefio)\nDisproportional Outcomes from Probationary Policies: Problems and Solutions\nAt What Level Should you Cluster, Why Cluster at All? Randomization Inference Correction to Incorrect False Rejection Rates with Small Clusters"
   },
   {
     "objectID": "teaching.html",
@@ -49,39 +105,18 @@
     "text": "Teaching Assistant\nEC 200: Introduction to Microeconoimcs\nSpring 2023, Autumn 2023, Winter 2024, Spring 2024"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "service.html",
+    "href": "service.html",
+    "title": "Service",
     "section": "",
-    "text": "I study development economics, which I interpret to be the study of economic and social problems in disadvantaged populations whether they be in developing countries or not. I work to design programs that help those struggling populations with their real-world problems, and uncover mechanisms working against their success. I do this in a rigorous way using both randomized control trials and advanced statistical methods using observational data.\nI am primarily interested in the Economics of Education, and understanding when and why people hold biased beliefs about education’s value and helping to correct those so people make more informed decisions. I am also interested in studying how these decisions are adversely affected by changing environmental factors."
+    "text": "I am an active member of the University of Washington community. I am the current president of the Department of Economics Graduate Student Committee, and have served as a member since 2022. The committee serves as a liaison to the faculty to voice student concerns, and we have worked hard to ensure all students have an equitable funding situation. I have also served as the union steward to the Department of Economics since 2024. I helped organize students within the department to ensure we reached an equitable collective bargaining contract with the university."
   },
   {
-    "objectID": "research.html#work-in-progress",
-    "href": "research.html#work-in-progress",
-    "title": "Research",
-    "section": "Work in Progress",
-    "text": "Work in Progress\nCrossing the Threshold: Complementary Effects of School Quality and Parental Engagement in Ghana\nIntegrating Educational Technology with Structured Pedagogy to Improve Learning Outcomes for Every Student (with Erik Andersen, Simon Graffy, and Monica Lambon-Quayefio)\nDisproportional Outcomes from Probationary Policies: Problems and Solutions\nAt What Level Should you Cluster, Why Cluster at All? Randomization Inference Correction to Incorrect False Rejection Rates with Small Clusters"
-  },
-  {
-    "objectID": "tools.html",
-    "href": "tools.html",
-    "title": "Useful Tools",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Erik Andersen",
     "section": "",
-    "text": "Here’s a collection of useful links and tools I use in my research."
-  },
-  {
-    "objectID": "tools.html#blogs-i-like",
-    "href": "tools.html#blogs-i-like",
-    "title": "Useful Tools",
-    "section": "Blogs I like",
-    "text": "Blogs I like\nCeteris Non Paribus\nDevelopment Impact\nNoahpinion\nPaul Krugman\nAn Africanist Perspective\nScott’s Mixtape\nData Colada"
-  },
-  {
-    "objectID": "tools.html#links",
-    "href": "tools.html#links",
-    "title": "Useful Tools",
-    "section": "Links",
-    "text": "Links\nHow to make a website with Quarto."
+    "text": "I am a third year PhD student in the University of Washington department of economics specializing in development economics. My research focuses on the Economics of Education in developed and developing countries, with a particular focus on Ghana. I try to understand the choices people make about how much to invest into their own, and their children’s education, and when those decisions may be biased. I am also keenly interested in (but haven’t had enough spare research time to investigate) how those choices interact with changing environmental factors such as spillover effects from mining.\nI obtained my Bachelor’s and Masters degrees (both in economics) from the University of Oregon, and before that, I lived in the beautiful Bay Area.\nI spend my spare time exploring Seattle and the Salish Sea area by bike, and reading lots of novels."
   },
   {
     "objectID": "blog/monitors-ubuntu.html",
@@ -124,40 +159,5 @@
     "title": "Making Monitors Work-Ubuntu Edition",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nNote: Since the first draft, I have found a different (possibly easier) way to solve this for Nvidia cards. The solution is linked here↩︎\nI definitely will be SEO boosting this thing, so it will appear over Stack overflow for anyone trying to solve this issue↩︎\nNote: this probably isn’t the best solution, but it works, and its one I discovered myself, so it fits the spirit of this blog.↩︎\n^4↩︎\nYou can also use the following command to extract the names directly, but I find regular expressions a bit confusing, so I currently prefer to do it manually. xrandr | grep -e ” connected”↩︎\nWhile writing this post, I figured out a better solution to running the script on startup, see the final section.↩︎\nSource my dad, a 60 year old senior dev.↩︎\nFun fact about linux, file extensions don’t usually matter. We could have named our file monitor.png, and it would still work exactly the same except for in a few edge cases. It is good practice to give your file a logical extension name though to avoid confusion.↩︎\nI recommend chapter 9 of this book for a good explanation of how the linux permissions system works if you are curious to learn more.↩︎\nWhy are the rw’s repeated three times? Well it has to do with user groups. There are three levels of permissions, each can be uniquely given access to a combination of read, write and execute. This isn’t important for our purposes here, since this is a harmless command, and we will just give everyone full permission↩︎\nOr .zshrc if you use zshell.↩︎\nI’ve only been a linux user for half a year, but I’m already much better at problem solving than I was at the start. This troubleshooting walk through is going to be at a very basic level, but for a good reason; this tutorial is aimed at past me who spent three days trying to learn linux from scratch and not knowing the most basic of things. A few of the methods I show are going to look dumb, but that is how I learned, so I hope it will be a good resource.↩︎\nA quick warning. I hadn’t gotten command line syntax down perfectly at this point, so I typed the command as “xrandr –output ‘DP-0’ –primary” with DP-0 in quotes. Don’t do this. The command runs and does what it is supposed to, but it throws up an error every time which I ignored. When I ran it automatically on startup, the error mattered. The OS refused to launch the desktop environment, and I was stuck trying to tell the OS the error was fine and it could continue the normal startup process. I recommend using the cheat command line utility for figuring out fiddiliy things like this.↩︎\nPro(ish) tip: ctrl-c, and ctrl-v don’t work in the terminal because the terminal was build before windows ever created those commands. Instead use ctrl-shift-c/v or middle click to copy paste.↩︎\nExcept that it did perfectly solve the problem.↩︎\nThis is a helpful resource to schedule your cron jobs.↩︎\nIt probably works if we did the shebang properly.↩︎"
-  },
-  {
-    "objectID": "blog/simpsons_paradox.html",
-    "href": "blog/simpsons_paradox.html",
-    "title": "Do the Poorest Children in Ghana Know about Sheepskin?",
-    "section": "",
-    "text": "Here’s an interesting fact reported by UNICEF: in Ghana, the poorest children drop out of school at a much higher rate than their richer peers, but unexpectedly if they finished a level of schooling, e.g. finish elementary school, they are much more likely than their peers to carry on and start middle school, high school or university. Children who don’t carry on to the next level of schooling are said to have “non-transitioned”, and the poorest children in Ghana are stunningly more likely to transition than their peers. Children whose parents earn in the bottom 20% of income non-transition only 9% of the time, while children even marginally richer whose parents fall in the bottom 20 to 40% of incomes non-transition 17% of the time! It gets even worse as children climb the income ladder with the highest income students non-transitioning 26% of the time. A full quarter of upper income students fail to carry on to the next level of schooling at some point in their academic careers. What is going on here? I had some theories and spent quite a bit of time pursuing one, only to find that what we have here is a classic statistical trick called a Simpson’s Paradox, a statistical trick where a pattern in the data can entirely reverse if you look at it at an aggregated versus disaggregated level."
-  },
-  {
-    "objectID": "blog/simpsons_paradox.html#theorize-with-me",
-    "href": "blog/simpsons_paradox.html#theorize-with-me",
-    "title": "Do the Poorest Children in Ghana Know about Sheepskin?",
-    "section": "Theorize with Me",
-    "text": "Theorize with Me\nBefore I walk you through what a Simpson’s Paradox is and where it rears its head, and I want to illustrate how dangerous they can be by telling you a theory I came up with to explain this apparent contradiction that I thought was compelling (and spent an embarrassingly long time designing a project to test)1.\nImagine two students: Erik and Thomas. Thomas is from a relatively rich, sophisticated family. His parents are not so wealthy he never has to work, in fact they are highly invested in making sure Thomas does whatever it takes to get the highest paying job he can. In their research, they discover that sheepskin effects where returns to schooling exhibit a big jump after getting a degree from completing a level of schooling are the main driver of returns to education. Finishing sophomore year in high school won’t increase your earnings by much, it’s only the high school diploma. If Thomas finishes elementary school, but is only a marginal student, unlikely to succeed in the cauldron of middle school, his parents won’t make him stick it out. They know the first two years of middle school won’t give him any boost in pay, so if he is unlikely to get the coveted middle school diploma, he should drop out right at the start. Thomas, and students like him will thus non-transition quite a lot.\nBut what about Erik? Erik is from a very poor family who don’t have enough time or resources to be able to learn about sheepskin effects. Erik seems to be learning more and more every year, so they assume his post-school income should also be increasing incrementally every year he completes.2 To them, there’s no reason to favor dropping out at a transition point any more than at any other time. If Erik is a marginal student unlikely to finish high school, so what? He’ll stay a couple years, boost his resume, then drop out when the time is right. There are no critical decision making points as there are for the rich, in the know family. If every day of school is equally valuable for earnings, then waiting a few days or years to dropout does no harm. If there are sharp, discontinuous points in the earnings function, there are critical points when parents have to make quick decisions to pull their child out of school to avoid “wasting” time with schooling that provides no direct boost to earnings.\nTogether, these effects explain UNICEF’s fact. Even though poor children drop out more, their dropouts are distributed throughout their academic careers. Rich children drop out less, but always at these critical transition points. An elegant way to explain the contradiction. I spent a long while designing an intervention to prevent this over investment in education by the poorest students by telling them about sheepskin effects, and thus boosting the lifetime earnings in important ways, and potentially digging the poorest families out of a poverty trap.\nThe only problem is, the contradiction didn’t exist in the first place."
-  },
-  {
-    "objectID": "blog/simpsons_paradox.html#lies-damned-lies-and-statistics",
-    "href": "blog/simpsons_paradox.html#lies-damned-lies-and-statistics",
-    "title": "Do the Poorest Children in Ghana Know about Sheepskin?",
-    "section": "Lies, Damned Lies, and Statistics",
-    "text": "Lies, Damned Lies, and Statistics\nA Simpson’s Paradox3 where if you consider the whole of your sample, one pattern appears, but if you look at each subgroup, the pattern disappears or reverses itself: missing the trees for the forest. This phenomenon is so clear when you look at it on a picture as to appear obvious, but when faced with real data, and no knowledge that a Simpson’s Paradox might be lurking, it is anything but. I’ll walk you through the background of Ghana’s education system, and see if you can spot the Simpson’s Paradox that explains the contradiction before I reveal it4.\n\n\n\nSource: Wikipedia\n\n\nGhana has four levels of schooling—basic school (BS), junior high school (JHS), senior high school (SHS), and university—meaning there are three possible non-transition points—BS to JHS, JHS to SHS, and SHS to university. Like many developing countries (and to a lesser extent developed countries), enrollment drops off precipitously the higher level of school you look at. The overall non-transition rates at those three breaks are given below. Most students make it to JHS, we lose some more going to SHS, then the big culling of enrollment happens as students transition to university.\n\n\n\nData source: MICS-EAGLE 2017-18\n\n\nWe’re interested in looking at this data by income level, so let’s break each of those transition points up by income level. I’ll just report the poorest and richest students for simplicity’s sake. Here’s the Simpson’s Paradox! At the first two transition points the poorest students are much more likely to non-transition than the richest ones, and at the final transition, they’re about equal5.\n\n\n\nData source: MICS-EAGLE 2017-18\n\n\nHow can it be that this fact is true, and yet if we aggregate all these together and look at total non-transition rates as UNICEF did, it looks like the poorest students transition at a much higher rate than the rich? Look closely at the table below, and notice the number of poor and rich students at each transition point. Because the rich students transition at a much higher rate at every point, more of them survive to be culled by the massive non-transition rate to university. Poor students, on the other hand, either non-transition early, or drop out at a different point in the year, and so don’t exist to be counted at the university transition when almost everyone drops out. Thus the rich students are over-represented at the non-transition points that make up the bulk of the average, while the poor students filter out before they can be properly added up in the average. We end up with a fact that while true is greatly misleading about the situation on the ground."
-  },
-  {
-    "objectID": "blog/simpsons_paradox.html#so-what",
-    "href": "blog/simpsons_paradox.html#so-what",
-    "title": "Do the Poorest Children in Ghana Know about Sheepskin?",
-    "section": "So What?",
-    "text": "So What?\nWhy am I writing a blog about this? Two reasons. First, I think this is a quite interesting example of a common statistical foible. Even spending too long working on this project and writing this blog, I still find it a bit hard to wrap my head around how this is all true at the same time, so I want to put it out there so other people don’t waste as much time figuring it out as I did.\nSecond and more importantly, this highlights the perils of misleading data presentation. The graph UNICEF made and put in their fact sheet is 100% true and reproducible, but even with their minor note about this being a Simpson’s Paradox (which I find completely unclear) it is still misleading. Put yourself in the shoes of a Ghanaian policy maker6. The fact sheet is designed to provide easily digestible information to policy makers that they can act on to improve Ghana’s education system, but any policy made on the basis of this fact alone would be harmful. My idea was that the poorest students were over investing in education and wasting potential earning years, but they are not. As we saw when we dug deeper into this data, as we might expect a priori, the poorest students get significantly less education than their richer peers, so any policy helping them prevent over investing in education would only push the poorest students farther behind. Presenting the data in a way that better represents the truth on the ground can help make sure good development money isn’t thrown after bad facts.\nAs scientists, and especially scientists in development where our work can directly impact where large amounts of money are spent, we should aspire to not just find and report all things that are true, but to represent them in the most honest way we can. Facts that are misleading are the most dangerous kind of misinformation, and having scientists (or politicians) arbitrating on what makes a fact misleading leads you down all kinds of dangerous paths, and yet it is still our responsibility to do so, to find the right route through the garden of all knowledge, keep discovering things about the world, and share them."
-  },
-  {
-    "objectID": "blog/simpsons_paradox.html#footnotes",
-    "href": "blog/simpsons_paradox.html#footnotes",
-    "title": "Do the Poorest Children in Ghana Know about Sheepskin?",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nThis theory turned out to be wrong, so there are a lot of holes you can poke in it, but the point is you can pretty easily develop a compelling theory to explain whatever statistical artifact you want↩︎\nOr every day he completes at the extreme.↩︎\nUnfortunately not named after the TV family, but the much less cool Edward H. Simpson who worked as a code breaker during WW2 at Bletchley Park.↩︎\nThe data is available here if you want to play around with it yourself. It’s the Ghana MICS6 survey from 2017-18.↩︎\nThe reversal at the final transition point is probably a form of survivor bias. It takes an exceptional student to make it all the way through twelve grades when they have hardly any resources, so by the end you are left with only the best.↩︎\nOr a poor PhD student looking for a project.↩︎"
   }
 ]

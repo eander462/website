@@ -9,6 +9,7 @@ website:
   reader-mode: true
   twitter-card: true
   open-graph: true
+  google-analytics: "G-2SD9XTGN8L"
   site-url: https://erik-t-andersen.com/
   navbar:
     logo: images/logo_full_size.png
