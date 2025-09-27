@@ -1,0 +1,147 @@
+---
+title: "Quantile Vs Distribution Regression"
+description: "Line go up?"
+author: "Erik Andersen"
+date: "2025-09-27"
+toc: TRUE
+categories: [Development, Statistics]
+---
+
+```{r}
+pacman::p_load(tidyverse, fixest, quantreg)
+
+
+DataSCLB = haven::read_dta(here::here("blog", "data", "Quantile Vs Distribution Regression", "DataSCLB.dta"))
+
+# Function to run threshold analysis
+run_threshold_analysis <- function(data, outcome_var, treat_var = "treat") {
+  
+  # Initialize results data frame
+  results <- data.frame(
+    threshold = integer(),
+    coefficient = numeric(),
+    std_error = numeric()
+  )
+  
+  # Loop through thresholds 0 to 100
+  for (x in seq(-1, 9, by = 0.5)) {
+    # Create binary outcome variable for current threshold
+    outcome_binary <- as.numeric(data[[outcome_var]] > x & !is.na(data[[outcome_var]]))
+    
+    # Skip if no variation in outcome
+    if (length(unique(outcome_binary[!is.na(outcome_binary)])) <= 1) {
+      next
+    }
+    
+    # Create temporary dataset with binary outcome
+    temp_data <- data
+    temp_data$outcome_temp <- outcome_binary
+    
+    # Run fixed effects regression with interactions
+    # This is equivalent to areg with cluster() and absorb()
+    tryCatch({
+      model <- feols(
+        as.formula(paste0("outcome_temp ~ ", treat_var)),
+        data = temp_data
+      )
+      
+      # Extract coefficient and standard error for treatment
+      coef_treat <- coef(model)[treat_var]
+      se_treat <- se(model)[treat_var]
+      
+      # Add to results
+      results <- rbind(results, data.frame(
+        threshold = x,
+        coefficient = coef_treat,
+        std_error = se_treat
+      ))
+      
+    }, error = function(e) {
+      # Skip if regression fails
+      message(paste("Threshold", x, "failed:", e$message))
+    })
+  }
+  
+  return(results)
+}
+
+
+run_threshold_analysis(DataSCLB, outcome_var = "EL_EGRA_PCA_Index", treat_var = "MT_Program") |>
+  ggplot(aes(x = threshold, y = coefficient)) +
+  geom_point(color = "blue") +
+  geom_errorbar(aes(ymin = coefficient - 1.96 * std_error,
+                    ymax = coefficient + 1.96 * std_error),
+                width = 0.1, alpha = 0.7) +
+  geom_hline(yintercept = 0, linetype = "longdash") + 
+  scale_y_continuous(limits = c(0,0.3)) +
+  cowplot::theme_cowplot() + 
+  labs(x = "Higher Reading Score Than This", y = "", subtitle = "Increase Reading Index More Than This Much (Percentage Points)", title = "The gap between treatment and control decreases at higher thresholds")
+```
+
+```{r}
+# Function to run quantile regression analysis (fixed version)
+run_quantile_analysis <- function(data, outcome_var, treat_var = "treat") {
+  
+  # Initialize results data frame
+  results <- data.frame(
+    quantile = numeric(),
+    coefficient = numeric(),
+    std_error = numeric()
+  )
+  
+  # Loop through quantiles from 0.05 to 0.95
+  for (q in seq(0.05, 0.95, by = 0.05)) {
+    
+    tryCatch({
+      # Run quantile regression
+      model <- rq(
+        as.formula(paste0(outcome_var, " ~ ", treat_var)),
+        data = data,
+        tau = q
+      )
+      
+      # Get summary with standard errors
+      model_summary <- summary(model, se = "nid")
+      
+      # Extract coefficients more safely
+      coef_matrix <- model_summary$coefficients
+      coef_names <- rownames(coef_matrix)
+      
+      # Find the treatment variable (handle different naming)
+      treat_idx <- which(coef_names == treat_var)
+      
+      if (length(treat_idx) == 1) {
+        # Extract coefficient and standard error for treatment
+        coef_treat <- coef_matrix[treat_idx, 1]  # First column is coefficients
+        se_treat <- coef_matrix[treat_idx, 2]    # Second column is std errors
+        
+        # Add to results
+        results <- rbind(results, data.frame(
+          quantile = q,
+          coefficient = coef_treat,
+          std_error = se_treat
+        ))
+      } else {
+        message(paste("Quantile", q, ": Treatment variable", treat_var, "not found"))
+        message("Available coefficients:", paste(coef_names, collapse = ", "))
+      }
+      
+    }, error = function(e) {
+      # Skip if regression fails
+      message(paste("Quantile", q, "failed:", e$message))
+    })
+  }
+  
+  return(results)
+}
+
+run_quantile_analysis(DataSCLB, outcome_var = "EL_EGRA_PCA_Index", treat_var = "MT_Program") |> 
+  ggplot(aes(x = quantile, y = coefficient)) +
+  geom_point(color = "blue") +
+  geom_errorbar(aes(ymin = coefficient - 1.96 * std_error,
+                    ymax = coefficient + 1.96 * std_error),
+                width = 0.01, alpha = 0.7) +
+  geom_hline(yintercept = 0, linetype = "longdash") + 
+  cowplot::theme_cowplot() + 
+  labs(x = "Quantile", y = "", subtitle = "Effect Size (SDs)", title = "Reading scores increase at higher quantiles")
+```
