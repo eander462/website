@@ -2,7 +2,6 @@
   {
     "listing": "/blog/blog.html",
     "items": [
-      "/blog/quantile_dr.html",
       "/blog/simpsons_paradox.html",
       "/blog/monitors-ubuntu.html"
     ]
