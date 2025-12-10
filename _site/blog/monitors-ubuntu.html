@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -71,16 +71,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../logo.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-483be5f0ce4ebe40221ec93ff248c0ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-c58ee17bb0feb64dd5f65cbbf799362c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-bc15bb3ac9ffbb5d65b795b8c8dac844.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-7c0222215c174bc7720429583f331996.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -298,7 +299,8 @@ gtag('config', 'G-2SD9XTGN8L', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logo_full_size.png" alt="Ico" class="navbar-logo">
+    <img src="../images/logo_full_size.png" alt="Ico" class="navbar-logo light-content">
+    <img src="../images/logo_full_size.png" alt="Ico" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Erik Andersen</span>
@@ -451,7 +453,7 @@ gtag('config', 'G-2SD9XTGN8L', { 'anonymize_ip': true});
 <section id="whats-the-command" class="level3">
 <h3 class="anchored" data-anchor-id="whats-the-command">What’s the command?</h3>
 <p>The command we’ll be using is <strong>xrandr</strong>. Xrandr stands for <em>resize, rotate, and reflect extension</em>. This is a powerful command that lets you tinker with pretty much any setting you could think of for your monitors. Let’s look at the output first to see what we’re dealing with.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">xrandr</span> <span class="at">-q</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">xrandr</span> <span class="at">-q</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <pre><code>## Screen 0: minimum 8 x 8, current 3840 x 1080, maximum 32767 x 32767
 ## DP-0 connected 1920x1080+0+0 (normal left inverted right x axis y axis) 597mm x 336mm
 ##    1920x1080     60.00 + 143.98*  119.98   119.93    59.94    50.00  
@@ -481,7 +483,7 @@ gtag('config', 'G-2SD9XTGN8L', { 'anonymize_ip': true});
 ## DP-5 disconnected (normal left inverted right x axis y axis)
 ## USB-C-0 disconnected (normal left inverted right x axis y axis)</code></pre>
 <p>It looks confusing but don’t worry, there’s only one bit of information we need from here: the monitor names.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> The monitor names are the strings on the left called DP-0 or HDMI-0. I have a lot of monitor ports, but only those two are connected. As you can see my HDMI-0 is the primary monitor, which is wrong. I want it to be DP-0. To switch it I run the following command.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">xrandr</span> <span class="at">--output</span> DP-0 <span class="at">--primary</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">xrandr</span> <span class="at">--output</span> DP-0 <span class="at">--primary</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <pre><code>## Screen 0: minimum 8 x 8, current 3840 x 1080, maximum 32767 x 32767
 ## DP-0 connected primary 1920x1080+0+0 (normal left inverted right x axis y axis) 597mm x 336mm
 ##    1920x1080     60.00 + 143.98*  119.98   119.93    59.94    50.00  
@@ -516,7 +518,7 @@ gtag('config', 'G-2SD9XTGN8L', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="how-to-make-it-run6">How to make it run<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></h3>
 <p>We could just put the command directly into the .bashrc file, which would probably be fine since it’s only a single line, but it is better practice<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> to make script files, then have .bashrc call the scripts. So, let’s make the script.</p>
 <p>We’ll start by creating a text file that contains the command from above.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Go to the demonstration directory</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Go to the demonstration directory</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ../playground</span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -528,21 +530,21 @@ gtag('config', 'G-2SD9XTGN8L', { 'anonymize_ip': true});
 <span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> monitor.txt</span>
 <span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Note, you can just edit a text file directly with vim or nano, but this lets me show the whole process without making a gif.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Note, you can just edit a text file directly with vim or nano, but this lets me show the whole process without making a gif.</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <pre><code>## xrandr --output DP-0 --primary</code></pre>
 <p>Great! Now we have a text file<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> containing our command, but its not executable yet, so it won’t work. We have to work with linux file permissions<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> to make it work. I won’t go in depth here, but the spark notes versions should be enough for out purposes.</p>
 <p>So what are file permissions? Simply, they are a way for the computer to know who is allowed to do what. Linux systems were designed not with personal computers in mind, but rather large centralized computers accessed by many people all the time. The file permission system lets this work without users being able to ruin the whole system for each other. There are three types of access a file can have: read, write, and execute shown by the r, w, and x below.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reset the directory because knitting sets us to the project directory every time</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reset the directory because knitting sets us to the project directory every time</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ../playground</span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co"># The permissions are shown on the left. They look like -rw-rw-r--</span></span>
 <span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="at">-lh</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="at">-lh</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <pre><code>## total 4.0K
 ## -rwxrwxrwx 1 eander462 eander462 31 May 23 19:30 monitor.txt</code></pre>
 <p>The permissions are the first thing shown in the second line after the ##. So, our fancy monitor.txt file has permissions -rw-rw-r–<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>. Very impressive! To make it run, we will have to give execution permission to the file. We’ll do that with the <a href="http://manpages.ubuntu.com/manpages/trusty/man1/chmod.1.html"><strong>chmod</strong></a> command. There are two ways of telling the command what permissions we want to give, but this is the spark notes version, so see one of the links in this paragraph for more information; all we need to know is that to give every type of user full permission, we use the following command.</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reset the directory because knitting sets us to the project directory every time</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reset the directory because knitting sets us to the project directory every time</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ../playground</span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -552,15 +554,15 @@ gtag('config', 'G-2SD9XTGN8L', { 'anonymize_ip': true});
 <span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="co"># See now the permissions give each user access to reading, writing, and executing</span></span>
 <span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="at">-lh</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="at">-lh</span> </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <pre><code>## total 4.0K
 ## -rwxrwxrwx 1 eander462 eander462 31 May 23 19:30 monitor.txt</code></pre>
 <p>And now we’ve successfully hacked (read: done a simple, standard operation) linux. There’s just one more step to get this bad boy running: we need to put it in our .bashrc file<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>, so it executes when we startup our terminal on first boot.</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Make sure to use &gt;&gt; instead of &gt; like we did last time. This is VERY IMPORTANT. If you just use a single &gt; it will over write your .bashrc file to only say monitor.txt which is definitely what you want.</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Make sure to use &gt;&gt; instead of &gt; like we did last time. This is VERY IMPORTANT. If you just use a single &gt; it will over write your .bashrc file to only say monitor.txt which is definitely what you want.</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Alternatively, you can just directly edit .bashrc using your preffered editor</span></span>
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"monitor.txt"</span> <span class="op">&gt;&gt;</span> .bashrc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"monitor.txt"</span> <span class="op">&gt;&gt;</span> .bashrc</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>And we’re done! Now when you first run your terminal on startup, the monitor.txt program will run and set up your monitors correctly. This may have seemed like a lot, but there we’re really only three steps, and remembering how to get a script to run when you boot up your computer is a powerful tool, which will set you well on your way to be a cool linux hacker.</p>
 <p>This isn’t the end of the blog. It would be the end of most blogs, but I’m usually left with a feeling that blog writings just know how to do everything, and don’t struggle to figure out the complex topics their blogs deal with. I don’t want that to be the case here. I was entirely new to linux when I tried to make my monitors work correctly, and it took me three days to work out how to run the few basic steps I’ve described. In the rest of this post, I want to show you to process of troubleshooting and discovery of the solution. I hope it will be helpful in solving the next issue that comes up.</p>
 </section>
@@ -581,12 +583,12 @@ gtag('config', 'G-2SD9XTGN8L', { 'anonymize_ip': true});
 <section id="config-folder" class="level3">
 <h3 class="anchored" data-anchor-id="config-folder">.config folder</h3>
 <p>After some more quick googling, I decided to try the .config folder. This is a command line process, so I can show you how to do it this time. If we look inside our .config folder, we find that one of the subfolders is called “autostart”. Let’s look in there.</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> ~/.config/autostart</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> ~/.config/autostart</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <pre><code>## monitor.desktop
 ## nvidia-settings-autostart.desktop
 ## snake-razer.desktop</code></pre>
 <p>The nvidia and snake files I have in there are extra additions by me, so we’ll focus on the monitor.desktop file. We’ll use <a href="https://man7.org/linux/man-pages/man1/cat.1.html"><strong>cat</strong></a> to view the contents.</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> ~/.config/autostart/monitor.desktop</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> ~/.config/autostart/monitor.desktop</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <pre><code>## [Desktop Entry]
 ## Type=Application
 ## Exec=/home/eander462/monitor
@@ -603,7 +605,7 @@ gtag('config', 'G-2SD9XTGN8L', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="cron">Cron</h3>
 <p><a href="https://vitux.com/how-to-schedule-tasks-on-ubuntu-20-04-using-crontab/">Cron</a> is a very helpful system resource that allows users to schedule tasks to happen at certain times. I was directed away from cron immediately in my quest because my dad didn’t know that cron supports running programs on reboot, but it turns out it does! Let’s try it out.</p>
 <p>This is going to be a very cursory examination of cron because there is much to explore<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a>. To open your crontab write “crontab -e” into the terminal. If you don’t have a crontab yet this will create one for you. Inside, we just need to write down what we want the computer to do and when. We want it to execute our monitor script at reboot. To run a task on reboot, we use “<span class="citation" data-cites="reboot">@reboot</span>”. To specify the script to run, we just give the computer the path. So we put the following into our crontab.</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">@reboot</span> ~/monitor</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">@reboot</span> ~/monitor</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Press ctrl-x to exit cron, press y to save the changes, and we’re ready to test it out. One reboot later and… nothing again<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a> Very frustrating.</p>
 <p>Full disclosure, this process took place over the course of about a month for me. I found solutions that worked well enough, then left it for a while until I felt inspired to troubleshoot some more. Reading it as a blog makes it seem like a very linear process to troubleshoot, but its not. Its a long, frustrating process full of mostly failures.</p>
 <p>This brings us to the .bashrc solution I presented above. This works, but has downsides. You have to launch the terminal on startup to flip your monitors, and every time you open a new terminal, it runs the command again which sometimes blacks out the monitors for a few seconds. At the time, I theorized that this was the only solution that worked because of the <a href="http://manpages.ubuntu.com/manpages/impish/man1/Xserver.1.html">x-windows</a> system. This is what allows a system to have a GUI. I hypothesized that my xrandr command needed this to be running, and that the startup commands ran before x-windows had launched. This turns out not to be the case; the problem was I hadn’t put a shebang in the file, so the system didn’t know what to run it with. The file executed in the .bashrc file because that file runs everything through bash.</p>
@@ -703,13 +705,14 @@ gtag('config', 'G-2SD9XTGN8L', { 'anonymize_ip': true});
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

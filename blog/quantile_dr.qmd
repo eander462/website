@@ -1,14 +1,16 @@
 ---
 title: "Quantile Vs Distribution Regression"
-description: "Line go up?"
+description: "Line goes up?"
 author: "Erik Andersen"
 date: "2025-09-27"
 toc: TRUE
+format: html
 categories: [Development, Statistics]
 ---
 
 ```{r}
-pacman::p_load(tidyverse, fixest, quantreg)
+#| include: false
+pacman::p_load(tidyverse, fixest, quantreg, patchwork)
 
 
 DataSCLB = haven::read_dta(here::here("blog", "data", "Quantile Vs Distribution Regression", "DataSCLB.dta"))
@@ -66,7 +68,7 @@ run_threshold_analysis <- function(data, outcome_var, treat_var = "treat") {
 }
 
 
-run_threshold_analysis(DataSCLB, outcome_var = "EL_EGRA_PCA_Index", treat_var = "MT_Program") |>
+dr_plot  = run_threshold_analysis(DataSCLB, outcome_var = "EL_EGRA_PCA_Index", treat_var = "MT_Program") |>
   ggplot(aes(x = threshold, y = coefficient)) +
   geom_point(color = "blue") +
   geom_errorbar(aes(ymin = coefficient - 1.96 * std_error,
@@ -75,10 +77,16 @@ run_threshold_analysis(DataSCLB, outcome_var = "EL_EGRA_PCA_Index", treat_var = 
   geom_hline(yintercept = 0, linetype = "longdash") + 
   scale_y_continuous(limits = c(0,0.3)) +
   cowplot::theme_cowplot() + 
-  labs(x = "Higher Reading Score Than This", y = "", subtitle = "Increase Reading Index More Than This Much (Percentage Points)", title = "The gap between treatment and control decreases at higher thresholds")
+  labs(x = "Higher Reading Score Than This", y = "", subtitle = "Increase Reading Index More Than This Much (Percentage Points)", title = "Treatment gap decreases at higher thresholds") + 
+  theme(
+    plot.subtitle = element_text(hjust = -0.3, size = 10),
+    plot.title = element_text(size = 15)
+  ) +
+  coord_fixed(ratio = 25) 
 ```
 
 ```{r}
+#| include: false
 # Function to run quantile regression analysis (fixed version)
 run_quantile_analysis <- function(data, outcome_var, treat_var = "treat") {
   
@@ -135,7 +143,7 @@ run_quantile_analysis <- function(data, outcome_var, treat_var = "treat") {
   return(results)
 }
 
-run_quantile_analysis(DataSCLB, outcome_var = "EL_EGRA_PCA_Index", treat_var = "MT_Program") |> 
+quantile_plot = run_quantile_analysis(DataSCLB, outcome_var = "EL_EGRA_PCA_Index", treat_var = "MT_Program") |> 
   ggplot(aes(x = quantile, y = coefficient)) +
   geom_point(color = "blue") +
   geom_errorbar(aes(ymin = coefficient - 1.96 * std_error,
@@ -143,5 +151,32 @@ run_quantile_analysis(DataSCLB, outcome_var = "EL_EGRA_PCA_Index", treat_var = "
                 width = 0.01, alpha = 0.7) +
   geom_hline(yintercept = 0, linetype = "longdash") + 
   cowplot::theme_cowplot() + 
-  labs(x = "Quantile", y = "", subtitle = "Effect Size (SDs)", title = "Reading scores increase at higher quantiles")
+  labs(x = "Quantile", y = "", subtitle = "Effect Size (SDs)", title = "Reading scores increase at higher quantiles") + 
+  theme(
+    plot.subtitle = element_text(hjust = -0.1, size = 10),
+    plot.title = element_text(size = 15)
+  )+
+  coord_fixed(ratio = 0.4) 
+```
+
+Rightly or wrongly[^1], most social science is concerned with average treatment effects (ATEs)[^2], which tell you how some policy affects the average person in a population. While learning about averages is great and challenging enough on it's own, [no one is average](https://en.wikipedia.org/wiki/The_End_of_Average). It matters if a literacy program only helps students who were already steaming ahead while disregarding struggling students or if it takes students who couldn't read at all and makes them average while doing nothing for the pre-treatment standouts even if they have the same average effect.
+
+[^1]: Definitely wrongly, but I don't want to alienate any part of my audience within the first three words of this blog.
+
+[^2]: And "hard" science, but I would argue heterogeneity is not as big an issue in say physics.
+
+Luckily, hero of statistics, the humble cumulative density function (CDF) steps in and gives us several ways around it. That's right, the humble CDF: unintuitive scourge of statistics is secretly hiding behind several commonly used estimators that people use to tell us about things other than the average person. Normally if you see a CDF, it's best to turn and run away, but for once understanding the underlying CDF will actually help us clarify and crystallize our understanding of seemingly intuitive estimators, and explain some otherwise opaque phenomena.
+
+In this (my first) two-part blog series, I'll first walk you through two ways of intuitively summarizing a CDF to uncover how an intervention affects different parts of a distribution. Part two will discuss a puzzle, we'll uncover in part one. Through it all, we'll be using data from [Kerwin and Thornton 2021](https://direct.mit.edu/rest/article-abstract/103/2/251/97681/Making-the-Grade-The-Sensitivity-of-Education)[^3] as a working example. Let's get started.
+
+[^3]: Data citation: Munoz Morales, Juan, Jason Kerwin, Jeff Smith, Rebecca Thornton, and Julie Buhl-Wiggers. 2022. “Replication Data for SCLB.” Harvard Dataverse. https://doi.org/doi:10.7910/DVN/WUMJOJ.
+
+## Mango Trees
+
+```{r}
+#| fig-width: 14
+#| fig-height: 6
+#| out-width: "100%"
+#| echo: false
+dr_plot  +quantile_plot
 ```
