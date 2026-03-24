@@ -81,7 +81,7 @@
     "href": "research.html#work-in-progress",
     "title": "Research",
     "section": "Work in Progress",
-    "text": "Work in Progress\nCrossing the Threshold: Complementary Effects of School Quality and Parental Engagement in Ghana\nIntegrating Educational Technology with Structured Pedagogy to Improve Learning Outcomes for Every Student (with Erik Andersen, Simon Graffy, Jason Kerwin, and Monica Lambon-Quayefio)\nDisproportional Outcomes from Probationary Policies: Problems and Solutions\nAt What Level Should you Cluster, Why Cluster at All? Randomization Inference Correction to Incorrect False Rejection Rates with Small Clusters"
+    "text": "Work in Progress\nGetting More from Schools: Experimental Evidence on Skill Formation from Ghana\nGetting More from Schools: Experimental Evidence on Skill Formation from Ghana\nTheory emphasizes complementarities between school- and home-based inputs to education, yet almost no experimental work has tested for them. I cross-randomize a parental engagement intervention and a principal training program across 103 primary schools in Ghana, all already receiving an effective structured literacy program. This \\(2 \\times 2\\) factorial design generates independent variation in home- and school-based inputs, which will allow me to test for complementarities in the production of literacy skills. I develop a skill formation model that decomposes investment into school quality and parental effort, linked by a within-period elasticity of substitution that my design identifies. The model predicts that neither intervention alone will move parental effort, but together they will generate outsized literacy gains.\nIs Awareness Always Good? An Accidental Information Intervention in Nigeria\nTo Drop out or Not to Drop out: Local Economics Conditions and College Students’ Dropout Decisions\nWhy Cluster at all? Randomization Inference Correction to Incorrect Rejection Rates with Small Clusters"
   },
   {
     "objectID": "teaching.html",
@@ -114,9 +114,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Erik Andersen",
+    "title": "Erik T.J. Andersen",
     "section": "",
-    "text": "I am a fourth year PhD student in the University of Washington department of economics specializing in development economics. My research focuses on the Economics of Education in developed and developing countries, with a particular focus on Ghana. I try to understand the choices people make about how much to invest into their own, and their children’s education, and when those decisions may be biased. I am also keenly interested in (but haven’t had enough spare research time to investigate) how those choices interact with changing environmental factors such as spillover effects from mining.\nI obtained my Bachelor’s and Masters degrees (both in economics) from the University of Oregon, and before that, I lived in the beautiful Bay Area.\nI spend my spare time exploring Seattle and the Salish Sea area by bike, and reading lots of novels."
+    "text": "I am a PhD candidate in the University of Washington working at the intersection of development economics and the economics of education. My research studies how children form foundational skills, and how different inputs to education interact with each other. I study how people make choices about how much time and effort to invest into their own, and their children’s education."
   },
   {
     "objectID": "blog/monitors-ubuntu.html",
@@ -201,5 +201,12 @@
     "title": "Quantile Vs Distribution Regression",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nDefinitely wrongly, but I don’t want to alienate any part of my audience within the first three words of this blog.↩︎\nAnd “hard” science, but I would argue heterogeneity is not as big an issue in say physics.↩︎\nData citation: Munoz Morales, Juan, Jason Kerwin, Jeff Smith, Rebecca Thornton, and Julie Buhl-Wiggers. 2022. “Replication Data for SCLB.” Harvard Dataverse. https://doi.org/doi:10.7910/DVN/WUMJOJ.↩︎"
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "Working Papers",
+    "text": "Working Papers\nHow to Build a Reader: Evidence from a Scalable Literacy Intervention in Ghana with Simon Graffy, Jason Kerwin, and Monica Lambon-Quayefio. February 2026. [PDF]"
   }
 ]

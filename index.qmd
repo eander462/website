@@ -1,5 +1,5 @@
 ---
-title: "Erik Andersen"
+title: "Erik T.J. Andersen"
 image: images/profile.jpeg
 about:
   template: solana  
@@ -28,8 +28,6 @@ about:
       target: _blank
 ---
 
-I am a fourth year PhD student in the University of Washington department of economics specializing in development economics. My research focuses on the Economics of Education in developed and developing countries, with a particular focus on Ghana. I try to understand the choices people make about how much to invest into their own, and their children's education, and when those decisions may be biased. I am also keenly interested in (but haven't had enough spare research time to investigate) how those choices interact with changing environmental factors such as spillover effects from mining.
+I am a PhD candidate in the University of Washington working at the intersection of development economics and the economics of education. My research studies how children form foundational skills, and how different inputs to education interact with each other. I study how people make choices about how much time and effort to invest into their own, and their children's education.
 
-I obtained my Bachelor's and Masters degrees (both in economics) from the University of Oregon, and before that, I lived in the beautiful Bay Area.
-
-I spend my spare time exploring Seattle and the Salish Sea area by bike, and reading lots of novels.
+\

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,16 +33,17 @@ ul.task-list li input[type="checkbox"] {
 <link href="./logo.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-483be5f0ce4ebe40221ec93ff248c0ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-c58ee17bb0feb64dd5f65cbbf799362c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-bc15bb3ac9ffbb5d65b795b8c8dac844.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7c0222215c174bc7720429583f331996.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,6 +81,35 @@ gtag('js', new Date());
 gtag('config', 'G-2SD9XTGN8L', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Research – Erik Andersen">
@@ -260,7 +290,8 @@ gtag('config', 'G-2SD9XTGN8L', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo_full_size.png" alt="Ico" class="navbar-logo">
+    <img src="./images/logo_full_size.png" alt="Ico" class="navbar-logo light-content">
+    <img src="./images/logo_full_size.png" alt="Ico" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Erik Andersen</span>
@@ -362,12 +393,18 @@ gtag('config', 'G-2SD9XTGN8L', { 'anonymize_ip': true});
 
 <p>I study development economics, which I interpret to be the study of economic and social problems in disadvantaged populations whether they be in developing countries or not. I work to design programs that help those struggling populations with their real-world problems, and uncover mechanisms working against their success. I do this in a rigorous way using both randomized control trials and advanced statistical methods using observational data.</p>
 <p>I am primarily interested in the Economics of Education, and understanding when and why people hold biased beliefs about education’s value and helping to correct those so people make more informed decisions. I am also interested in studying how these decisions are adversely affected by changing environmental factors.</p>
+<section id="working-papers" class="level2">
+<h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
+<p>How to Build a Reader: Evidence from a Scalable Literacy Intervention in Ghana with Simon Graffy, Jason Kerwin, and Monica Lambon-Quayefio. February 2026. [<a href="https://www.jasonkerwin.com/Papers/AGKL_How_to_Build_a_Reader.pdf">PDF</a>]</p>
+</section>
 <section id="work-in-progress" class="level2">
 <h2 class="anchored" data-anchor-id="work-in-progress">Work in Progress</h2>
-<p><strong>Crossing the Threshold: Complementary Effects of School Quality and Parental Engagement in Ghana</strong></p>
-<p><strong>Integrating Educational Technology with Structured Pedagogy to Improve Learning Outcomes for Every Student (with Erik Andersen, Simon Graffy, Jason Kerwin, and Monica Lambon-Quayefio)</strong></p>
-<p><strong>Disproportional Outcomes from Probationary Policies: Problems and Solutions</strong></p>
-<p><strong>At What Level Should you Cluster, Why Cluster at All? Randomization Inference Correction to Incorrect False Rejection Rates with Small Clusters</strong></p>
+<p>Getting More from Schools: Experimental Evidence on Skill Formation from Ghana</p>
+<p>Getting More from Schools: Experimental Evidence on Skill Formation from Ghana<br>
+<em>Theory emphasizes complementarities between school- and home-based inputs to education, yet almost no experimental work has tested for them. I cross-randomize a parental engagement intervention and a principal training program across 103 primary schools in Ghana, all already receiving an effective structured literacy program. This</em> <span class="math inline">\(2 \times 2\)</span> factorial design generates independent variation in home- and school-based inputs, which will allow me to test for complementarities in the production of literacy skills. I develop a skill formation model that decomposes investment into school quality and parental effort, linked by a within-period elasticity of substitution that my design identifies. The model predicts that neither intervention alone will move parental effort, but together they will generate outsized literacy gains.</p>
+<p>Is Awareness Always Good? An Accidental Information Intervention in Nigeria</p>
+<p>To Drop out or Not to Drop out: Local Economics Conditions and College Students’ Dropout Decisions</p>
+<p>Why Cluster at all? Randomization Inference Correction to Incorrect Rejection Rates with Small Clusters</p>
 
 
 </section>
@@ -437,13 +474,14 @@ gtag('config', 'G-2SD9XTGN8L', { 'anonymize_ip': true});
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
