@@ -81,7 +81,7 @@
     "href": "research.html#work-in-progress",
     "title": "Research",
     "section": "Work in Progress",
-    "text": "Work in Progress\nGetting More from Schools: Experimental Evidence on Skill Formation from Ghana\nGetting More from Schools: Experimental Evidence on Skill Formation from Ghana\nTheory emphasizes complementarities between school- and home-based inputs to education, yet almost no experimental work has tested for them. I cross-randomize a parental engagement intervention and a principal training program across 103 primary schools in Ghana, all already receiving an effective structured literacy program. This \\(2 \\times 2\\) factorial design generates independent variation in home- and school-based inputs, which will allow me to test for complementarities in the production of literacy skills. I develop a skill formation model that decomposes investment into school quality and parental effort, linked by a within-period elasticity of substitution that my design identifies. The model predicts that neither intervention alone will move parental effort, but together they will generate outsized literacy gains.\nIs Awareness Always Good? An Accidental Information Intervention in Nigeria\nTo Drop out or Not to Drop out: Local Economics Conditions and College Students’ Dropout Decisions\nWhy Cluster at all? Randomization Inference Correction to Incorrect Rejection Rates with Small Clusters"
+    "text": "Work in Progress\nGetting More from Schools: Experimental Evidence on Skill Formation from Ghana\nGetting More from Schools: Experimental Evidence on Skill Formation from Ghana\nTheory emphasizes complementarities between school- and home-based inputs to education, yet almost no experimental work has tested for them. I cross-randomize a parental engagement intervention and a principal training program across 103 primary schools in Ghana, all already receiving an effective structured literacy program. This \\(2 \\times 2\\) factorial design generates independent variation in home- and school-based inputs, which will allow me to test for complementarities in the production of literacy skills. I develop a skill formation model that decomposes investment into school quality and parental effort, linked by a within-period elasticity of substitution that my design identifies. The model predicts that neither intervention alone will move parental effort, but together they will generate outsized literacy gains.\nIs Awareness Always Good? An Accidental Information Intervention in Nigeria\nCocoa no More: Evidence from Illegal Small-holder Gold Mining in Ghana\nWhy Cluster at all? Randomization Inference Correction to Incorrect Rejection Rates with Small Clusters"
   },
   {
     "objectID": "teaching.html",
@@ -102,7 +102,7 @@
     "href": "teaching.html#teaching-assistant",
     "title": "Teaching",
     "section": "Teaching Assistant",
-    "text": "Teaching Assistant\nEC 200: Introduction to Microeconoimcs\nSpring 2023, Autumn 2023, Winter 2024, Spring 2024"
+    "text": "Teaching Assistant\nEC 200: Introduction to Microeconoimcs\nSpring 2023, Autumn 2023, Winter 2024, Spring 2024\nEC 201: Introduction to Macroeconomics\nFall 2026"
   },
   {
     "objectID": "service.html",
@@ -116,7 +116,7 @@
     "href": "index.html",
     "title": "Erik T.J. Andersen",
     "section": "",
-    "text": "I am a PhD candidate in the University of Washington working at the intersection of development economics and the economics of education. My research studies how children form foundational skills, and how different inputs to education interact with each other. I study how people make choices about how much time and effort to invest into their own, and their children’s education."
+    "text": "I am a Ph.D. candidate in the University of Washington working at the intersection of development economics and the economics of education. My research studies how children form foundational skills, how different inputs to education interact with each other, and how improved educational outcomes translate to larger development goals. I also study how people make choices about how much time and effort to invest into their own, and their children’s education."
   },
   {
     "objectID": "blog/monitors-ubuntu.html",
@@ -208,5 +208,12 @@
     "title": "Research",
     "section": "Working Papers",
     "text": "Working Papers\nHow to Build a Reader: Evidence from a Scalable Literacy Intervention in Ghana with Simon Graffy, Jason Kerwin, and Monica Lambon-Quayefio. February 2026. [PDF]"
+  },
+  {
+    "objectID": "teaching.html#ta-coordinator",
+    "href": "teaching.html#ta-coordinator",
+    "title": "Teaching",
+    "section": "TA Coordinator",
+    "text": "TA Coordinator\nEC 200: Introduction to Microeconoimcs & EC 201: Introduction to Macroeconomics\nFall 2025, Winter 2026, Spring 2026"
   }
 ]

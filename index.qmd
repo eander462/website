@@ -28,6 +28,6 @@ about:
       target: _blank
 ---
 
-I am a PhD candidate in the University of Washington working at the intersection of development economics and the economics of education. My research studies how children form foundational skills, and how different inputs to education interact with each other. I study how people make choices about how much time and effort to invest into their own, and their children's education.
+I am a Ph.D. candidate in the University of Washington working at the intersection of development economics and the economics of education. My research studies how children form foundational skills, how different inputs to education interact with each other, and how improved educational outcomes translate to larger development goals. I also study how people make choices about how much time and effort to invest into their own, and their children's education.
 
 \
