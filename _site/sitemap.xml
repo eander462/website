@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://erik-t-andersen.com/blog/blog.html</loc>
-    <lastmod>2025-03-26T23:32:30.354Z</lastmod>
+    <lastmod>2026-07-17T20:01:12.453Z</lastmod>
   </url>
   <url>
     <loc>https://erik-t-andersen.com/blog/simpsons_paradox.html</loc>
-    <lastmod>2025-12-10T20:13:22.639Z</lastmod>
+    <lastmod>2026-07-17T20:47:14.241Z</lastmod>
   </url>
   <url>
     <loc>https://erik-t-andersen.com/tools.html</loc>
@@ -39,5 +39,9 @@
   <url>
     <loc>https://erik-t-andersen.com/blog drafts/quantile_dr.html</loc>
     <lastmod>2025-12-10T20:13:25.961Z</lastmod>
+  </url>
+  <url>
+    <loc>https://erik-t-andersen.com/blog/rct_locations.html</loc>
+    <lastmod>2026-07-17T22:11:24.218Z</lastmod>
   </url>
 </urlset>

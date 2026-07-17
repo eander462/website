@@ -14,6 +14,6 @@ title-block-banner: true
 toc: FALSE
 ---
 
-This is my (yet to be named) personal blog. As an academic economist (or any kind of academic) most of my projects don't work out well enough to be published in a major journal be that because they returned null results, or just ended up being shall we say a different kind of interesting than journals are looking for. That however does not mean they aren't interesting to me, or to you, so I will endeavor to share those things here. I may also have a couple of posts moonlighting as a tech bro and post tutorials for various interesting computer things. Knowledge should be shared, not only the most interesting or novel knowledge, so here is some of mine.
+This is my personal blog. As an academic economist (or any kind of academic) most of my projects don't work out well enough to be published in a major journal be that because they returned null results, or just ended up being shall we say a different kind of interesting than journals are looking for. That however does not mean they aren't interesting to me, or to you, so I will endeavor to share those things here. Knowledge should be shared, not only the most interesting or novel knowledge, so here is some of mine.
 
 ## Posts
