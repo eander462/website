@@ -28,7 +28,7 @@ Part of the disparity could be explained by what I'll call "micro experiments". 
 
 Micro experiments are not the only gap in the RCT knowledge base. The blank white swaths of land on the map represent the 57 countries and autonomous territories that have not been host to a single RCT, at least since 2013.[^1] You may fairly choose to discount the Isle of Man from your reckoning, but these countries are made up of 232 million people or almost 3% of the world's population. Most of this comes from the top three by population: Algeria, Sudan, and Uzbekistan. While parts of Algeria and Sudan are certainly dangerous to travel to, studies happen in more dangerous places constantly. Even North Korea has had a trial![^2] Uzbekistan is a particularly puzzling omission since [everyone wants to go to Uzbekistan](https://www.nytimes.com/2026/06/15/travel/uzbekistan-central-asia-tourism-tashkent-samarkand.html).
 
-[^1]: If you or a loved one has run an RCT in any of these countries, please contact me and I fix my country name matching code.
+[^1]: If you or a loved one has run an RCT in any of these countries, please contact me and I will fix my country name matching code.
 
 [^2]: [AEA Registry number 16160](https://www.socialscienceregistry.org/trials/16160). They looked at the effect of Facebook users being served no adds in their newsfeeds across a broad swath of countries.
 
