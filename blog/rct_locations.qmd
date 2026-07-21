@@ -12,7 +12,9 @@ A recent project of mine (that didn't work out) involved downloading the entire 
 
 Today, I am going to show you where RCTs happen. Which countries have more RCTs run in them than you might expect, and which countries are missing from the record. There are [several](https://blogs.worldbank.org/en/impactevaluations/whats-latest-research-development-economics-roundup-neudc-2023) ongoing [series](https://www.csae.ox.ac.uk/csae-conference-2021) of conference specific roundups of papers showing where studies happen, but as far as I can tell, no one has tried to look at close to all trials at once.
 
-I am a development economist, so I certainly had some priors about where I thought RCTs happened, but I ended up being very wrong. I expected Africa to light up, but as the map on the left below shows, it does not. Remember importantly that this is showing the country where the RCT happened, *not* the country where the researchers are from.
+I am a development economist, so I certainly had some priors about where I thought RCTs happened, but I ended up being very wrong. I expected Africa to light up, but as the map on the left below shows, it does not.[^1] Remember importantly that this is showing the country where the RCT happened, *not* the country where the researchers are from.
+
+[^1]: Tragically for all my dark mode truthers, the images in this post show up much better if you toggle to light mode.
 
 ![](where_RCTs_images/trial_world_map_combined.png)
 
@@ -26,11 +28,11 @@ Part of the disparity could be explained by what I'll call "micro experiments". 
 
 ## Who's Missing?
 
-Micro experiments are not the only gap in the RCT knowledge base. The blank white swaths of land on the map represent the 57 countries and autonomous territories that have not been host to a single RCT, at least since 2013.[^1] You may fairly choose to discount the Isle of Man from your reckoning, but these countries are made up of 232 million people or almost 3% of the world's population. Most of this comes from the top three by population: Algeria, Sudan, and Uzbekistan. While parts of Algeria and Sudan are certainly dangerous to travel to, studies happen in more dangerous places constantly. Even North Korea has had a trial![^2] Uzbekistan is a particularly puzzling omission since [everyone wants to go to Uzbekistan](https://www.nytimes.com/2026/06/15/travel/uzbekistan-central-asia-tourism-tashkent-samarkand.html).
+Micro experiments are not the only gap in the RCT knowledge base. The blank white swaths of land on the map represent the 57 countries and autonomous territories that have not been host to a single RCT, at least since 2013.[^2] You may fairly choose to discount the Isle of Man from your reckoning, but these countries are made up of 232 million people or almost 3% of the world's population. Most of this comes from the top three by population: Algeria, Sudan, and Uzbekistan. While parts of Algeria and Sudan are certainly dangerous to travel to, studies happen in more dangerous places constantly. Even North Korea has had a trial![^3] Uzbekistan is a particularly puzzling omission since [everyone wants to go to Uzbekistan](https://www.nytimes.com/2026/06/15/travel/uzbekistan-central-asia-tourism-tashkent-samarkand.html).
 
-[^1]: If you or a loved one has run an RCT in any of these countries, please contact me and I will fix my country name matching code.
+[^2]: If you or a loved one has run an RCT in any of these countries, please contact me and I will fix my country name matching code.
 
-[^2]: [AEA Registry number 16160](https://www.socialscienceregistry.org/trials/16160). They looked at the effect of Facebook users being served no adds in their newsfeeds across a broad swath of countries.
+[^3]: [AEA Registry number 16160](https://www.socialscienceregistry.org/trials/16160). They looked at the effect of Facebook users being served no adds in their newsfeeds across a broad swath of countries.
 
 ![](where_RCTs_images/table_zero_trials.png){width="2300"}
 
@@ -42,8 +44,8 @@ Development economics (at least the RCT branch of the field) has understudied th
 
 ## So What?
 
-Knowing the landscape of what economics has studied is important so academics don't fall into the trap of [looking for their keys under the lamppost](https://sketchplanations.com/looking-under-the-lamppost). Economics has blind spots geographically, and places where research money could be reallocated away from fairly freely. It's easy to fall into the trap of doing RCT work in countries where the social science infrastructure is already set up.[^3] Where there are existing survey firms and pools of people ready to be hired as enumerators, RCTs can be run with relative ease, but doing so can lessen our knowledge of other communities that could be structurally different and for whom our programs and interventions would not work off the shelf.
+Knowing the landscape of what economics has studied is important so academics don't fall into the trap of [looking for their keys under the lamppost](https://sketchplanations.com/looking-under-the-lamppost). Economics has blind spots geographically, and places where research money could be reallocated away from fairly freely. It's easy to fall into the trap of doing RCT work in countries where the social science infrastructure is already set up.[^4] Where there are existing survey firms and pools of people ready to be hired as enumerators, RCTs can be run with relative ease, but doing so can lessen our knowledge of other communities that could be structurally different and for whom our programs and interventions would not work off the shelf.
 
-[^3]: I am certainly guilty of this. All of my RCTs are in Ghana or the US.
+[^4]: I am certainly guilty of this. All of my RCTs are in Ghana or the US.
 
 Social science should aspire to be universally representative of the world population. While we have made great strides from the [WEIRD](https://news.harvard.edu/gazette/story/2020/09/joseph-henrich-explores-weird-societies/) days of old, we are not there yet.
