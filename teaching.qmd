@@ -3,6 +3,8 @@ title: "Teaching"
 toc: TRUE
 ---
 
+[Teaching Statement](files/Teaching_Statement.pdf)
+
 Current students, please email me at [eander46\@uw.edu](mailto:eander46@uw.edu) for questions, or to set up a meeting. Please see the syllabus for office hours.
 
 ## Independent Instructor
