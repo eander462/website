@@ -15,8 +15,6 @@ How to Build a Reader: Evidence from a Scalable Literacy Intervention in Ghana w
 
 ## Work in Progress
 
-Getting More from Schools: Experimental Evidence on Skill Formation from Ghana
-
 Getting More from Schools: Experimental Evidence on Skill Formation from Ghana\
 *Theory emphasizes complementarities between school- and home-based inputs to education, yet almost no experimental work has tested for them. I cross-randomize a parental engagement intervention and a principal training program across 103 primary schools in Ghana, all already receiving an effective structured literacy program. This* $2 \times 2$ factorial design generates independent variation in home- and school-based inputs, which will allow me to test for complementarities in the production of literacy skills. I develop a skill formation model that decomposes investment into school quality and parental effort, linked by a within-period elasticity of substitution that my design identifies. The model predicts that neither intervention alone will move parental effort, but together they will generate outsized literacy gains.
 
