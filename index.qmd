@@ -6,6 +6,9 @@ about:
   image-shape: round
   image-width: 17em
   links:
+    - text: "{{< ai google-scholar >}} Scholar"
+      href: https://scholar.google.com/citations?hl=en&user=7lTitqEAAAAJ
+      target: _blank
     - icon: github
       text: "GitHub"
       href: https://github.com/eander462
@@ -21,10 +24,6 @@ about:
     - icon: mortarboard
       text: "UW Website"
       href: https://econ.washington.edu/people/erik-andersen
-      target: _blank
-    - icon: envelope
-      text: "Email"
-      href: "mailto:eander46@uw.edu"
       target: _blank
 ---
 
