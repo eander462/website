@@ -15,7 +15,7 @@ How to Build a Reader: Evidence from a Scalable Literacy Intervention in Ghana w
 
 ## Work in Progress
 
-When a Good School Isn't Enough: Evidence from Two Literacy Interventions in Ghana\
+No Longer Business as Usual: Evidence from Two Literacy Interventions in Ghana\
 *Almost all evidence on education programs comes from settings where the counterfactual is business-as-usual schooling. As effective instruction scales, the policy question becomes what a program adds on top of it. I run a randomized trial in 103 Ghanaian schools already implementing an effective structured pedagogy program, testing two additional sources of learning: parents and principals. Schools received (i) restructured parent meetings plus take-home copies of the literacy workbook used in class, (ii) instructional leadership training for principals, (iii) both, or (iv) neither. The parent program raises reading fluency by 0.33 standard deviations, while the principal training lowers reading comprehension by 0.26 standard deviations. Combined, the parent program offsets part of the comprehension loss caused by the principal program. I show this is consistent with concave literacy production: the marginal return for parent engagement increases when instruction quality drops, so families invest more time in at-home learning.*
 
 Is Awareness Always Good? An Accidental Information Intervention in Nigeria
