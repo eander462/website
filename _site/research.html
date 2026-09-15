@@ -83,35 +83,6 @@ gtag('js', new Date());
 gtag('config', 'G-2SD9XTGN8L', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Research – Erik Andersen">
@@ -402,8 +373,8 @@ window.Quarto = {
 </section>
 <section id="work-in-progress" class="level2">
 <h2 class="anchored" data-anchor-id="work-in-progress">Work in Progress</h2>
-<p>Getting More from Schools: Experimental Evidence on Skill Formation from Ghana<br>
-<em>Theory emphasizes complementarities between school- and home-based inputs to education, yet almost no experimental work has tested for them. I cross-randomize a parental engagement intervention and a principal training program across 103 primary schools in Ghana, all already receiving an effective structured literacy program. This</em> <span class="math inline">\(2 \times 2\)</span> factorial design generates independent variation in home- and school-based inputs, which will allow me to test for complementarities in the production of literacy skills. I develop a skill formation model that decomposes investment into school quality and parental effort, linked by a within-period elasticity of substitution that my design identifies. The model predicts that neither intervention alone will move parental effort, but together they will generate outsized literacy gains.</p>
+<p>When a Good School Isn’t Enough: Evidence from Two Literacy Interventions in Ghana<br>
+<em>Almost all evidence on education programs comes from settings where the counterfactual is business-as-usual schooling. As effective instruction scales, the policy question becomes what a program adds on top of it. I run a randomized trial in 103 Ghanaian schools already implementing an effective structured pedagogy program, testing two additional sources of learning: parents and principals. Schools received (i) restructured parent meetings plus take-home copies of the literacy workbook used in class, (ii) instructional leadership training for principals, (iii) both, or (iv) neither. The parent program raises reading fluency by 0.33 standard deviations, while the principal training lowers reading comprehension by 0.26 standard deviations. Combined, the parent program offsets part of the comprehension loss caused by the principal program. I show this is consistent with concave literacy production: the marginal return for parent engagement increases when instruction quality drops, so families invest more time in at-home learning.</em></p>
 <p>Is Awareness Always Good? An Accidental Information Intervention in Nigeria</p>
 <p>Cocoa no More: Evidence from Illegal Small-holder Gold Mining in Ghana</p>
 <p>Why Cluster at all? Randomization Inference Correction to Incorrect Rejection Rates with Small Clusters</p>
