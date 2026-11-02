@@ -2,7 +2,9 @@
   {
     "listing": "/blog/blog.html",
     "items": [
+      "/blog/teacher_assessments.html",
       "/blog/rct_locations.html",
+      "/blog/principals_as_coaches.html",
       "/blog/simpsons_paradox.html",
       "/blog/monitors-ubuntu.html"
     ]
