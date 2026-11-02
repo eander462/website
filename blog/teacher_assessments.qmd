@@ -7,6 +7,7 @@ date: "2026-08-24"
 toc: TRUE
 categories: [Development, Education]
 ---
+This post was originally posted on the IPA blog, and is re-posted here with permission: [https://poverty-action.org/can-teachers-accurately-assess-student-learning-what-evidence-shows](https://poverty-action.org/can-teachers-accurately-assess-student-learning-what-evidence-shows)
 
 *IPA’s [Partnership for Tech in Education](https://poverty-action.org/p4t-ed) (P4T-Ed) initiative supports the use of data and evidence to drive learning and improvement in the edtech sector. As part of the P4T-Ed initiative, IPA and the [Jacobs Foundation](https://jacobsfoundation.org/) are supporting three randomized controlled trials (RCTs) to help generate rigorous evidence on edtech interventions’ potential impact on learning outcomes.*
 
