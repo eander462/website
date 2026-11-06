@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Economics Job Openings Map</title>
+<meta name="description" content="Map of economics job openings posted on the AEA Job Openings for Economists (JOE), with deadlines and links to each posting.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: filter bar over a full-width Equal Earth map; one pin per place and job type, sized by number of postings. */
+:root {
+  --bg: #f4f6f8;
+  --surface: #ffffff;
+  --ink: #142030;
+  --muted: #5a6676;
+  --line: #dce1e8;
+  --accent: #1f5fbf;
+  --pin-acad: #1f5fbf;
+  --pin-ind: #e07b1f;
+  --sea: #e4ebf3;
+  --land: #ffffff;
+  --border: #b9c3d0;
+
+
+
+  --font-display: "IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e131a; --surface: #151c26; --ink: #e5e9ef; --muted: #97a2b2; --line: #263142; --accent: #82b1ff; --pin-acad: #6fa5ff; --pin-ind: #f5a04f; --sea: #0b1118; --land: #1d2633; --border: #3a4859;
+
+
+
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e131a; --surface: #151c26; --ink: #e5e9ef; --muted: #97a2b2; --line: #263142; --accent: #82b1ff; --pin-acad: #6fa5ff; --pin-ind: #f5a04f; --sea: #0b1118; --land: #1d2633; --border: #3a4859;
+
+
+
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--font-body); }
+a { color: var(--accent); }
+a:focus-visible, input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.wrap { max-width: 1320px; margin: 0 auto; padding: 32px 20px 48px; display: grid; gap: 18px; }
+header { display: grid; gap: 6px; }
+h1 { font: 600 clamp(28px, 4vw, 38px)/1.1 var(--font-display); margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+
+
+.filters { display: grid; grid-template-columns: minmax(220px, 2fr) repeat(2, minmax(170px, 1fr)); gap: 10px; align-items: end;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
+.filters label { display: grid; gap: 4px; font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.filters input[type="search"], .filters select { font: 15px var(--font-body); color: var(--ink); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; width: 100%; min-width: 0; }
+.filters .row2 { grid-column: 1 / -1; display: flex; justify-content: flex-end; }
+.filters label.check { display: inline-flex; gap: 8px; align-items: center; font-size: 14px; font-weight: 400; color: var(--ink);
+  text-transform: none; letter-spacing: normal; cursor: pointer; }
+.check input { width: 16px; height: 16px; accent-color: var(--accent); }
+button.reset { font: 500 14px var(--font-body); color: var(--accent); background: none; border: 1px solid var(--line); border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+button.reset:hover { background: var(--bg); }
+
+.map-card { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+#map { aspect-ratio: 2.05 / 1; min-height: 340px; max-height: 82vh; width: 100%; background: var(--surface); }
+.legend { position: absolute; left: 12px; bottom: 12px; z-index: 5; display: flex; gap: 14px; padding: 6px 10px; font-size: 12px;
+  color: var(--ink); background: color-mix(in srgb, var(--surface) 92%, transparent); border: 1px solid var(--line); border-radius: 8px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+
+/* Map (D3, Equal Earth projection) */
+#map svg { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
+#map svg:active { cursor: grabbing; }
+.sphere { fill: var(--sea); }
+.land { fill: var(--land); }
+.borders, .states { fill: none; stroke: var(--border); vector-effect: non-scaling-stroke; }
+.borders { stroke-width: 0.8; }
+.states { stroke-width: 0.5; stroke-dasharray: 2 2; }
+.graticule { fill: none; stroke: var(--border); stroke-opacity: 0.35; stroke-width: 0.5; vector-effect: non-scaling-stroke; }
+.pin { stroke: var(--surface); stroke-width: 1.2; vector-effect: non-scaling-stroke; fill-opacity: 0.88; cursor: pointer; }
+.pin.acad { fill: var(--pin-acad); }
+.pin.ind { fill: var(--pin-ind); }
+.pin:hover, .pin:focus-visible, .pin.active { fill-opacity: 1; stroke: var(--ink); stroke-width: 2; outline: none; }
+.zoom { position: absolute; top: 12px; left: 12px; z-index: 5; display: grid; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.zoom button { width: 32px; height: 32px; border: 0; border-top: 1px solid var(--line); background: var(--surface); color: var(--ink); font: 600 17px/1 var(--font-body); cursor: pointer; }
+.zoom button:first-child { border-top: 0; }
+.zoom button:hover { background: var(--bg); }
+.zoom button.fit { font-size: 11px; font-weight: 600; }
+.tip { position: absolute; z-index: 6; pointer-events: none; transform: translate(-50%, calc(-100% - 10px)); background: var(--ink); color: var(--surface);
+  font-size: 12.5px; padding: 4px 8px; border-radius: 6px; white-space: nowrap; }
+.tip[hidden], .popup[hidden] { display: none; }
+.popup { position: absolute; z-index: 7; width: min(380px, calc(100% - 24px)); background: var(--surface); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 8px 28px rgb(0 0 0 / 0.2); padding: 14px 16px;
+  max-height: calc(100% - 24px); overflow-y: auto; overscroll-behavior: contain; }
+.popup .pop ol { max-height: none; overflow: visible; }
+.popup .close { position: absolute; top: 6px; right: 6px; width: 28px; height: 28px; border: 0; border-radius: 6px; background: none; color: var(--muted); font-size: 18px; cursor: pointer; }
+.popup .close:hover { background: var(--bg); color: var(--ink); }
+.map-note { position: absolute; inset: auto 12px 52px 12px; z-index: 5; font-size: 13px; color: var(--muted); }
+
+.pop h2 { font: 600 17px/1.2 var(--font-display); margin: 0 28px 10px 0; }
+.pop .n { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
+.pop ol { list-style: none; margin: 0; padding: 0; max-height: 300px; overflow-y: auto; display: grid; gap: 10px; }
+.pop li { display: grid; gap: 2px; padding-top: 10px; border-top: 1px solid var(--line); }
+.pop li:first-child { border-top: 0; padding-top: 0; }
+.pop .inst { font-weight: 600; }
+.pop .title a { color: var(--accent); text-underline-offset: 3px; }
+.pop .meta { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; font-size: 12px; color: var(--muted); }
+.date { font: 500 12px var(--font-mono); font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--ink); }
+.pill { color: var(--muted); background: var(--bg); border: 1px solid var(--line); display: inline-block; font-size: 11.5px; font-weight: 600; padding: 1px 7px; border-radius: 999px; white-space: nowrap; }
+
+
+footer { font-size: 13px; color: var(--muted); max-width: 80ch; }
+
+@media (max-width: 760px) {
+  .wrap { padding: 20px 16px 40px; }
+  .filters { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Economics Job Openings Map</h1>
+  </header>
+
+  <form class="filters" id="filters" role="search" onsubmit="return false">
+    <label for="q">Search
+      <input type="search" id="q" placeholder="Institution, position, field, city…" autocomplete="off">
+    </label>
+    <label for="cat">Category
+      <select id="cat"><option value="">All categories</option></select>
+    </label>
+    <label for="jel">Field (JEL)
+      <select id="jel"><option value="">All fields</option></select>
+    </label>
+    <div class="row2">
+      <button type="button" class="reset" id="reset">Clear filters</button>
+    </div>
+  </form>
+
+  <div class="map-card">
+    <div id="map" role="region" aria-label="Map of job openings"></div>
+    <div class="legend"><span><i style="background: var(--pin-acad)"></i>Academic</span><span><i style="background: var(--pin-ind)"></i>Industry / nonacademic</span></div>
+  </div>
+
+  <footer>Updated through __ASOF__</footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script>
+const JOBS = __JOBS__;
+const JEL = __JEL__;
+const CATS = __CATS__;
+
+const MAPPED = JOBS.filter((j) => j.pins.length);
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const today = new Date(); today.setHours(0, 0, 0, 0);
+const DAY = 86400000;
+const fmt = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric" });
+
+JOBS.forEach((j) => {
+  j.date = j.deadline ? new Date(j.deadline + "T00:00:00") : null;
+  j.days = j.date ? Math.round((j.date - today) / DAY) : null;
+  j.closed = Boolean(j.status) || (j.days !== null && j.days < 0);
+  j.hay = [j.inst, j.dept, j.title, j.cat, j.loc, j.fields].join(" ").toLowerCase();
+});
+
+const usedCats = CATS.filter((c) => JOBS.some((j) => j.cat === c));
+$("cat").insertAdjacentHTML("beforeend", usedCats.map((c) => `<option>${esc(c)}</option>`).join(""));
+const usedJel = Object.keys(JEL).filter((k) => JOBS.some((j) => j.jel.includes(k)));
+$("jel").insertAdjacentHTML("beforeend", usedJel.map((k) => `<option value="${k}">${k}: ${esc(JEL[k])}</option>`).join(""));
+
+function pill(j) {
+  if (j.status) return `<span class="pill">${esc(j.status)}</span>`;
+  if (j.days === null) return `<span class="pill">Open until filled</span>`;
+  if (j.days < 0) return `<span class="pill">Closed</span>`;
+  if (j.days === 0) return `<span class="pill">Due today</span>`;
+  return `<span class="pill">${j.days === 1 ? "1 day left" : j.days + " days left"}</span>`;
+}
+const byDeadline = (a, b) => (a.closed - b.closed) || ((a.date ?? Infinity) - (b.date ?? Infinity)) || a.inst.localeCompare(b.inst);
+
+function jobItem(j) {
+  return `<li>
+    <span class="inst">${esc(j.inst)}</span>
+    <span class="title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></span>
+  </li>`;
+}
+
+// Map (Equal Earth projection, drawn with D3)
+const mapEl = $("map");
+const svg = d3.select(mapEl).append("svg").attr("aria-hidden", "false");
+const root = svg.append("g");
+const gBase = root.append("g");
+const gPins = root.append("g");
+const tip = document.createElement("div"); tip.className = "tip"; tip.hidden = true; mapEl.parentElement.appendChild(tip);
+const popup = document.createElement("div"); popup.className = "popup"; popup.hidden = true; popup.setAttribute("role", "dialog"); mapEl.parentElement.appendChild(popup);
+const projection = d3.geoEqualEarth();
+const path = d3.geoPath(projection);
+let world = null, states = null, transform = d3.zoomIdentity, popupPlace = null, places = [];
+
+const zoom = d3.zoom().scaleExtent([1, 60]).on("zoom", (e) => {
+  transform = e.transform;
+  root.attr("transform", transform);
+  gPins.selectAll("circle").attr("r", (p) => p.r / transform.k).attr("cx", (p) => cx(p));
+  placeOverlays();
+});
+svg.call(zoom).on("dblclick.zoom", null);
+svg.on("click", (e) => { if (e.target.tagName !== "circle") closePopup(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") closePopup(); });
+
+const zoomBox = document.createElement("div");
+zoomBox.className = "zoom";
+zoomBox.innerHTML = `<button type="button" aria-label="Zoom in">+</button><button type="button" aria-label="Zoom out">−</button><button type="button" class="fit" aria-label="Show whole world">All</button>`;
+mapEl.parentElement.appendChild(zoomBox);
+const [zin, zout, zfit] = zoomBox.querySelectorAll("button");
+zin.onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1.8);
+zout.onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.8);
+zfit.onclick = () => svg.transition().duration(350).call(zoom.transform, d3.zoomIdentity);
+
+const cx = (p) => projection([p.lon, p.lat])[0] + p.dx / transform.k;
+function screenXY(p) {
+  const [x, y] = projection([p.lon, p.lat]);
+  return [transform.applyX(x) + p.dx, transform.applyY(y)];
+}
+function placeOverlays() {
+  if (popupPlace && !popup.hidden) {
+    const [x, y] = screenXY(popupPlace);
+    const W = mapEl.clientWidth, H = mapEl.clientHeight, pw = popup.offsetWidth, ph = popup.offsetHeight;
+    const left = Math.min(Math.max(12, x + 14), W - pw - 12);
+    const top = Math.min(Math.max(12, y - ph / 2), H - ph - 12);
+    popup.style.left = left + "px"; popup.style.top = top + "px";
+  }
+  tip.hidden = true;
+}
+function openPopup(p) {
+  popupPlace = p;
+  const kind = p.ind ? "industry/nonacademic" : "academic";
+  popup.innerHTML = `<button type="button" class="close" aria-label="Close">×</button><div class="pop"><h2>${esc(p.label)}</h2>
+    <ol>${p.jobs.map(jobItem).join("")}</ol></div>`;
+  popup.querySelector(".close").onclick = closePopup;
+  popup.hidden = false;
+  gPins.selectAll("circle").classed("active", (d) => d === p);
+  placeOverlays();
+}
+function closePopup() {
+  popup.hidden = true; popupPlace = null;
+  gPins.selectAll("circle").classed("active", false);
+}
+function showTip(p) {
+  const [x, y] = screenXY(p);
+  const kind = p.ind ? "industry/nonacademic" : "academic";
+  tip.textContent = `${p.label}: ${p.jobs.length} ${kind} posting${p.jobs.length === 1 ? "" : "s"}`;
+  tip.style.left = x + "px"; tip.style.top = (y - p.r) + "px";
+  tip.hidden = false;
+}
+
+function drawBase() {
+  const W = mapEl.clientWidth, H = mapEl.clientHeight;
+  svg.attr("viewBox", `0 0 ${W} ${H}`);
+  projection.fitExtent([[8, 8], [W - 8, H - 8]], { type: "Sphere" });
+  zoom.translateExtent([[0, 0], [W, H]]).extent([[0, 0], [W, H]]);
+  gBase.selectAll("*").remove();
+  gBase.append("path").attr("class", "sphere").attr("d", path({ type: "Sphere" }));
+  gBase.append("path").attr("class", "graticule").attr("d", path(d3.geoGraticule10()));
+  if (world) {
+    gBase.append("path").attr("class", "land").attr("d", path(topojson.feature(world, world.objects.land)));
+    gBase.append("path").attr("class", "borders").attr("d", path(topojson.mesh(world, world.objects.countries, (a, b) => a !== b)));
+  }
+  if (states) gBase.append("path").attr("class", "states").attr("d", path(topojson.mesh(states, states.objects.states, (a, b) => a !== b)));
+}
+
+function drawPins() {
+  const sel = gPins.selectAll("circle").data(places, (p) => p.key);
+  sel.exit().remove();
+  sel.enter().append("circle")
+    .attr("tabindex", 0).attr("role", "button")
+    .on("mouseenter focus", (e, p) => showTip(p))
+    .on("mouseleave blur", () => { tip.hidden = true; })
+    .on("click", (e, p) => { e.stopPropagation(); openPopup(p); })
+    .on("keydown", (e, p) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openPopup(p); } })
+    .merge(sel)
+    .attr("class", (p) => `pin ${p.ind ? "ind" : "acad"}`)
+    .attr("aria-label", (p) => `${p.label}: ${p.jobs.length} ${p.ind ? "industry" : "academic"} postings`)
+    .attr("cx", (p) => cx(p))
+    .attr("cy", (p) => projection([p.lon, p.lat])[1])
+    .attr("r", (p) => p.r / transform.k)
+    .order();
+}
+
+function render() {
+  const q = $("q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const cat = $("cat").value, jel = $("jel").value;
+  const list = JOBS.filter((j) =>
+    (!cat || j.cat === cat) && (!jel || j.jel.includes(jel)) && q.every((w) => j.hay.includes(w)));
+
+  const byKey = new Map();
+  list.forEach((j) => {
+    const ind = j.cat.startsWith("Nonacademic");
+    j.pins.forEach(([lat, lon, label]) => {
+      const key = `${lat},${lon},${ind}`;
+      if (!byKey.has(key)) byKey.set(key, { key, lat, lon, label, ind, jobs: [] });
+      byKey.get(key).jobs.push(j);
+    });
+  });
+  places = [...byKey.values()].sort((a, b) => b.jobs.length - a.jobs.length);
+  places.forEach((p) => { p.jobs.sort(byDeadline); p.r = 3 + 2.4 * Math.sqrt(p.jobs.length); p.dx = 0; });
+  // Where a place has both academic and industry pins, nudge them apart (in screen pixels) so neither hides the other.
+  places.forEach((p) => {
+    const twin = byKey.get(`${p.lat},${p.lon},${!p.ind}`);
+    if (twin) p.dx = (p.ind ? 1 : -1) * (0.5 * Math.min(p.r, twin.r) + 2);
+  });
+  closePopup();
+  drawPins();
+}
+
+drawBase();
+const ATLAS = "https://cdn.jsdelivr.net/npm/";
+Promise.all([d3.json(ATLAS + "world-atlas@2.0.2/countries-50m.json"), d3.json(ATLAS + "us-atlas@3.0.1/states-10m.json")])
+  .then(([w, s]) => { world = w; states = s; drawBase(); })
+  .catch(() => {
+    const note = document.createElement("div"); note.className = "map-note";
+    note.textContent = "Country outlines couldn't load. Check your connection and reload the page.";
+    mapEl.parentElement.appendChild(note);
+  });
+let resizeTimer;
+new ResizeObserver(() => { clearTimeout(resizeTimer); resizeTimer = setTimeout(() => { drawBase(); drawPins(); placeOverlays(); }, 100); }).observe(mapEl);
+
+
+
+["q", "cat", "jel"].forEach((id) => $(id).addEventListener("input", render));
+$("reset").addEventListener("click", () => { $("filters").reset(); render(); });
+render();
+</script>
+</body>
+</html>

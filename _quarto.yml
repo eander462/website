@@ -1,6 +1,8 @@
 # fmt: skip file
 project:
   type: website
+  resources:
+    - joe-map/index.html
 
 website:
   title: "Erik Andersen"
@@ -30,6 +32,8 @@ website:
         href: service.qmd
       - text: "Blog"
         href: blog/blog.qmd
+      - text: "JOE Map"
+        href: joe-map.qmd
       - text: "More"
         menu: 
           - text: Useful Tools

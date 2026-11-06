@@ -1,0 +1,1190 @@
+{
+"AHMEDABAD|Gujarat|INDIA": [
+23.02579,
+72.58727
+],
+"AMHERST|Massachusetts|UNITED STATES": [
+42.36723,
+-72.51852
+],
+"ATLANTA|Georgia|UNITED STATES": [
+33.749,
+-84.38798
+],
+"Abu Dhabi|Abu Dhabi|UNITED ARAB EMIRATES": [
+24.45118,
+54.39696
+],
+"Abu Dhabi|N/A|UNITED ARAB EMIRATES": [
+24.45118,
+54.39696
+],
+"Alexandria|Virginia|UNITED STATES": [
+38.80484,
+-77.04692
+],
+"Aliso Viejo|California|UNITED STATES": [
+33.56504,
+-117.72712
+],
+"Ames|Iowa|UNITED STATES": [
+42.03471,
+-93.61994
+],
+"Amsterdam|North Holland|NETHERLANDS": [
+52.37403,
+4.88969
+],
+"Anchorage|Alaska|UNITED STATES": [
+61.21806,
+-149.90028
+],
+"Ann Arbor|Michigan|UNITED STATES": [
+42.27756,
+-83.74088
+],
+"Arlington|Virginia|UNITED STATES": [
+38.88101,
+-77.10428
+],
+"Asheville|North Carolina|UNITED STATES": [
+35.60095,
+-82.55402
+],
+"Astana|Astana|KAZAKHSTAN": [
+51.1801,
+71.44598
+],
+"Athens|Georgia|UNITED STATES": [
+33.96095,
+-83.37794
+],
+"Atlanta|Georgia|UNITED STATES": [
+33.749,
+-84.38798
+],
+"Auckland|Auckland|NEW ZEALAND": [
+-36.84853,
+174.76349
+],
+"Austin|Texas|UNITED STATES": [
+30.26715,
+-97.74306
+],
+"Baltimore|Maryland|UNITED STATES": [
+39.29038,
+-76.61219
+],
+"Bangalore|Karnataka|INDIA": [
+12.97194,
+77.59369
+],
+"Basel||SWITZERLAND": [
+47.55839,
+7.57327
+],
+"Baton Rouge|Louisiana|UNITED STATES": [
+30.44332,
+-91.18747
+],
+"Beer-Sheva|NA|ISRAEL": [
+31.25181,
+34.7913
+],
+"Beijing|Beijing|CHINA": [
+39.9075,
+116.39723
+],
+"Beijing||CHINA": [
+39.9075,
+116.39723
+],
+"Beloit|Wisconsin|UNITED STATES": [
+42.50835,
+-89.03178
+],
+"Bengaluru|Karnataka|INDIA": [
+12.97194,
+77.59369
+],
+"Berkeley|California|UNITED STATES": [
+37.87159,
+-122.27275
+],
+"Berlin|Berlin|GERMANY": [
+52.52437,
+13.41053
+],
+"Bethlehem|Pennsylvania|UNITED STATES": [
+40.62593,
+-75.37046
+],
+"Binghamton|New York|UNITED STATES": [
+42.09869,
+-75.91797
+],
+"Birmingham|Alabama|UNITED STATES": [
+33.52066,
+-86.80249
+],
+"Blacksburg|Virginia|UNITED STATES": [
+37.22957,
+-80.41394
+],
+"Bloomington|Indiana|UNITED STATES": [
+39.16533,
+-86.52639
+],
+"Bogota||COLOMBIA": [
+4.60971,
+-74.08175
+],
+"Boston|Massachusetts|UNITED STATES": [
+42.35843,
+-71.05977
+],
+"Boulder|Colorado|UNITED STATES": [
+40.01499,
+-105.27055
+],
+"Brisbane|Queensland|AUSTRALIA": [
+-27.46794,
+153.02809
+],
+"Brunswick|Maine|UNITED STATES": [
+43.91452,
+-69.96533
+],
+"Brussels||BELGIUM": [
+50.85045,
+4.34878
+],
+"Buffalo|New York|UNITED STATES": [
+42.88645,
+-78.87837
+],
+"Burnaby|British Columbia|CANADA": [
+49.26636,
+-122.95263
+],
+"Burwood|Victoria|AUSTRALIA": [
+-33.88333,
+151.1
+],
+"Byblos||LEBANON": [
+34.12111,
+35.64806
+],
+"Cairo|Other / Non-US|EGYPT": [
+30.06263,
+31.24967
+],
+"Calgary|Alberta|CANADA": [
+51.05011,
+-114.08529
+],
+"Cambridge|Cambridgeshire|UNITED KINGDOM": [
+52.2,
+0.11667
+],
+"Cambridge|Massachusetts|UNITED STATES": [
+42.3751,
+-71.10561
+],
+"Canberra|Australian Capital Territory|AUSTRALIA": [
+-35.28346,
+149.12807
+],
+"Carbondale|Illinois|UNITED STATES": [
+37.72727,
+-89.21675
+],
+"Champaign|Illinois|UNITED STATES": [
+40.11642,
+-88.24338
+],
+"Changsha|Hunan|CHINA": [
+28.19874,
+112.97087
+],
+"Chantilly|Virginia|UNITED STATES": [
+38.89428,
+-77.4311
+],
+"Chapel Hill|North Carolina|UNITED STATES": [
+35.9132,
+-79.05584
+],
+"Charlottesville|Virginia|UNITED STATES": [
+38.02931,
+-78.47668
+],
+"Charlotte|North Carolina|UNITED STATES": [
+35.22709,
+-80.84313
+],
+"Chengdu|Sichuan|CHINA": [
+30.66667,
+104.06667
+],
+"Chicago|Illinois|UNITED STATES": [
+41.85003,
+-87.65005
+],
+"Claremont|California|UNITED STATES": [
+34.09668,
+-117.71978
+],
+"Cleveland|Ohio|UNITED STATES": [
+41.4995,
+-81.69541
+],
+"College Park|Maryland|UNITED STATES": [
+38.98067,
+-76.93692
+],
+"College Station|Texas|UNITED STATES": [
+30.62798,
+-96.33441
+],
+"Columbia|Missouri|UNITED STATES": [
+38.95171,
+-92.33407
+],
+"Columbus|Ohio|UNITED STATES": [
+39.96118,
+-82.99879
+],
+"Conway|South Carolina|UNITED STATES": [
+33.836,
+-79.04781
+],
+"Cookeville|Tennessee|UNITED STATES": [
+36.16284,
+-85.50164
+],
+"Copenhagen||DENMARK": [
+55.67594,
+12.56553
+],
+"Corpus Christi|Texas|UNITED STATES": [
+27.80058,
+-97.39638
+],
+"Coventry|West Midlands|UNITED KINGDOM": [
+52.40656,
+-1.51217
+],
+"Crawfordsville|Indiana|UNITED STATES": [
+40.04115,
+-86.87445
+],
+"Dalian|Liaoning Province|CHINA": [
+38.91222,
+121.60222
+],
+"Dallas|Texas|UNITED STATES": [
+32.78306,
+-96.80667
+],
+"Danville|Kentucky|UNITED STATES": [
+37.64563,
+-84.77217
+],
+"Davis|California|UNITED STATES": [
+38.54491,
+-121.74052
+],
+"Denver|Colorado|UNITED STATES": [
+39.73915,
+-104.9847
+],
+"Detroit|Michigan|UNITED STATES": [
+42.33143,
+-83.04575
+],
+"Doha||QATAR": [
+25.28545,
+51.53096
+],
+"Dover|Delaware|UNITED STATES": [
+39.15817,
+-75.52437
+],
+"Dublin||IRELAND": [
+53.33306,
+-6.24889
+],
+"Durham|North Carolina|UNITED STATES": [
+35.99403,
+-78.89862
+],
+"Dusseldorf|North Rhine-Westphalia|GERMANY": [
+51.22319,
+6.77927
+],
+"East Lansing|Michigan|UNITED STATES": [
+42.73698,
+-84.48387
+],
+"Easton|Pennsylvania|UNITED STATES": [
+40.68843,
+-75.22073
+],
+"Edmonton|Alberta|CANADA": [
+53.55014,
+-113.46871
+],
+"Evanston|Illinois|UNITED STATES": [
+42.04114,
+-87.69006
+],
+"Evansville|Indiana|UNITED STATES": [
+37.97476,
+-87.55585
+],
+"Fairfield|Connecticut|UNITED STATES": [
+41.14121,
+-73.26373
+],
+"Florence|Alabama|UNITED STATES": [
+34.79981,
+-87.67725
+],
+"Florence||ITALY": [
+43.77925,
+11.24626
+],
+"Fort Myers|Florida|UNITED STATES": [
+26.62168,
+-81.84059
+],
+"Fort Worth|Texas|UNITED STATES": [
+32.72541,
+-97.32085
+],
+"Frankfurt am Main||GERMANY": [
+50.11552,
+8.68417
+],
+"Fribourg|Fribourg|SWITZERLAND": [
+46.80237,
+7.15128
+],
+"Fullerton|California|UNITED STATES": [
+33.87029,
+-117.92534
+],
+"Gainesville|Florida|UNITED STATES": [
+29.65163,
+-82.32483
+],
+"Geneva|GE|SWITZERLAND": [
+46.20222,
+6.14569
+],
+"Grand Forks|North Dakota|UNITED STATES": [
+47.92526,
+-97.03285
+],
+"Grand Rapids|Michigan|UNITED STATES": [
+42.96336,
+-85.66809
+],
+"Greenville|South Carolina|UNITED STATES": [
+34.85262,
+-82.39401
+],
+"Guangzhou|Guangdong|CHINA": [
+23.11667,
+113.25
+],
+"HONOLULU|Hawaii|UNITED STATES": [
+21.30694,
+-157.85833
+],
+"HSINCHU||TAIWAN": [
+24.80361,
+120.96861
+],
+"Halle (Saale)|Saxony Anhalt|GERMANY": [
+51.48158,
+11.97947
+],
+"Halle (Saale)|Saxony-Anhalt|GERMANY": [
+51.48158,
+11.97947
+],
+"Hamden|Connecticut|UNITED STATES": [
+41.39593,
+-72.89677
+],
+"Hangzhou|Zhejiang|CHINA": [
+30.29365,
+120.16142
+],
+"Harrisonburg|Virginia|UNITED STATES": [
+38.44957,
+-78.86892
+],
+"Hartford|Connecticut|UNITED STATES": [
+41.76371,
+-72.68509
+],
+"Hattiesburg|Mississippi|UNITED STATES": [
+31.32712,
+-89.29034
+],
+"Heidelberg|Baden-W\u00fcrttemberg|GERMANY": [
+49.40768,
+8.69079
+],
+"Heidelberg||GERMANY": [
+49.40768,
+8.69079
+],
+"Helena|Montana|UNITED STATES": [
+46.59271,
+-112.03611
+],
+"Helsinki||FINLAND": [
+60.16952,
+24.93545
+],
+"Herzliya||ISRAEL": [
+32.16627,
+34.82536
+],
+"Hong Kong|Hong Kong|HONG KONG": [
+22.27832,
+114.17469
+],
+"Honolulu|Hawaii|UNITED STATES": [
+21.30694,
+-157.85833
+],
+"Houston|Texas|UNITED STATES": [
+29.76328,
+-95.36327
+],
+"Indianapolis|Indiana|UNITED STATES": [
+39.76838,
+-86.15804
+],
+"Iowa City|Iowa|UNITED STATES": [
+41.66113,
+-91.53017
+],
+"Irvine|California|UNITED STATES": [
+33.66946,
+-117.82311
+],
+"Ithaca|New York|UNITED STATES": [
+42.44063,
+-76.49661
+],
+"Jinan||CHINA": [
+36.66833,
+116.99722
+],
+"Kansas City|Missouri|UNITED STATES": [
+39.09973,
+-94.57857
+],
+"Kaohsiung||TAIWAN": [
+22.61626,
+120.31333
+],
+"Kingston|Ontario|CANADA": [
+44.22976,
+-76.48098
+],
+"Knoxville|Tennessee|UNITED STATES": [
+35.96064,
+-83.92074
+],
+"Kunshan|Jiangsu|CHINA": [
+31.37762,
+120.95431
+],
+"La Jolla|California|UNITED STATES": [
+32.84727,
+-117.2742
+],
+"Lahore|Punjab|PAKISTAN": [
+31.558,
+74.35071
+],
+"Lancaster|Pennsylvania|UNITED STATES": [
+40.03788,
+-76.30551
+],
+"Las Vegas|Nevada|UNITED STATES": [
+36.17497,
+-115.13722
+],
+"Lawrence|Kansas|UNITED STATES": [
+38.97167,
+-95.23525
+],
+"Lexington|Kentucky|UNITED STATES": [
+37.98869,
+-84.47772
+],
+"Lincoln|Nebraska|UNITED STATES": [
+40.8,
+-96.66696
+],
+"Lisboa|Lisboa|PORTUGAL": [
+38.72509,
+-9.1498
+],
+"Logan|Utah|UNITED STATES": [
+41.73549,
+-111.83439
+],
+"London|Greater London|UNITED KINGDOM": [
+51.50853,
+-0.12574
+],
+"London|London|UNITED KINGDOM": [
+51.50853,
+-0.12574
+],
+"London||UNITED KINGDOM": [
+51.50853,
+-0.12574
+],
+"Los Angeles|California|UNITED STATES": [
+34.05223,
+-118.24368
+],
+"Louisville|Kentucky|UNITED STATES": [
+38.25424,
+-85.75941
+],
+"Lubbock|Texas|UNITED STATES": [
+33.57786,
+-101.85517
+],
+"Lynchburg|Virginia|UNITED STATES": [
+37.41375,
+-79.14225
+],
+"Madison|Wisconsin|UNITED STATES": [
+43.07305,
+-89.40123
+],
+"Manchester||UNITED KINGDOM": [
+53.48095,
+-2.23743
+],
+"Mannheim|Baden-Wuerttemberg|GERMANY": [
+49.4891,
+8.46694
+],
+"Mannheim|Baden-W\u00fcrttemberg|GERMANY": [
+49.4891,
+8.46694
+],
+"Marquette|Michigan|UNITED STATES": [
+46.54354,
+-87.39542
+],
+"Maynooth|Co. Kildare|IRELAND": [
+53.385,
+-6.59361
+],
+"McLean|Virginia|UNITED STATES": [
+38.93428,
+-77.17748
+],
+"Medellin|Antioquia|COLOMBIA": [
+6.245,
+-75.57151
+],
+"Medford|Massachusetts|UNITED STATES": [
+42.41843,
+-71.10616
+],
+"Melbourne|Victoria|AUSTRALIA": [
+-37.814,
+144.96332
+],
+"Menlo Park|California|UNITED STATES": [
+37.45383,
+-122.18219
+],
+"Mequon|Wisconsin|UNITED STATES": [
+43.21555,
+-88.03001
+],
+"Merced|California|UNITED STATES": [
+37.30216,
+-120.48297
+],
+"Mexico City|Mexico City|MEXICO": [
+19.42847,
+-99.12766
+],
+"Mexico City||MEXICO": [
+19.42847,
+-99.12766
+],
+"Middletown|Connecticut|UNITED STATES": [
+41.56232,
+-72.65065
+],
+"Milano|ITALY|ITALY": [
+45.46427,
+9.18951
+],
+"Milano|MI|ITALY": [
+45.46427,
+9.18951
+],
+"Milano||ITALY": [
+45.46427,
+9.18951
+],
+"Milwaukee|Wisconsin|UNITED STATES": [
+43.0389,
+-87.90647
+],
+"Minneapolis|Minnesota|UNITED STATES": [
+44.97997,
+-93.26384
+],
+"Montclair|New Jersey|UNITED STATES": [
+40.82593,
+-74.20903
+],
+"Monterey|California|UNITED STATES": [
+36.60024,
+-121.89468
+],
+"Monterrey|Nuevo Leon|MEXICO": [
+25.68435,
+-100.31721
+],
+"Montevideo|Montevideo|URUGUAY": [
+-34.90328,
+-56.18816
+],
+"Montevideo||URUGUAY": [
+-34.90328,
+-56.18816
+],
+"Montreal|QC|CANADA": [
+45.50884,
+-73.58781
+],
+"Montreal|Quebec|CANADA": [
+45.50884,
+-73.58781
+],
+"Montr\u00e9al|Qu\u00e9bec|CANADA": [
+45.50884,
+-73.58781
+],
+"Munich|Bavaria|GERMANY": [
+48.13743,
+11.57549
+],
+"Murray|Kentucky|UNITED STATES": [
+36.61033,
+-88.31476
+],
+"Nacogdoches|Texas|UNITED STATES": [
+31.60351,
+-94.65549
+],
+"Nanjing||CHINA": [
+32.06167,
+118.77778
+],
+"Nashville|Tennessee|UNITED STATES": [
+36.16589,
+-86.78444
+],
+"New Brunswick|New Jersey|UNITED STATES": [
+40.48622,
+-74.45182
+],
+"New Delhi|Delhi|INDIA": [
+28.65195,
+77.23149
+],
+"New Haven|Connecticut|UNITED STATES": [
+41.30815,
+-72.92816
+],
+"New London|Connecticut|UNITED STATES": [
+41.35565,
+-72.09952
+],
+"New Orleans|Louisiana|UNITED STATES": [
+29.95465,
+-90.07507
+],
+"New Taipei City||TAIWAN": [
+25.06199,
+121.45703
+],
+"New York City|New York|UNITED STATES": [
+40.71427,
+-74.00597
+],
+"New York|New York|UNITED STATES": [
+40.71427,
+-74.00597
+],
+"Newport Beach|California|UNITED STATES": [
+33.61891,
+-117.92895
+],
+"Nicosia|Nicosia|CYPRUS": [
+35.17284,
+33.35397
+],
+"Nottingham|Nottinghamshire|UNITED KINGDOM": [
+52.9536,
+-1.15047
+],
+"Oakland|California|UNITED STATES": [
+37.80437,
+-122.2708
+],
+"Omaha|Nebraska|UNITED STATES": [
+41.25626,
+-95.94043
+],
+"Orange|California|UNITED STATES": [
+33.78779,
+-117.85311
+],
+"Orlando|Florida|UNITED STATES": [
+28.53834,
+-81.37924
+],
+"Ottawa|Ontario|CANADA": [
+45.41117,
+-75.69812
+],
+"Oxford|Mississippi|UNITED STATES": [
+34.3665,
+-89.51925
+],
+"Oxford|Ohio|UNITED STATES": [
+39.507,
+-84.74523
+],
+"Palo Alto|California|UNITED STATES": [
+37.44188,
+-122.14302
+],
+"Paris|Ile de France|FRANCE": [
+48.85341,
+2.3488
+],
+"Paris||FRANCE": [
+48.85341,
+2.3488
+],
+"Pasadena|California|UNITED STATES": [
+34.14778,
+-118.14452
+],
+"Philadelphia|Pennsylvania|UNITED STATES": [
+39.95238,
+-75.16362
+],
+"Pittsburgh|Pennsylvania|UNITED STATES": [
+40.44062,
+-79.99589
+],
+"Pittsburg|Kansas|UNITED STATES": [
+37.41088,
+-94.70496
+],
+"Portland|Oregon|UNITED STATES": [
+45.52345,
+-122.67621
+],
+"Potsdam|Brandenburg|GERMANY": [
+52.39886,
+13.06566
+],
+"Poughkeepsie|New York|UNITED STATES": [
+41.70037,
+-73.92097
+],
+"Princeton|New Jersey|UNITED STATES": [
+40.34872,
+-74.65905
+],
+"Providence|Rhode Island|UNITED STATES": [
+41.82399,
+-71.41283
+],
+"Provo|Utah|UNITED STATES": [
+40.23384,
+-111.65853
+],
+"Pullman|Washington|UNITED STATES": [
+46.73127,
+-117.17962
+],
+"Raleigh|North Carolina|UNITED STATES": [
+35.7721,
+-78.63861
+],
+"Redmond|Washington|UNITED STATES": [
+47.67399,
+-122.12151
+],
+"Reno|Nevada|UNITED STATES": [
+39.52963,
+-119.8138
+],
+"Richardson|Texas|UNITED STATES": [
+32.94818,
+-96.72972
+],
+"Richmond|Virginia|UNITED STATES": [
+37.55376,
+-77.46026
+],
+"Rio de Janeiro|Rio de Janeiro|BRAZIL": [
+-22.90642,
+-43.18223
+],
+"Riverside|California|UNITED STATES": [
+33.95335,
+-117.39616
+],
+"Rochester|New York|UNITED STATES": [
+43.15478,
+-77.61556
+],
+"Rome|Lazio|ITALY": [
+41.89193,
+12.51133
+],
+"Rome||ITALY": [
+41.89193,
+12.51133
+],
+"Saint Paul|Minnesota|UNITED STATES": [
+44.94441,
+-93.09327
+],
+"Salisbury|Maryland|UNITED STATES": [
+38.36067,
+-75.59937
+],
+"Salisbury|North Carolina|UNITED STATES": [
+35.67097,
+-80.47423
+],
+"Salt Lake City|Utah|UNITED STATES": [
+40.76078,
+-111.89105
+],
+"San Diego|California|UNITED STATES": [
+32.71571,
+-117.16472
+],
+"San Francisco|California|UNITED STATES": [
+37.77493,
+-122.41942
+],
+"San Jose|California|UNITED STATES": [
+37.33939,
+-121.89496
+],
+"San Luis Obispo|California|UNITED STATES": [
+35.28275,
+-120.65962
+],
+"Santa Monica|California|UNITED STATES": [
+34.01949,
+-118.49138
+],
+"Santiago|Region Metropolitana|CHILE": [
+-33.45694,
+-70.64827
+],
+"Santiago|Regi\u00f3n Metropolitana De Santiago|CHILE": [
+-33.45694,
+-70.64827
+],
+"Santiago||CHILE": [
+-33.45694,
+-70.64827
+],
+"Sarasota|Florida|UNITED STATES": [
+27.33643,
+-82.53065
+],
+"Saratoga Springs|New York|UNITED STATES": [
+43.08313,
+-73.78457
+],
+"Schenectady|New York|UNITED STATES": [
+42.81424,
+-73.93957
+],
+"Scottsdale|Arizona|UNITED STATES": [
+33.50921,
+-111.89903
+],
+"Seattle|Washington|UNITED STATES": [
+47.60621,
+-122.33207
+],
+"Sejong||KOREA, REPUBLIC OF": [
+36.59245,
+127.29223
+],
+"Seoul|Seoul|KOREA, REPUBLIC OF": [
+37.566,
+126.9784
+],
+"Seoul||KOREA, REPUBLIC OF": [
+37.566,
+126.9784
+],
+"Shanghai|N/A|CHINA": [
+31.22222,
+121.45806
+],
+"Shanghai|Other / Non-US|CHINA": [
+31.22222,
+121.45806
+],
+"Shanghai|Shanghai|CHINA": [
+31.22222,
+121.45806
+],
+"Shanghai||CHINA": [
+31.22222,
+121.45806
+],
+"Shenyang|Liaoning|CHINA": [
+41.79222,
+123.43278
+],
+"Shenzhen|Guangdong|CHINA": [
+22.54554,
+114.0683
+],
+"Silver Spring|Maryland|UNITED STATES": [
+38.99067,
+-77.02609
+],
+"Singapore|Singapore|SINGAPORE": [
+1.28967,
+103.85007
+],
+"Singapore||SINGAPORE": [
+1.28967,
+103.85007
+],
+"Sonipat|Haryana|INDIA": [
+28.99478,
+77.01937
+],
+"St Louis|Missouri|UNITED STATES": [
+38.62727,
+-90.19789
+],
+"St. Louis|Missouri|UNITED STATES": [
+38.62727,
+-90.19789
+],
+"Stillwater|Oklahoma|UNITED STATES": [
+36.11561,
+-97.05837
+],
+"Stockholm||SWEDEN": [
+59.32938,
+18.06871
+],
+"Stuttgart|Baden-W\u00fcrttemberg|GERMANY": [
+48.78232,
+9.17702
+],
+"Suitland|Maryland|UNITED STATES": [
+38.84872,
+-76.92386
+],
+"Sydney|New South Wales|AUSTRALIA": [
+-33.86785,
+151.20732
+],
+"Syracuse|New York|UNITED STATES": [
+43.04812,
+-76.14742
+],
+"TAIPEI||TAIWAN": [
+25.05306,
+121.52639
+],
+"Tacoma|Washington|UNITED STATES": [
+47.25288,
+-122.44429
+],
+"Tainan||TAIWAN": [
+22.99259,
+120.20507
+],
+"Taipei||TAIWAN": [
+25.05306,
+121.52639
+],
+"Tallahassee|Florida|UNITED STATES": [
+30.43826,
+-84.28073
+],
+"Tampa|Florida|UNITED STATES": [
+27.94752,
+-82.45843
+],
+"Taoyuan City||TAIWAN": [
+24.99368,
+121.29696
+],
+"Taoyuan||TAIWAN": [
+24.99368,
+121.29696
+],
+"Tel Aviv||ISRAEL": [
+32.08088,
+34.78057
+],
+"Tempe|Arizona|UNITED STATES": [
+33.41477,
+-111.90931
+],
+"Tilburg||NETHERLANDS": [
+51.55551,
+5.0913
+],
+"Tokyo|Tokyo|JAPAN": [
+35.6895,
+139.69171
+],
+"Toronto|ON|CANADA": [
+43.65333,
+-79.38389
+],
+"Toronto|Ontario|CANADA": [
+43.65333,
+-79.38389
+],
+"Toyonaka|Osaka|JAPAN": [
+34.78244,
+135.46932
+],
+"Tsukuba|Ibaraki|JAPAN": [
+36.08333,
+140.11667
+],
+"Tucson|Arizona|UNITED STATES": [
+32.22174,
+-110.92648
+],
+"Tuscaloosa|Alabama|UNITED STATES": [
+33.20984,
+-87.56917
+],
+"Ulsan||KOREA, REPUBLIC OF": [
+35.53917,
+129.31239
+],
+"Urbana|Illinois|UNITED STATES": [
+40.11059,
+-88.20727
+],
+"Vancouver|BC|CANADA": [
+49.24966,
+-123.11934
+],
+"Walla Walla|Washington|UNITED STATES": [
+46.06458,
+-118.34302
+],
+"Waltham|Massachusetts|UNITED STATES": [
+42.37649,
+-71.23561
+],
+"Washington DC|District of Columbia|UNITED STATES": [
+38.89511,
+-77.03637
+],
+"Washington, D.C.|District of Columbia|UNITED STATES": [
+38.89511,
+-77.03637
+],
+"Washington, DC|District of Columbia|UNITED STATES": [
+38.89511,
+-77.03637
+],
+"Washington|District of Columbia|UNITED STATES": [
+38.89511,
+-77.03637
+],
+"Waterloo|Ontario|CANADA": [
+43.4668,
+-80.51639
+],
+"Wenzhou|Zhejiang|CHINA": [
+27.99942,
+120.66682
+],
+"West Lafayette|Indiana|UNITED STATES": [
+40.42587,
+-86.90807
+],
+"Wichita|Kansas|UNITED STATES": [
+37.69224,
+-97.33754
+],
+"Williamsburg|Virginia|UNITED STATES": [
+37.2707,
+-76.70746
+],
+"Williamsport|Pennsylvania|UNITED STATES": [
+41.24119,
+-77.00108
+],
+"Wilmington|North Carolina|UNITED STATES": [
+34.23556,
+-77.94604
+],
+"Winston-Salem|North Carolina|UNITED STATES": [
+36.09986,
+-80.24422
+],
+"Worcester|Massachusetts|UNITED STATES": [
+42.26259,
+-71.80229
+],
+"Wuhan|Hubei|CHINA": [
+30.58333,
+114.26667
+],
+"Wuhan|Huhei|CHINA": [
+30.58333,
+114.26667
+],
+"Xiamen|Fujian|CHINA": [
+24.47979,
+118.08187
+],
+"Zurich||SWITZERLAND": [
+47.36667,
+8.55
+]
+}

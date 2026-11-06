@@ -1,0 +1,320 @@
+{
+"Ashland|Virginia|UNITED STATES": [
+37.759,
+-77.48
+],
+"Ave Maria|Florida|UNITED STATES": [
+26.33,
+-81.44
+],
+"Bogotá D.C|Bogotá D.C|COLOMBIA": [
+4.711,
+-74.072,
+"Bogotá, Colombia"
+],
+"Bogotá D.C|Bogotá, D.C.|COLOMBIA": [
+4.711,
+-74.072,
+"Bogotá, Colombia"
+],
+"Bridgewater|Massachusetts|UNITED STATES": [
+41.99,
+-70.975
+],
+"Capital Federal|Buenos Aires|ARGENTINA": [
+-34.604,
+-58.382,
+"Buenos Aires, Argentina"
+],
+"Ciudad de Buenos Aires||ARGENTINA": [
+-34.604,
+-58.382,
+"Buenos Aires, Argentina"
+],
+"Champaign-Urbana|Illinois|UNITED STATES": [
+40.11,
+-88.227,
+"Urbana-Champaign, IL"
+],
+"Urbana-Champaign|Illinois|UNITED STATES": [
+40.11,
+-88.227,
+"Urbana-Champaign, IL"
+],
+"Clinton|New York|UNITED STATES": [
+43.048,
+-75.378
+],
+"Geneseo|New York|UNITED STATES": [
+42.796,
+-77.817
+],
+"Granville|Ohio|UNITED STATES": [
+40.068,
+-82.519
+],
+"Guangzhou/Shenzhen|Guangdong|CHINA": [
+23.129,
+113.264,
+"Guangzhou / Shenzhen, China"
+],
+"Hamilton|New York|UNITED STATES": [
+42.827,
+-75.545
+],
+"Hampden-Sydney|Virginia|UNITED STATES": [
+37.242,
+-78.459
+],
+"Hong Kong||CHINA": [
+22.319,
+114.169,
+"Hong Kong"
+],
+"Hsinchu City|Hsinchu|TAIWAN": [
+24.814,
+120.968,
+"Hsinchu, Taiwan"
+],
+"Jincheon-gun|Chungcheongbuk-do|KOREA, REPUBLIC OF": [
+36.855,
+127.436,
+"Jincheon, South Korea"
+],
+"Kingston|Rhode Island|UNITED STATES": [
+41.48,
+-71.524
+],
+"Lewisburg|Pennsylvania|UNITED STATES": [
+40.964,
+-76.885
+],
+"Lexington|Virginia|UNITED STATES": [
+37.784,
+-79.443
+],
+"MINHSIUNG|CHIAYI|TAIWAN": [
+23.551,
+120.428,
+"Minhsiung, Chiayi, Taiwan"
+],
+"Malibu|California|UNITED STATES": [
+34.036,
+-118.69
+],
+"Malvern|Pennsylvania|UNITED STATES": [
+40.036,
+-75.514
+],
+"Middlebury|Vermont|UNITED STATES": [
+44.015,
+-73.167
+],
+"Milligan|Tennessee|UNITED STATES": [
+36.3,
+-82.29
+],
+"Minato-ku|Tokyo|JAPAN": [
+35.658,
+139.751,
+"Minato, Tokyo, Japan"
+],
+"Misk City|Riyadh|SAUDI ARABIA": [
+24.714,
+46.675,
+"Riyadh, Saudi Arabia"
+],
+"NOTRE DAME|Indiana|UNITED STATES": [
+41.706,
+-86.235,
+"Notre Dame, IN"
+],
+"Notre Dame|Indiana|UNITED STATES": [
+41.706,
+-86.235,
+"Notre Dame, IN"
+],
+"New Orleans|California|UNITED STATES": [
+29.951,
+-90.072,
+"New Orleans, LA"
+],
+"New York, NY|New York|UNITED STATES": [
+40.713,
+-74.006,
+"New York, NY"
+],
+"Orange City|Iowa|UNITED STATES": [
+43.007,
+-96.058
+],
+"Research Triangle Park|North Carolina|UNITED STATES": [
+35.899,
+-78.864
+],
+"Saadiyat Island|Abu Dhabi|UNITED ARAB EMIRATES": [
+24.54,
+54.43,
+"Abu Dhabi, UAE"
+],
+"Sejong-si|Not Set|KOREA, REPUBLIC OF": [
+36.48,
+127.289,
+"Sejong, South Korea"
+],
+"|Sejong-si|KOREA, REPUBLIC OF": [
+36.48,
+127.289,
+"Sejong, South Korea"
+],
+"Silicon Valley|California|UNITED STATES": [
+37.387,
+-122.057,
+"Silicon Valley, CA"
+],
+"St Mary's City|Maryland|UNITED STATES": [
+38.187,
+-76.43,
+"St. Mary's City, MD"
+],
+"Stanford|California|UNITED STATES": [
+37.428,
+-122.17
+],
+"Stony Brook|New York|UNITED STATES": [
+40.926,
+-73.141
+],
+"Swarthmore|Pennsylvania|UNITED STATES": [
+39.902,
+-75.35
+],
+"University Park|Pennsylvania|UNITED STATES": [
+40.798,
+-77.86,
+"University Park (State College), PA"
+],
+"Waterville, ME 04901|Maine|UNITED STATES": [
+44.552,
+-69.632,
+"Waterville, ME"
+],
+"West Point|New York|UNITED STATES": [
+41.391,
+-73.956
+],
+"Williamstown|Massachusetts|UNITED STATES": [
+42.712,
+-73.204
+],
+"Yeouido|Seoul|KOREA, REPUBLIC OF": [
+37.525,
+126.925,
+"Seoul (Yeouido), South Korea"
+],
+"Yushima, Bunkyo|Tokyo|JAPAN": [
+35.708,
+139.768,
+"Tokyo (Bunkyo), Japan"
+],
+"Zhongli|Taoyuan|TAIWAN": [
+24.965,
+121.225,
+"Zhongli, Taoyuan, Taiwan"
+],
+"|Barcelona/Madrid|SPAIN": [
+40.417,
+-3.704,
+"Madrid / Barcelona, Spain"
+],
+"|Kuala Lumpur|MALAYSIA": [
+3.139,
+101.687,
+"Kuala Lumpur, Malaysia"
+],
+"|Seoul|KOREA, REPUBLIC OF": [
+37.567,
+126.978,
+"Seoul, South Korea"
+],
+"|Tokyo|JAPAN": [
+35.676,
+139.65,
+"Tokyo, Japan"
+],
+"|District of Columbia|UNITED STATES": [
+38.907,
+-77.037,
+"Washington, DC"
+],
+"||HONG KONG": [
+22.319,
+114.169,
+"Hong Kong"
+],
+"||MACAO": [
+22.199,
+113.544,
+"Macao"
+],
+"||SINGAPORE": [
+1.352,
+103.82,
+"Singapore"
+],
+"|California|UNITED STATES": [
+36.78,
+-119.42,
+"California (city not specified)"
+],
+"|Connecticut|UNITED STATES": [
+41.6,
+-72.7,
+"Connecticut (city not specified)"
+],
+"|Massachusetts|UNITED STATES": [
+42.25,
+-71.8,
+"Massachusetts (city not specified)"
+],
+"|New Hampshire|UNITED STATES": [
+43.68,
+-71.58,
+"New Hampshire (city not specified)"
+],
+"|New Jersey|UNITED STATES": [
+40.06,
+-74.41,
+"New Jersey (city not specified)"
+],
+"|New York|UNITED STATES": [
+42.9,
+-75.5,
+"New York State (city not specified)"
+],
+"|Pennsylvania|UNITED STATES": [
+40.9,
+-77.8,
+"Pennsylvania (city not specified)"
+],
+"|Rhode Island|UNITED STATES": [
+41.7,
+-71.5,
+"Rhode Island (city not specified)"
+],
+"||CANADA": [
+56.13,
+-106.35,
+"Canada (city not specified)"
+],
+"||CHINA": [
+35.86,
+104.2,
+"China (city not specified)"
+],
+"Burwood|Victoria|AUSTRALIA": [
+-37.851,
+145.115,
+"Burwood (Melbourne), Australia"
+]
+}

@@ -1,0 +1,9 @@
+---
+title: "JOE Map"
+toc: false
+page-layout: full
+---
+
+This map shows the postings in the AEA Job Openings for Economists (JOE) listings. Blue dots are academic jobs and orange dots are nonacademic jobs. Click a dot to see that city's postings, each linked to its JOE listing. You can also [open the map in its own window](joe-map/index.html).
+
+<iframe src="joe-map/index.html" title="Map of economics job openings on JOE" style="width: 100%; height: 85vh; border: 0;" loading="lazy"></iframe>
