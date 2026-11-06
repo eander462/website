@@ -62,7 +62,7 @@ for p in root.iter("position"):
     dept = " · ".join(x for x in (clean(p.findtext("jp_department")), clean(p.findtext("jp_division"))) if x)
     jobs.append({
         "inst": clean(p.findtext("jp_institution")), "dept": dept, "title": clean(p.findtext("jp_title")),
-        "cat": CATEGORY.get(sec, sec), "loc": loc, "countries": countries, "pins": pins,
+        "cat": CATEGORY.get(sec, sec), "kw": clean(p.findtext("jp_keywords")), "loc": loc, "countries": countries, "pins": pins,
         "us": "United States" in countries, "jel": codes,
         "fields": ", ".join(fields) if fields else "Any field",
         "deadline": dl, "status": clean(p.findtext("jp_status")),

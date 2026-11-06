@@ -63,12 +63,9 @@ h1 { font: 600 clamp(28px, 4vw, 38px)/1.1 var(--font-display); margin: 0; letter
 .filters label { display: grid; gap: 4px; font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
 .filters input[type="search"], .filters select { font: 15px var(--font-body); color: var(--ink); background: var(--bg);
   border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; width: 100%; min-width: 0; }
-.filters .row2 { grid-column: 1 / -1; display: flex; justify-content: flex-end; }
 .filters label.check { display: inline-flex; gap: 8px; align-items: center; font-size: 14px; font-weight: 400; color: var(--ink);
   text-transform: none; letter-spacing: normal; cursor: pointer; }
 .check input { width: 16px; height: 16px; accent-color: var(--accent); }
-button.reset { font: 500 14px var(--font-body); color: var(--accent); background: none; border: 1px solid var(--line); border-radius: 6px; padding: 6px 12px; cursor: pointer; }
-button.reset:hover { background: var(--bg); }
 
 .map-card { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
 #map { aspect-ratio: 2.05 / 1; min-height: 340px; max-height: 82vh; width: 100%; background: var(--surface); }
@@ -148,7 +145,7 @@ footer { font-size: 13px; color: var(--muted); max-width: 80ch; }
 
   <form class="filters" id="filters" role="search" onsubmit="return false">
     <label for="q">Search
-      <input type="search" id="q" placeholder="Institution, position, field, city…" autocomplete="off">
+      <input type="search" id="q" placeholder="Institution, position, keyword, city…" autocomplete="off">
     </label>
     <label for="cat">Category
       <select id="cat"><option value="">All categories</option></select>
@@ -156,9 +153,6 @@ footer { font-size: 13px; color: var(--muted); max-width: 80ch; }
     <label for="jel">Field (JEL)
       <select id="jel"><option value="">All fields</option></select>
     </label>
-    <div class="row2">
-      <button type="button" class="reset" id="reset">Clear filters</button>
-    </div>
   </form>
 
   <div class="map-card">
@@ -187,7 +181,7 @@ JOBS.forEach((j) => {
   j.date = j.deadline ? new Date(j.deadline + "T00:00:00") : null;
   j.days = j.date ? Math.round((j.date - today) / DAY) : null;
   j.closed = Boolean(j.status) || (j.days !== null && j.days < 0);
-  j.hay = [j.inst, j.dept, j.title, j.cat, j.loc, j.fields].join(" ").toLowerCase();
+  j.hay = [j.inst, j.dept, j.title, j.kw, j.cat, j.loc, j.fields].join(" ").toLowerCase();
 });
 
 const usedCats = CATS.filter((c) => JOBS.some((j) => j.cat === c));
@@ -208,6 +202,7 @@ function jobItem(j) {
   return `<li>
     <span class="inst">${esc(j.inst)}</span>
     <span class="title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></span>
+    ${j.kw ? `<span class="meta">${esc(j.kw)}</span>` : ""}
   </li>`;
 }
 
@@ -353,7 +348,6 @@ new ResizeObserver(() => { clearTimeout(resizeTimer); resizeTimer = setTimeout((
 
 
 ["q", "cat", "jel"].forEach((id) => $(id).addEventListener("input", render));
-$("reset").addEventListener("click", () => { $("filters").reset(); render(); });
 render();
 </script>
 </body>
