@@ -6,7 +6,20 @@ page-layout: full
 
 Do you have strong location preferences? This map tracks the locations of postings on the American Economic Association's [Job Openings for Economics](https://www.aeaweb.org/joe/listings) in case you do. (I of course use the [equal earth map projection](https://news.un.org/en/story/2026/09/1168284) to comply with the UN.)
 
-<iframe src="joe-map/index.html" title="Map of economics job openings on JOE" style="width: 100%; height: 85vh; border: 0;" loading="lazy"></iframe>
+<iframe id="joe-map-frame" src="joe-map/index.html" title="Map of economics job openings on JOE" style="width: 100%; height: 85vh; border: 0; display: block;"></iframe>
+
+<script>
+// Grow the frame to the map's full height so the map never scrolls inside its own box.
+(function () {
+  var frame = document.getElementById("joe-map-frame");
+  frame.addEventListener("load", function () {
+    var win = frame.contentWindow, body = win.document.body;
+    var fit = function () { frame.style.height = body.scrollHeight + "px"; };
+    fit();
+    new win.ResizeObserver(fit).observe(body);
+  });
+})();
+</script>
 
 [Open the map in its own window](joe-map/index.html). 
 
