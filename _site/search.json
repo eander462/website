@@ -312,6 +312,6 @@
     "href": "joe-map.html",
     "title": "JOE Map",
     "section": "",
-    "text": "This map shows the postings in the AEA Job Openings for Economists (JOE) listings. Blue dots are academic jobs and orange dots are nonacademic jobs. Click a dot to see that city’s postings, each linked to its JOE listing. You can also open the map in its own window."
+    "text": "Do you have strong location preferences? This map tracks the locations of postings on the American Economic Association’s Job Openings for Economics in case you do. (I of course use the equal earth map projection to comply with the UN.)\n\n\nOpen the map in its own window."
   }
 ]

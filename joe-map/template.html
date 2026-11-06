@@ -32,7 +32,7 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0e131a; --surface: #151c26; --ink: #e5e9ef; --muted: #97a2b2; --line: #263142; --accent: #82b1ff; --pin-acad: #6fa5ff; --pin-ind: #f5a04f; --sea: #0b1118; --land: #1d2633; --border: #3a4859;
+    --bg: #0e131a; --surface: #151c26; --ink: #e5e9ef; --muted: #97a2b2; --line: #263142; --accent: #82b1ff; --pin-acad: #6fa5ff; --pin-ind: #f5a04f; --sea: #18222f; --land: #34445a; --border: #5d7088;
 
 
 
@@ -40,7 +40,7 @@
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0e131a; --surface: #151c26; --ink: #e5e9ef; --muted: #97a2b2; --line: #263142; --accent: #82b1ff; --pin-acad: #6fa5ff; --pin-ind: #f5a04f; --sea: #0b1118; --land: #1d2633; --border: #3a4859;
+  --bg: #0e131a; --surface: #151c26; --ink: #e5e9ef; --muted: #97a2b2; --line: #263142; --accent: #82b1ff; --pin-acad: #6fa5ff; --pin-ind: #f5a04f; --sea: #18222f; --land: #34445a; --border: #5d7088;
 
 
 
@@ -125,6 +125,20 @@ footer { font-size: 13px; color: var(--muted); max-width: 80ch; }
   .filters { grid-template-columns: 1fr; }
 }
 </style>
+<script>
+/* Inside the website's iframe, follow the site's light/dark toggle rather than the OS setting. */
+(function () {
+  try {
+    if (window.parent === window) return;
+    var body = window.parent.document.body;
+    var sync = function () {
+      document.documentElement.dataset.theme = body.classList.contains("quarto-dark") ? "dark" : "light";
+    };
+    sync();
+    new MutationObserver(sync).observe(body, { attributes: true, attributeFilter: ["class"] });
+  } catch (e) {}
+})();
+</script>
 </head>
 <body>
 <div class="wrap">
