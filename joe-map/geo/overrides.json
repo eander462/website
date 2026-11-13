@@ -316,5 +316,68 @@
 -37.851,
 145.115,
 "Burwood (Melbourne), Australia"
+],
+"Villanova|Pennsylvania|UNITED STATES": [
+40.038,
+-75.346
+],
+"Vitznau|Canton of Lucerne|SWITZERLAND": [
+47.01,
+8.484
+],
+"||ARGENTINA": [
+-38.42,
+-63.62,
+"Argentina (city not specified)"
+],
+"||BRAZIL": [
+-14.24,
+-51.93,
+"Brazil (city not specified)"
+],
+"||CHILE": [
+-35.68,
+-71.54,
+"Chile (city not specified)"
+],
+"||COLOMBIA": [
+4.57,
+-74.3,
+"Colombia (city not specified)"
+],
+"||ETHIOPIA": [
+9.15,
+40.49,
+"Ethiopia (city not specified)"
+],
+"||INDIA": [
+20.59,
+78.96,
+"India (city not specified)"
+],
+"||IRAN, ISLAMIC REPUBLIC OF": [
+32.43,
+53.69,
+"Iran (city not specified)"
+],
+"||KENYA": [
+0.02,
+37.91,
+"Kenya (city not specified)"
+],
+"||MEXICO": [
+23.63,
+-102.55,
+"Mexico (city not specified)"
+],
+"||SENEGAL": [
+14.5,
+-14.45,
+"Senegal (city not specified)"
+],
+"||UNITED STATES": [
+39.83,
+-98.58,
+"United States (city not specified)"
 ]
 }

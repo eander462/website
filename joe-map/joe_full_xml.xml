@@ -1,6 +1,1975 @@
 <JOE_EXPORT>
 <year joe_year_ID="2026">
 <issue joe_issue_ID="2">
+	<position jp_id="111478577">
+		<jp_section>US: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant Professor of Economics</jp_title>
+		<jp_institution>Ball State University</jp_institution>
+		<jp_division>Miller College of Business</jp_division>
+		<jp_department>Department of Economics</jp_department>
+		<jp_salary_range>$90,000-$110,000</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-18 00:00:00</jp_application_deadline>
+		<jp_full_text>The Department of Economics in the Miller College of Business at Ball State University invites applications for a full-time, tenure-track assistant professor position in environmental/resource, labor, public, or urban/regional economics beginning August 2027. The ideal candidate will be expected to conduct nationally and internationally recognized research and publish their work in top-tier academic journals. They must show an active research agenda at the assistant level or a strong publication record at an advanced assistant level.
+
+Candidates should show evidence of teaching excellence and will be expected to teach both undergraduate and graduate (Master’s level) courses. Other responsibilities include course development and service to the Department, the College, and the University.
+
+Minimum Qualifications: PhD in economics or a closely related field from an accredited college or university. The PhD degree must be completed by the date of appointment.
+
+Ball State University is located in Muncie, Indiana, on an attractive campus 45 miles northeast of Indianapolis. The total enrollment is approximately 20,000 students, with three-quarters being undergraduates and the rest being graduate students. We engage students in educational, research, and creative endeavors that empower our graduates to have fulfilling careers.
+
+Information about the Economics Department appears at https://www.bsu.edu/academics/collegesanddepartments/economics</jp_full_text>
+		<jp_keywords>Environmental/Resource Economics
+Labor Economics
+Public Economics
+Urban/Regional Economics</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36597">
+			<country>UNITED STATES</country>
+			<state>Indiana</state>
+			<city>Muncie</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61483">
+			<jc_code>Q0</jc_code>
+			<jc_description>General</jc_description>
+			</jel_class>
+			<jel_class id="61484">
+			<jc_code>J0</jc_code>
+			<jc_description>General</jc_description>
+			</jel_class>
+			<jel_class id="61485">
+			<jc_code>H0</jc_code>
+			<jc_description>General</jc_description>
+			</jel_class>
+			<jel_class id="61486">
+			<jc_code>R0</jc_code>
+			<jc_description>General</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478514">
+		<jp_section>Full-Time Nonacademic</jp_section>
+		<jp_title>Research Associate</jp_title>
+		<jp_institution>California Workers' Compensation Institute</jp_institution>
+		<jp_division></jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range>$85,000-$125,000</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-31 00:00:00</jp_application_deadline>
+		<jp_full_text>CWCI, founded in 1964, is an Oakland-based nonprofit research and public policy organization dedicated to improving the California workers’ compensation system. We are seeking a Research Associate to support our research program through data management, analysis, and reporting, turning complex data into clear insights for industry and policy audiences.
+Why Join CWCI?
+	Make a real impact: your work informs policymakers, regulators, and industry leaders shaping the California workers’ compensation system.
+	Work with unique data: access one of California’s most comprehensive workers’ compensation datasets.
+	Build your research career: grow your skills in research design, project leadership, and stakeholder engagement.
+	Join a collaborative, mission-driven team, with support for continuing education.
+Responsibilities
+	Conduct applied research on healthcare utilization, medical costs, disability, and other policy topics.
+	Process, manage, and analyze administrative claims data and other large datasets.
+	Draft reports, presentations, and charts for industry and policy audiences.
+	Support the development of Tableau dashboards and other analytic tools.
+	Present research findings internally and in public forums.
+	Collaborate with research leadership to develop research questions and methods.
+Qualifications
+Required: Bachelor’s degree in economics, statistics, actuarial science, public policy, public health, health services research, data analytics, or a related field; at least two years of experience in applied research, health data analysis, public policy, or a related area (relevant graduate research experience may also be considered); strong quantitative skills with large or complex datasets; experience with SQL, SAS, R, or Python and advanced Excel; strong written and verbal communication skills.
+
+Preferred: Graduate degree in a relevant field; experience with healthcare, disability, insurance, or administrative claims data, including medical billing and procedure coding; knowledge of the California workers’ compensation system; experience with Tableau or other data visualization tools.
+
+Full-time • Oakland, CA office, with potential for hybrid work • Reports to the Vice President of Research • Salary range: $85,000-$125,000, commensurate with experience • Comprehensive benefits package. To apply, send a resume and writing sample to mellong@cwci.org. Position open until filled. 
+
+CWCI is an Equal Opportunity Employer and does not discriminate based on race, color, religion, sex, gender identity or expression, sexual orientation, national origin, age, disability, genetic information, marital status, military or veteran status, or any other characteristic protected by applicable law.
+</jp_full_text>
+		<jp_keywords>Health Economics
+Insurance
+Disability
+Research
+Workers Compensation
+Healthcare
+</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36522">
+			<country>UNITED STATES</country>
+			<state>California</state>
+			<city>Oakland</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61316">
+			<jc_code>I1</jc_code>
+			<jc_description>Health</jc_description>
+			</jel_class>
+			<jel_class id="61317">
+			<jc_code>J3</jc_code>
+			<jc_description>Wages, Compensation, and Labor Costs</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478513">
+		<jp_section>Full-Time Nonacademic</jp_section>
+		<jp_title>Senior Research Associate</jp_title>
+		<jp_institution>California Workers' Compensation Institute</jp_institution>
+		<jp_division></jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range>$135,000 - $155,000</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-31 00:00:00</jp_application_deadline>
+		<jp_full_text>CWCI, founded in 1964, is an Oakland-based nonprofit research and public policy organization dedicated to improving the California workers’ compensation system. We are seeking a Senior Research Associate to play a leading role in our research program, from study design and data analysis to reporting.
+
+Why Join CWCI?
+	Shape policy: CWCI research directly informs policymakers, regulators, and industry leaders.
+	Work with unique data: access one of California’s most comprehensive workers’ compensation datasets.
+	Help set the research agenda: propose new topics, publish, and present at conferences.
+	Join an experienced, collaborative team, with support for professional development and continuing education.
+
+Responsibilities:
+        Lead applied research on healthcare utilization, medical costs, disability, and other policy topics.
+	Develop research questions, design methods, and analyze administrative claims data and other large datasets.
+	Draft reports and presentations; lead development of Tableau dashboards.
+	Coordinate with CWCI staff, members, and industry leaders to gather input on research scope and deliverables.
+	Present findings publicly and participate in CWCI’s Claims and Medical Care committees.
+
+Qualifications:
+Required: Graduate degree with at least three years of experience, or bachelor’s degree with at least five years of experience, in applied research, health data analysis, public policy, or a related area; degree in economics, statistics, actuarial science, public policy, public health, health services research, data analytics, or a related field; proven ability to develop research questions and methods independently; strong project management skills; experience analyzing large or complex datasets with SQL, SAS, R, or Python; advanced Excel; strong written and verbal communication skills.
+
+Preferred: Experience with healthcare, disability, insurance, or administrative claims data, including medical billing and procedure coding; knowledge of the California workers’ compensation system; a record of presenting analysis to policy, regulatory, or industry audiences; experience with Tableau or other data visualization tools.
+
+Full-time • Oakland, CA office, with potential for hybrid work • Reports to the Vice President of Research • Salary range: $135,000 to $155,000, commensurate with experience • Comprehensive benefits package. To apply, send a resume and writing sample to mellong@cwci.org. Position open until filled. 
+
+CWCI is an Equal Opportunity Employer and does not discriminate based on race, color, religion, sex, gender identity or expression, sexual orientation, national origin, age, disability, genetic information, marital status, military or veteran status, or any other characteristic protected by applicable law.
+</jp_full_text>
+		<jp_keywords>Health Economics
+Insurance
+Disability
+Research
+Workers Compensation
+Healthcare
+ 
+</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36521">
+			<country>UNITED STATES</country>
+			<state>California</state>
+			<city>Oakland</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61314">
+			<jc_code>I1</jc_code>
+			<jc_description>Health</jc_description>
+			</jel_class>
+			<jel_class id="61315">
+			<jc_code>J3</jc_code>
+			<jc_description>Wages, Compensation, and Labor Costs</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478580">
+		<jp_section>Full-Time Nonacademic</jp_section>
+		<jp_title>Researcher / Senior Researcher</jp_title>
+		<jp_institution>W.E. Upjohn Institute for Employment Research</jp_institution>
+		<jp_division>Research Division</jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-01-31 00:00:00</jp_application_deadline>
+		<jp_full_text>The W.E. Upjohn Institute for Employment Research invites PhD researchers in economics, public policy, sociology, political science, industrial relations, or a related field to apply for a full-time research position. Recent PhDs may apply for a Researcher position, and those with at least 5 years of experience and an established publication record in peer-reviewed journals may apply for a Senior Researcher position. Our priority is to find a new senior colleague with policy-relevant research in one or more of the following topics: state and local economic development, local labor markets, unemployment insurance, active labor market programs, and social safety net issues.    
+
+The Upjohn Institute is an endowed, nonprofit research organization that conducts independent, nonpartisan research on employment-related issues. The Institute offers a thriving and collaborative research environment. Our staff includes eighteen Ph.D.s who share common research interests and are excellent colleagues. The Institute’s endowment allows researchers freedom in developing their agenda within the Institute’s mission to study policy-related employment issues. (Please see https://www.upjohn.org/about). Research staff also seek funding from foundations or government agencies as a way of augmenting their research or becoming more involved in finding practical solutions to employment problems. Researchers receive excellent support from in-house staff, including research  analysts, computer specialists, information and database specialists, communications specialists, and administrative assistants.
+
+The Institute is searching for candidates who have demonstrated strong analytical skills, excellent oral and written communication skills for academic, policy, and general audiences, and a strong interest in addressing policy-relevant issues and communicating research findings to policy makers. A record of successful external funding commensurate with experience is a definite plus. The Institute offers competitive salaries and benefits, including the possibility of a hybrid work arrangement. The Institute is an equal opportunity employer that is fully committed to sustaining and continuing to build an environment of diversity, equity, and inclusion.
+
+The position is open until filled. Review of applications will begin on December 1st, 2026. 
+
+
+Application Requirements: (1) a cover letter that includes a statement of how the applicant’s research fits within the Institute’s mission; (2) CV;  (3) up to two academic research papers; (4) three letters of reference for applicants with less than a year of graduation from a Ph.D. program; for other applicants, letters of reference will be requested later in the process.
+</jp_full_text>
+		<jp_keywords>State and local economic development
+Local labor markets 
+Unemployment insurance 
+Active labor market programs 
+Social safety net issues</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36600">
+			<country>UNITED STATES</country>
+			<state>Michigan</state>
+			<city>Kalamazoo</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61492">
+			<jc_code>J0</jc_code>
+			<jc_description>General</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478559">
+		<jp_section>Full-Time Nonacademic</jp_section>
+		<jp_title>Health Policy Analyst — Quantitative Modeling and Research</jp_title>
+		<jp_institution>Congressional Budget Office</jp_institution>
+		<jp_division>Health Analysis</jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-18 00:00:00</jp_application_deadline>
+		<jp_full_text>The Congressional Budget Office (CBO), a nonpartisan agency providing economic and budgetary analysis to Congress, seeks an analyst to join its Health Analysis Division. The analyst will develop and apply economic and statistical models to evaluate federal health policies and contribute to cost estimates, reports, and testimony for Congress.
+
+Responsibilities include developing microsimulation and forecasting models, estimating discrete choice models, analyzing large-scale datasets, and improving analytical tools and reproducible workflows. Research areas include Medicare, Medicaid, health insurance markets, prescription drug pricing, long-term care, and health care spending. CBO supports opportunities to publish research in working papers and academic journals.
+
+Qualifications: Applicants must have a Ph.D. in economics, health economics, statistics, data science, health policy, public policy, or a related field; or a quantitatively focused master's degree in a related field and at least three years of relevant experience. Strong quantitative skills, experience with large datasets, and proficiency in a programming language (preferably Python or R) are expected. Expertise in health policy modeling or forecasting is particularly valued.
+
+This full-time position is based in Washington, D.C., with a hybrid work schedule. Applicants should review CBO's citizenship eligibility requirements.</jp_full_text>
+		<jp_keywords>Health Economics
+Health Policy Analysis
+Applied Econometrics
+Quantitative Modeling
+Microsimulation
+Economic Forecasting
+Medicare and Medicaid
+Health Insurance Markets
+Statistical Modeling
+Public Policy Analysis</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36574">
+			<country>UNITED STATES</country>
+			<state>District of Columbia</state>
+			<city>Washington</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61424">
+			<jc_code>I0</jc_code>
+			<jc_description>General</jc_description>
+			</jel_class>
+			<jel_class id="61425">
+			<jc_code>I1</jc_code>
+			<jc_description>Health</jc_description>
+			</jel_class>
+			<jel_class id="61426">
+			<jc_code>I3</jc_code>
+			<jc_description>Welfare, Well-Being, and Poverty</jc_description>
+			</jel_class>
+			<jel_class id="61427">
+			<jc_code>H6</jc_code>
+			<jc_description>National Budget, Deficit, and Debt</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478542">
+		<jp_section>Full-Time Nonacademic</jp_section>
+		<jp_title>Economist/Sr. Economist/Principal Economist - Opportunity and Inclusive Growth Institute</jp_title>
+		<jp_institution>Federal Reserve Bank of Minneapolis</jp_institution>
+		<jp_division>Research</jp_division>
+		<jp_department>Opportunity and Inclusive Growth Institute</jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-10 00:00:00</jp_application_deadline>
+		<jp_full_text>The Research Division at the Federal Reserve Bank of Minneapolis invites applications for an Economist, Senior Economist, or Principal Economist position in the Opportunity and Inclusive Growth Institute.
+
+The Opportunity and Inclusive Growth Institute is an initiative within the Research Division of the Federal Reserve Bank of Minneapolis.  It supports the Federal Reserve’s mandate to ensure maximum employment by conducting and promoting research into how to ensure full participation in a well-functioning economy by all American households.  Economists in the Institute are expected to conduct independent research and to support Institute initiatives.
+Apply by December 10, 2026 to ensure full consideration. Applications received after this date will be reviewed as the position remains open.
+
+
+Employment is expected to begin in July 2027, but start date is flexible. This position requires a regular on-site presence.
+
+
+Required Application Materials:
+
+Cover letter describing interest and fit with the Institute (one page is sufficient)
+Current cv
+Recent academic paper on an Institute-related topic (upload or provide link)
+References may be requested
+ 
+
+Responsibilities: 
+
+Originate and direct research projects on topics related to Institute focus areas, including but not limited to labor markets, distribution in the national economy, impacts of economic policies, growth and development of economic regions, individual or household welfare/wellbeing, or related subject areas.
+Publish research papers in leading economics research journals.
+Support the Bank’s policy mission, including by analyzing and interpreting a range of information drawing on data and broad social science research as a basis for evaluating policy alternatives, and providing these analyses to management.
+ 
+
+Qualifications: 
+
+PhD in Economics.
+Demonstrated strong analytical skills for current economic and policy issues. Ability to conduct research of the highest quality.
+Relevant experience, typically consisting of work as a tenure-track faculty member in an economics department or as an economist at a public or private sector institution focused on the rigorous analysis of current economic and policy issues.
+Research work in Institute-relevant topic areas, broadly defined.
+ 
+
+Salary &amp;amp; Benefits:
+
+Candidates will be considered for roles at different levels based on their experience, skills, and research background.  Expected starting salary ranges are:
+
+Economist:  $151,000 – $216,000
+Senior Economist:  $184,000 – $262,000
+Principal Economist:  $273,000 - $390,000  
+and are in addition to performance-based discretionary bonuses.  Salary offer will be based on qualifications/experience of the candidate, alignment with market data, the needs of the position, our total compensation package, and internal equity.   
+
+
+Our total rewards program offers benefits that are the best fit for you at every stage of your career: 
+
+Comprehensive healthcare options (Medical, Dental, and Vision)
+401(k) match, and a fully-funded pension plan
+Paid time off and holidays
+Free public transportation passes
+Annual educational assistance
+On-site fitness facility
+Professional development programs, training and conferences
+And more…
+The Minneapolis Fed is committed to fostering an environment where all employees are respected and valued. We provide equal employment opportunity to all persons and we work together to pursue an economy that works for all of us.
+
+
+Additional Information:
+
+*This position requires access to confidential supervisory information (CSI) and/or Federal Open Market Committee (FOMC) information. Access to CSI and FOMC information is limited to U.S. citizens, lawful permanent residents, individuals who meet the definition of “protected individual” under 8 U.S.C. § 1324b(a)(3), and certain other nonimmigrants. Candidates who are not U.S. citizens must sign a declaration of intent to expeditiously become a U.S. citizen when eligible. 
+
+Full Time / Part Time
+Full time
+Regular / Temporary
+Regular
+Job Exempt (Yes / No)
+Yes
+Job Category
+Economics/Research Family Group
+Work Shift
+First (United States of America)
+The Federal Reserve Banks are committed to equal employment opportunity for employees and job applicants in compliance with applicable law and to an environment where employees are valued for their differences.
+
+Always verify and apply to jobs on Federal Reserve System Careers (https://rb.wd5.myworkdayjobs.com/FRS) or through verified Federal Reserve Bank social media channels.</jp_full_text>
+		<jp_keywords></jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36555">
+			<country>UNITED STATES</country>
+			<state>Minnesota</state>
+			<city>Minneapolis</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61397">
+			<jc_code>D</jc_code>
+			<jc_description>Microeconomics</jc_description>
+			</jel_class>
+			<jel_class id="61398">
+			<jc_code>J</jc_code>
+			<jc_description>Labor and Demographic Economics</jc_description>
+			</jel_class>
+			<jel_class id="61399">
+			<jc_code>H</jc_code>
+			<jc_description>Public Economics</jc_description>
+			</jel_class>
+			<jel_class id="61400">
+			<jc_code>G</jc_code>
+			<jc_description>Financial Economics</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478558">
+		<jp_section>International: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant Professor in Finance (Tenure Track)</jp_title>
+		<jp_institution>Frankfurt School of Finance &amp;amp; Management</jp_institution>
+		<jp_division></jp_division>
+		<jp_department>Finance Department</jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-11-30 00:00:00</jp_application_deadline>
+		<jp_full_text>Frankfurt School of Finance &amp;amp; Management is one of Europe’s leading business schools, accredited by AACSB, EQUIS and AMBA.
+
+Assistant Professor of Finance (Tenure-Track)
+
+The appointee will be an Assistant Professor in the Department of Finance and will also be affiliated with
+the Frankfurt School Real Estate Institute. We are looking for research excellence and potential to publish
+in top finance or related journals, with a focus on real estate finance and related fields. Prerequisite is a
+Ph.D. degree which has to be completed by September 2027. We explicitly encourage applications from
+international and female candidates. German language skills are not required within Frankfurt School. We
+offer a stimulating research environment including a weekly research seminar series, a PhD program,
+generous research funding, and all the opportunities of a dynamic private business school.
+
+The deadline for applications is November 30, 2026. Please submit your application, including your CV and contact information for at least two references, online via https://apply.interfolio.com/196920.
+
+For further information, please visit www.frankfurt-school.de. For inquiries about the position, please contact Nisa Topcu Ödül (N.Topcu@fs.de) or Cristian Badarinza (c.badarinza@fs.de).
+
+Frankfurt School is an equal opportunities employer. We value diversity and welcome applications from talented candidates of all backgrounds.</jp_full_text>
+		<jp_keywords>Real Estate Finance
+Real Estate
+Finance
+Financial Economics
+Corporate Finance
+Real Estate Investment</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36573">
+			<country>GERMANY</country>
+			<state></state>
+			<city>Frankfurt</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61422">
+			<jc_code>G1</jc_code>
+			<jc_description>General Financial Markets</jc_description>
+			</jel_class>
+			<jel_class id="61423">
+			<jc_code>R3</jc_code>
+			<jc_description>Real Estate Markets, Spatial Production Analysis, and Firm Location</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478563">
+		<jp_section>Full-Time Nonacademic</jp_section>
+		<jp_title>Economist – Institutions for Development</jp_title>
+		<jp_institution>Inter-American Development Bank (IDB)</jp_institution>
+		<jp_division></jp_division>
+		<jp_department>Institutions for Development Sector (IFD)</jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-11-19 00:00:00</jp_application_deadline>
+		<jp_full_text>The Inter-American Development Bank (IDB), the primary source of multilateral financing for Latin America and the Caribbean (LAC), seeks a Ph.D.-level Economist to join the Institutions for Development Sector (IFD).
+IFD designs and executes analytical and operational agendas to strengthen public sector governance, state capacity, digital transformation, citizen security and crime prevention, and financial markets.
+We are considering new Ph.D. candidates as well as economists with 2 to 5 years of post-Ph.D. experience.
+
+Job Qualifications
+Successful candidates must possess:
+1.A Ph.D. in Economics, Public Policy, or a related field.
+2.Strong technical skills and a record of (or strong potential for) high-quality empirical research in applied microeconomics, public economics, or development economics published in top-tier peer-reviewed journals.
+3.At least 60% of professional time devoted to research (empirical evaluations, RCTs, econometric modeling using administrative and survey data).
+4.Proven capacity to provide high-level policy guidance and technical assistance for regional/country operations in state modernization, digitalization, and financial development.
+5.Proficiency in English and Spanish (spoken and written) is required. (Knowledge of French or Portuguese is a plus).
+6.Citizenship: Must be a citizen of one of the IDB’s 48 member countries.
+
+Contract &amp;amp; Benefits
+•Contract Type: International staff contract (36 months initially, renewable upon mutual agreement).
+•Compensation &amp;amp; Benefits: Competitive net-of-tax base salary, robust medical/dental insurance, defined-benefit pension plan, generous paid leave (24 days vacation + 8 personal days), relocation and G-4 visa support for staff and eligible dependents, and hybrid work flexibility.
+
+Application Instructions &amp;amp; Requirements
+Interested candidates must submit their application materials both through the AEA JOE platform and the IDB Careers Webpage.
+Required Materials:
+1.Cover Letter
+2.Curriculum Vitae (CV)
+3.Job Market Paper
+Please ensure your application is submitted via JOE and completed on the IDB Careers page (https://jobs.iadb.org) to be given full consideration.
+</jp_full_text>
+		<jp_keywords>Public Economics 
+Public Policy
+Applied Microeconomics
+Development Economics</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36579">
+			<country>UNITED STATES</country>
+			<state>District of Columbia</state>
+			<city>Washington</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61433">
+			<jc_code>H</jc_code>
+			<jc_description>Public Economics</jc_description>
+			</jel_class>
+			<jel_class id="61434">
+			<jc_code>O</jc_code>
+			<jc_description>Economic Development, Innovation, Technological Change, and Growth</jc_description>
+			</jel_class>
+			<jel_class id="61435">
+			<jc_code>G</jc_code>
+			<jc_description>Financial Economics</jc_description>
+			</jel_class>
+			<jel_class id="61436">
+			<jc_code>D</jc_code>
+			<jc_description>Microeconomics</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478553">
+		<jp_section>International: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant Professor of Economics and Computational Social Science, Tenure-Track</jp_title>
+		<jp_institution>New York University Abu Dhabi</jp_institution>
+		<jp_division>Social Science Division</jp_division>
+		<jp_department>Economics</jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-01-10 00:00:00</jp_application_deadline>
+		<jp_full_text>The Division of Social Science at New York University Abu Dhabi (NYUAD) is inviting applications for a tenure-track position in Economics and Data Science. The successful candidate’s tenure home would be in the Economics program and will hold an affiliation in the new MSc in Interdisciplinary Data Science and AI (MIDSAI). The position carries a teaching load of three courses per year, one of which will be for MIDSAI.
+
+As NYUAD is a research university, we seek applicants with an active research agenda in economics and AI. The ideal candidate will be a leader in applying data science and AI tools to questions in economics, or conducting empirical research on the economic implications of AI. This specialization is broadly construed and might include research related to big data collection, machine learning, natural language processing, image or video analysis, network inference, computational finance, online platforms and algorithmic behavior, and more. We are especially interested in scholars who work effectively in multidisciplinary teams and environments. All candidates should demonstrate important contributions to their area of research.</jp_full_text>
+		<jp_keywords>Assistant Professor of Economics and Computational Social Science, Tenure-Track
+nyu
+nyuad</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36568">
+			<country>UNITED ARAB EMIRATES</country>
+			<state>Abu Dhabi</state>
+			<city>Abu Dhabi </city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61417">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478546">
+		<jp_section>Full-Time Nonacademic</jp_section>
+		<jp_title>Data Scientist </jp_title>
+		<jp_institution>Opportunity Insights</jp_institution>
+		<jp_division></jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-09 00:00:00</jp_application_deadline>
+		<jp_full_text>Opportunity Insights (OI) seeks a Data Scientist to support evidence-based investments that promote economic mobility. Working collaboratively with the OI research team, the Data Scientist will evaluate policies and programs, model the returns to program investments, and translate research findings into actionable insights for policymakers, students, and other audiences.
+ 
+ The Data Scientist will have two responsibilities. The first is to conduct economic and statistical analysis to support evidence-based investments and cost-benefit evaluation to promote economic mobility. The person in this role will design and implement statistical and econometric models to estimate program impacts, develop financial models of returns to program investments, and conduct cost-benefit and impact analyses. The second objective is to translate findings from these analyses and other ongoing research at Opportunity Insights into actionable insights for external stakeholders and the broader public, ranging from policymakers to students participating in OI’s new data science courses. Both sets of activities will be conducted in collaboration with other current members of the Opportunity Insights team.</jp_full_text>
+		<jp_keywords></jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36560">
+			<country>UNITED STATES</country>
+			<state>Massachusetts</state>
+			<city>Cambridge</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61405">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478551">
+		<jp_section>International: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant/Associate/Full Professor</jp_title>
+		<jp_institution>Renmin University of China</jp_institution>
+		<jp_division>School of Applied Economics</jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-10 00:00:00</jp_application_deadline>
+		<jp_full_text>The School of Applied Economics (SAE) at Renmin University of China, formed in 2019, is the first school of applied economics among China’s “double first-rate” initiative Universities. SAE has four departments: the Department of National Economy Management, the Department of Energy Economics, the Research Institute of Regional and Urban Economics, and the Department of Industrial Economics.
+
+Since the early days of the People’s Republic of China, RUC has been an important national center for teaching and research of applied economics, and has earned a strong reputation in applied economics. The assessments conducted by the Chinese Ministry of Education consistently ranked RUC top in teaching and research of applied economics.
+
+Applicants with research interests in Macroeconomics, Development Economics，Energy Economics, Industrial Economics，and Industrial Organization are especially encouraged to apply.
+
+For the Energy Economics position, applicants with research expertise in energy economics, electricity markets, carbon markets, climate policy, or energy transition are particularly encouraged to apply. Candidates with relevant teaching experience and the ability to teach courses in green finance, ESG, and MBA programs are especially welcome.
+
+The application deadline is December 10, 2026. Applicants must submit a cover letter, curriculum vitae, job market paper(s), evidence of teaching effectiveness and three reference letters.
+</jp_full_text>
+		<jp_keywords>Macroeconomics
+Development Economics
+Energy Economics
+Industrial Economics
+Industrial Organization
+</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36565">
+			<country>CHINA</country>
+			<state>Beijing</state>
+			<city>Beijing</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61415">
+			<jc_code>A1</jc_code>
+			<jc_description>General Economics</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478556">
+		<jp_section>International: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title> Assistant/ Associate Professor</jp_title>
+		<jp_institution>School of Economics and Management, East China Normal University</jp_institution>
+		<jp_division></jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-11-25 00:00:00</jp_application_deadline>
+		<jp_full_text>Associate Professor on the tenure track:
+The applicant has obtained a doctoral degree, has an excellent basis of scientific research, has achieved certain academic achievements, has good development potential, and innovative thinking.
+
+Assistant Professor:
+The applicant has obtained a doctoral degree or is about to pass the doctoral dissertation defense.
+The applicant has a good paper publication record, excellent scientific research ability, and rich practical experience.
+
+Application Instructions:
+Application screening begins immediately, and the application deadline is November 25th, 2026 (Beijing time). Applicants should send the Application Form (Please download it from the school's official website), three reference letters, a research statement, teaching evaluation (if any), and copies of selected publications. All application materials should be sent to our recruiting officer via email rczp@sem.ecnu.edu.cn no later than November 25th, 2026. Please indicate &amp;quot;Name+ Research Field + Applying position&amp;quot; in the subject of the
+email.
+Website Address of the School:
+https://sem.ecnu.edu.cn/17/01/c42845a792321/page.htm</jp_full_text>
+		<jp_keywords>The following fields are preferred: International Finance, Financial Technology (FinTech), Digital Economy, Technology Business, Strategy and Innovation &amp;amp; Entrepreneurship, Big Data and Business Analytics, Digital Cultural Tourism, as well as other emerging and interdisciplinary fields related to economics and management.</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36595">
+			<country>CHINA</country>
+			<state></state>
+			<city>SHANGHAI</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61420">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478573">
+		<jp_section>International: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant Professor of Economics</jp_title>
+		<jp_institution>Southwestern University of Finance and Economics</jp_institution>
+		<jp_division>Center for Intelligence Economic Science (iES)</jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range>Competitive</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-02-28 00:00:00</jp_application_deadline>
+		<jp_full_text>About us   
+
+The Center for Intelligence Economic Science (iES) at Southwestern University of Finance and Economics (SWUFE) brings together an international community of scholars engaged in theoretical, experimental and empirical research. We seek to advance intelligence economic science – an interdisciplinary field investigating how intelligence and incentives influence decision making and economic behaviour. Our agenda encompasses human and artificial intelligence and their interactions, connecting economics and finance with psychology, decision neuroscience and behavioural genetics. Related applied interests the digital economy, platform and network economics, and economics of AI and technological change, with questions ranging from learning, skills and work to cooperation, organisational and market design, and welfare.   
+
+We offer a bilingual working environment in Chinese and English. Teaching may be conducted in English.Our faculty members have published in well-regarded journals including Econometrica, Journal of Political Economy, Review of Economic Studies, Journal of the European Economic Association, Management Science, Theoretical Economics, Journal of Economic Theory, Economic Journal, Quantitative Economics, American Economic Journal: Microeconomics, International Economic Review, Economic Theory, European Economic Review, PNAS, Proceedings of the Royal Society B, Psychoneuroendocrinology, and Scientific Reports.   
+
+The position   
+
+We invite applications for an assistant professor position. Areas of interest include decision theory, game theory and mechanism design, behavioural and experimental economics and finance, decision neuroscience, behavioural genetics, and related applied fields.   Applicants should hold a PhD or expect to complete one by September 1, 2027. We welcome applications from doctoral candidates, postdoctoral researchers and other early-career scholars of all nationalities. Candidates should demonstrate strong potential to publish in well-regarded academic journals. We offer compensation and working conditions that are competitive by regional standards, together with ample research funding. Laboratory facilities include numerous eye trackers and multiple electroencephalography (EEG) systems.   
+
+Postdoctoral opportunities   
+
+We also welcome applications for postdoctoral positions in these research areas. Please indicate in your cover letter whether you wish to be considered for the assistant professor position, a postdoctoral position, or both.   
+
+</jp_full_text>
+		<jp_keywords>Decision Theory
+Microeconomic Theory
+Experimental Methods
+Behavioral Economics
+Digital Economy</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36589">
+			<country>CHINA</country>
+			<state>Sichuan</state>
+			<city>Chengdu</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61463">
+			<jc_code>C7</jc_code>
+			<jc_description>Game Theory and Bargaining Theory</jc_description>
+			</jel_class>
+			<jel_class id="61464">
+			<jc_code>C9</jc_code>
+			<jc_description>Design of Experiments</jc_description>
+			</jel_class>
+			<jel_class id="61465">
+			<jc_code>D4</jc_code>
+			<jc_description>Market Structure, Pricing, and Design</jc_description>
+			</jel_class>
+			<jel_class id="61466">
+			<jc_code>D8</jc_code>
+			<jc_description>Information, Knowledge, and Uncertainty</jc_description>
+			</jel_class>
+			<jel_class id="61467">
+			<jc_code>D9</jc_code>
+			<jc_description>Micro-Based Behavioral Economics</jc_description>
+			</jel_class>
+			<jel_class id="61468">
+			<jc_code>G1</jc_code>
+			<jc_description>General Financial Markets</jc_description>
+			</jel_class>
+			<jel_class id="61469">
+			<jc_code>J4</jc_code>
+			<jc_description>Particular Labor Markets</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478567">
+		<jp_section>US: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Tenured/Tenure-Track: Open Rank</jp_title>
+		<jp_institution>Texas A&amp;amp;M University </jp_institution>
+		<jp_division></jp_division>
+		<jp_department>Health Policy and Management </jp_department>
+		<jp_salary_range>Commensurate</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-03-31 00:00:00</jp_application_deadline>
+		<jp_full_text>The Department of Health Policy and Management in the School of Public Health at Texas A&amp;amp;M University invites applications for up to two tenure-track or tenured faculty appointments in the field of health economics. The positions are open rank, with a preference for candidates who qualify for an appointment at the associate professor or professor level for one of the appointments.  
+
+
+These positions require candidates with strong research skills and excellent teaching ability. Successful candidates are expected to conduct independent and collaborative research, obtain extramural funding, maintain a robust publication record, and contribute to the Department’s educational programs. Additionally, these positions require the ability to work well with multi-disciplinary teams.
+
+
+Faculty enjoy 9-month appointments that are fully funded (“hard money”), with effort typically allocated to research (50%), teaching (40%), and service (10%) responsibilities. The standard teaching load is four classes per academic year, with options for reduced teaching loads and/or additional (Summer) salary for faculty with extramural research funding.
+
+
+We seek candidates conducting innovative research in any area of health economics, but preference will be given to candidates with research interests in healthcare financing and health insurance, aging and long-term care, population health, or pharmaceutical economics and technology value assessment.
+
+
+Faculty rank will be determined by the qualifications and experience of the successful candidate(s). For candidates seeking a senior-level appointment, a track record of mentoring doctoral students and junior faculty and obtaining extramural funding is especially desirable.</jp_full_text>
+		<jp_keywords>Health Economics</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36582">
+			<country>UNITED STATES</country>
+			<state>Texas</state>
+			<city>College Station</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61444">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478545">
+		<jp_section>US: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant Professor AD-3/Associate Professor AD-5/Professor AD-7</jp_title>
+		<jp_institution>The Naval Postgraduate School</jp_institution>
+		<jp_division></jp_division>
+		<jp_department>Department of Acquisition, Finance, and Manpower</jp_department>
+		<jp_salary_range>$128,568 - $209,600</jp_salary_range>
+		<jp_agency_insertion_num>PRE 10017</jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-18 00:00:00</jp_application_deadline>
+		<jp_full_text>The Department of Acquisition, Finance, and Manpower at the Naval Postgraduate School invites applications for one open-rank, tenure-track faculty position in the Financial Management area. Assistant professor is preferred, but open to associate or full professor rank. Candidates must be qualified to join the faculty as active teachers and scholars. They should possess a terminal degree, such as a Ph.D. or equivalent, in a relevant field, including but not limited to accounting, data science, economics, finance, operations research, public policy, or closely related discipline. 
+
+Additional information about our programs and faculty can be found at: https://nps.edu/web/dafm
+
+Additional information about this position, and qualifications, and salary can be found at:
+https://main.hercjobs.org/jobs/22679876/assistant-professor-associate-professor-professor-data-analytics
+
+NPS is the nation’s premier defense related graduate university and highly values both research and instruction. Located in scenic Monterey/Carmel, California, NPS provides an exceptional academic environment along California’s central coast.
+
+We are particularly interested in scholars with strong theoretical, methodological, and applied expertise in financial management. The successful applicant must be able to teach master's-level courses in data analysis.
+
+NPS follows a quarter system and the normal teaching workload for faculty is four courses a year.
+
+Conditions of Employment:
+
+•	Must be determined suitable for federal employment.
+•	New employees to the Department of the Navy will be required to successfully pass the E-Verify employment verification. To learn more about E-Verify, including your rights and responsibilities, visit e-verify.gov
+•	Within the Department of War (DOW), the appointment of retired military members within 180 days immediately following retirement date to a civilian position is subject to the provisions of 5 United States Code 3326.
+•	Males born after 12-31-59 must be registered for Selective Service.
+•	You will be required to obtain and maintain an interim and/or final Secret security clearance prior to entrance on duty.
+
+Minimum Qualifications:
+
+•	An earned doctoral degree in a discipline that supports the departmental instructional needs;
+•	evidence of teaching aptitude;
+•	evidence of potential to advise student theses and dissertations;
+•	and evidence of strong potential for scholarship leading to scholarly publications.
+
+Salary Range: 
+
+$128,568 - $209,600
+
+Required Documents Statement:
+Your C.V. or resume must be two pages or less and must support the minimum qualification described in this announcement. Additional supporting documentation may be submitted to provide additional details regarding experience, publication record, and scholarship. Applications must include a cover letter, curriculum vitae, writing sample, and contact 
+information for three references. For any questions, please write to:
+
+Laura Armey at larmey@nps.edu
+
+</jp_full_text>
+		<jp_keywords>Data Analytics</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36559">
+			<country>UNITED STATES</country>
+			<state>California</state>
+			<city>Monterey</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61403">
+			<jc_code>A1</jc_code>
+			<jc_description>General Economics</jc_description>
+			</jel_class>
+			<jel_class id="61404">
+			<jc_code>H5</jc_code>
+			<jc_description>National Government Expenditures and Related Policies</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478569">
+		<jp_section>International: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant Professor, Associate Professor, or Professor</jp_title>
+		<jp_institution>The University of Tokyo</jp_institution>
+		<jp_division>Graduate School of Economics &amp;amp; Graduate School of Public Policy</jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-11-30 00:00:00</jp_application_deadline>
+		<jp_full_text>Graduate School of Economics (https://www.e.u-tokyo.ac.jp/index-e.html) and Graduate School of Public Policy (https://www.pp.u-tokyo.ac.jp/en/) at the University of Tokyo invite applications for a joint, full-time faculty position at the rank of Assistant, Associate, or Full Professor. We particularly welcome candidates specializing in development economics, while also encouraging applications from other (related) areas of economics. Teaching will be conducted in English.
+
+Applicants must hold a Ph.D. or expect to complete one by the beginning of the appointment, demonstrate strong research potential or an established record of scholarly excellence, possess excellent teaching skills, and show a clear interest in public policy issues. Candidates for tenured appointments are expected to have a distinguished research record, including publications in leading general-interest or field-specific economics journals.
+
+We will continue considering applications on a rolling basis until the position is filled, with a priority deadline of November 30, 2026.
+
+Applicants should submit a curriculum vitae, three letters of reference for tenure-track candidates, teaching evaluations if available, and at least one research paper (the job market paper) through the AEA JOE system.
+The University of Tokyo is an equal-opportunity employer and welcomes applications from persons of all genders and persons of all socioeconomic backgrounds (see more details: https://www.u-tokyo.ac.jp/en/about/diversity-inclusion.html).
+</jp_full_text>
+		<jp_keywords>Development Economics
+All Field
+</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36585">
+			<country>JAPAN</country>
+			<state>Tokyo</state>
+			<city>Bunkyo-ku</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61447">
+			<jc_code>O</jc_code>
+			<jc_description>Economic Development, Innovation, Technological Change, and Growth</jc_description>
+			</jel_class>
+			<jel_class id="61448">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478543">
+		<jp_section>US: Other Academic (Visiting or Temporary)</jp_section>
+		<jp_title>Postdoctoral Scholar</jp_title>
+		<jp_institution>University of Chicago</jp_institution>
+		<jp_division>Development Innovation Lab</jp_division>
+		<jp_department>SSD</jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-06 00:00:00</jp_application_deadline>
+		<jp_full_text>Department
+Development Innovation Lab
+
+About the Department
+The Development Innovation Lab at the University of Chicago uses the tools of economics to develop innovations with the potential to benefit millions of people in low- and middle-income countries. It was founded by Nobel Laureate Michael Kremer, who serves as its Faculty Research Director.
+
+Job Summary
+DIL is seeking full-time postdoctoral scholars to lead and contribute to work with the Faculty Research Director (Michael Kremer) and other researchers on development economics research projects. We expect the postdoctoral role to be a one-year position.
+
+Previous one-year postdocs with DIL have launched successful research projects in collaboration with the Faculty Research Director and others before transitioning to academic positions at other institutions.
+
+
+Responsibilities
+Under the direction of Faculty Research Director Michael Kremer, conduct research in the field of development economics. Research priorities will be set in conversation with the Faculty Research Director.
+
+The postdocs will provide input on cross-cutting lab activities or DIL public goods as required.
+
+Minimum Qualifications
+PhD in economics or related field by the start of the position.
+PhD level training in the methods of economics
+Knowledge of and experience with field work in developing countries
+
+Preferred Qualifications
+Experience leading or running randomized control trials.
+Preferred competencies
+Excellent written and verbal communication skills
+
+Preferred Licenses and Certifications
+Working Conditions
+
+Postdoctoral scholar positions are based in Chicago, IL. Additionally, candidates must be willing to travel flexibly as needed for their respective responsibilities, including for field research.
+
+Review of applications will begin as early as November, and continue until the positions are filled or the search has closed.
+
+The initial postdoctoral researcher appointment will be for one year with the possibility of renewal for an additional year, conditional on evaluation. Normally, individuals cease to be eligible for Postdoctoral Researcher positions seven years after the award of the degree. The total duration of an individual’s postdoctoral experience may not exceed seven years, including postdoctoral work at other institutions.
+
+Equal Employment Opportunity Statement
+All University departments and institutes are charged with building a faculty from a diversity of backgrounds and with diverse viewpoints; with cultivating an inclusive community that values freedom of expression; and with welcoming and supporting all their members.
+
+We seek a diverse pool of applicants who wish to join an academic community that places the highest value on rigorous inquiry and encourages diverse perspectives, experiences, groups of individuals, and ideas to inform and stimulate intellectual challenge, engagement, and exchange. The University’s Statements on Diversity are at https://provost.uchicago.edu/statements-diversity.
+
+The University of Chicago is an Affirmative Action/Equal Opportunity/Disabled/Veterans Employer and does not discriminate on the basis of race, color, religion, sex, sexual orientation, gender, gender identity, national or ethnic origin, age, status as an individual with a disability, military or veteran status, genetic information, or other protected classes under the law. For additional information please see the University's Notice of Nondiscrimination.
+
+Job seekers in need of a reasonable accommodation to complete the application process should call 773-834-3988 or email equalopportunity@uchicago.edu with their request.
+
+
+</jp_full_text>
+		<jp_keywords>Development Economics
+</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36556">
+			<country>UNITED STATES</country>
+			<state>Illinois</state>
+			<city>Chicago</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61401">
+			<jc_code>D0</jc_code>
+			<jc_description>General</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478561">
+		<jp_section>US: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Department Head and Professor, Department of Economics (Faculty)</jp_title>
+		<jp_institution>University of North Carolina at Greensboro</jp_institution>
+		<jp_division>Academic Affairs</jp_division>
+		<jp_department>Economics</jp_department>
+		<jp_salary_range>Commensurate with experience</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-08-01 00:00:00</jp_application_deadline>
+		<jp_full_text>The University of North Carolina at Greensboro (UNCG) invites applications and nominations for the position of Head of the Department of Economics and Professor of Economics in the Joseph M. Bryan School of Business and Economics. The Head should have a clear, strategic vision for further advancing the research and education programs in the Department. The successful candidate is expected to have an outstanding record of research accomplishments, national and global visibility, and demonstrated leadership experience in the economics discipline. The Head serves as the chief spokesperson and advocate for the Department, both within and outside of the University, and ensures that the Department serves as a vital resource to private- and public-sector partners in the state and region. The start date for the position is August 1, 2027. 
+
+Minimum qualifications: 
+
+Earned doctorate in economics or a closely related field; 
+
+Record of high-quality scholarship in economic research, including publications in leading academic journals; and 
+
+Evidence of effective leadership in areas that may include, but are not limited to, curricular design, strategic planning, sponsored research, and mobilization of faculty, staff, and students around a common vision. 
+
+For more information or to apply, please visit https://spartantalent.uncg.edu/postings/36462
+
+
+ </jp_full_text>
+		<jp_keywords></jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36577">
+			<country>UNITED STATES</country>
+			<state>North Carolina</state>
+			<city>Greensboro</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61429">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478548">
+		<jp_section>US: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant Professor</jp_title>
+		<jp_institution>Villanova University</jp_institution>
+		<jp_division>School of Business</jp_division>
+		<jp_department>Department of Economics</jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-01 00:00:00</jp_application_deadline>
+		<jp_full_text>The Department of Economics at the Villanova School of Business seeks to fill a tenure track position in Economics beginning Fall 2027 at the rank of Assistant Professor. Higher ranks will be considered for candidates with outstanding qualifications, publication record, and experience.
+We are seeking to hire a colleague with research and teaching interests in Applied Industrial Organization, Labor Economics and/or Business Economics. Being situated in the business school, the department is especially interested in individuals with strong applied research skills and an interest in business-related topics. 
+The Villanova School of Business is committed to both scholarly research and teaching excellence. In addition to maintaining an active research agenda leading to high-quality publications, the appointment involves teaching at the undergraduate and MBA levels with a teaching load of two courses per semester.
+Villanova University is a nationally ranked university that, despite not offering graduate degrees in economics, values research highly and offers corresponding incentives and compensation. For example, above-average publication success may lead to a course release and higher summer salary support. 
+Villanova is a Catholic university sponsored by the Augustinian Order. We seek candidates who understand, respect and can contribute to the University’s mission and values.
+
+</jp_full_text>
+		<jp_keywords>Industrial Organization
+Labor Economics
+Business Economics</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36562">
+			<country>UNITED STATES</country>
+			<state>Pennsylvania</state>
+			<city>Villanova</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61408">
+			<jc_code>J</jc_code>
+			<jc_description>Labor and Demographic Economics</jc_description>
+			</jel_class>
+			<jel_class id="61410">
+			<jc_code>L</jc_code>
+			<jc_description>Industrial Organization</jc_description>
+			</jel_class>
+			<jel_class id="61411">
+			<jc_code>M2</jc_code>
+			<jc_description>Business Economics</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478560">
+		<jp_section>US: Other Academic (Visiting or Temporary)</jp_section>
+		<jp_title>Postdoctoral Associate</jp_title>
+		<jp_institution>Yale University</jp_institution>
+		<jp_division></jp_division>
+		<jp_department>Tobin Center for Economic Policy</jp_department>
+		<jp_salary_range>Salary is competitive, and we are able to sponsor foreign applicants.</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-02-01 00:00:00</jp_application_deadline>
+		<jp_full_text>The Tobin Center for Economic Policy at Yale University seeks an exceptional candidate for a one-year, full-time Postdoctoral Associate appointment with the Health Care Affordability Lab for the 2027-2028 academic year. The Lab, led by Tobin's Director of Health Policy, Prof. Zack Cooper, conducts empirical research on U.S. health care markets to inform academic scholarship and state and federal policy.
+
+This position provides an excellent opportunity for an early-career economist to develop and advance high-impact research under the mentorship of Prof. Cooper. Ideal candidates have experience conducting health research, strong empirical and analytical skills, and the ability to work collaboratively. Their research interests include studying the functioning of U.S. health care markets. Working closely with Prof. Cooper and co-authors, the Postdoctoral Associate will contribute to rigorous, policy-relevant projects such as examining competition and pricing in hospital and insurance markets, the drivers of variation and growth in U.S. health care spending, and the broader economic and labor-market effects of rising health care costs.
+
+The Postdoctoral Associate will gain valuable experience conducting health policy economics research, contributing to an agreed-upon project portfolio, and advancing their own research portfolio. The candidate will also participate in the Center's and the Economics Department’s activities, including seminars and conferences, be open to opportunities for research collaboration, and provide consultations to graduate students interested in health policy.
+
+Applicants must have completed their PhD prior to the start of the position. Given the one-year term, preference will be given to candidates who have secured a subsequent academic position that will begin after the fellowship year. The salary complies with Yale's Office of Postdoctoral Affairs compensation policy and includes a comprehensive benefits package.
+
+Application Requirements
+-Letters of Reference
+-Job Market Paper
+-Cover Letter
+-CV
+</jp_full_text>
+		<jp_keywords>Health Economics
+Health Policy
+</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36576">
+			<country>UNITED STATES</country>
+			<state>Connecticut</state>
+			<city>New Haven</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61428">
+			<jc_code>I1</jc_code>
+			<jc_description>Health</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478510">
+		<jp_section>Full-Time Nonacademic</jp_section>
+		<jp_title>Senior Vice President and Chief Economist</jp_title>
+		<jp_institution>American Cement Association</jp_institution>
+		<jp_division></jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range>$250,000 to $300,000</jp_salary_range>
+		<jp_agency_insertion_num>9944739</jp_agency_insertion_num>
+		<jp_application_deadline>2027-11-05 00:00:00</jp_application_deadline>
+		<jp_full_text>ZRG Partners is proud to partner with the American Cement Association in the search for a Senior Vice President &amp;amp; Chief Economist.
+
+Reporting to the President &amp;amp; CEO, the Chief Economist will have responsibility for leading the Market Intelligence team and serving as ACA’s economic expert, a highly visible and influential role, both within ACA and across the broader cement and concrete industries. A minimum of 15 years of professional experience in applied economics, forecasting, and policy analysis is required, along with an advanced degree in economics (master’s or Ph.D.) or demonstrated equivalent expertise.
+
+Founded in 1916, the American Cement Association (ACA) is the premier policy, research, technical, market intelligence, and advocacy organization serving America’s cement manufacturers. ACA’s 18 member companies operate 80 manufacturing plants in 30 states and account for approximately 92% of domestic cement production.
+
+The salary range for this position is $250,000 to $300,000, with exact compensation dependent on relevant experience, qualifications, and skills, plus a performance-based bonus of up to 20% of base salary. While remote candidates will be considered, ACA has a strong preference for those residing within a reasonable commuting distance of its offices in Washington, D.C.
+
+To apply, visit: https://apptrkr.com/9944739</jp_full_text>
+		<jp_keywords></jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36519">
+			<country>UNITED STATES</country>
+			<state>District of Columbia</state>
+			<city>Washington</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61311">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478512">
+		<jp_section>US: Other Academic (Visiting or Temporary)</jp_section>
+		<jp_title>Research Associate</jp_title>
+		<jp_institution>Case Western Reserve University</jp_institution>
+		<jp_division>Weatherhead School of Management</jp_division>
+		<jp_department>Economics and Organizational Behavior</jp_department>
+		<jp_salary_range>$50,000-$80,000</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-02-28 00:00:00</jp_application_deadline>
+		<jp_full_text>The Weatherhead School of Management at Case Western Reserve University is looking for a full-time Research Associate to support a research collaboration with the Cleveland Clinic. Supported by multiyear funding, the position combines collaborative applied work with time to pursue an independent research agenda.
+
+The Research Associate will work closely with senior faculty and Cleveland Clinic partners on projects in organizational learning, operational dynamics, and capital investment in health care. The work will use institutional data; the Research Associate will manage and analyze it, conduct interviews and surveys, and prepare research reports. The position includes opportunities for coauthorship and mentorship from faculty.
+
+We welcome applicants from economics, organizational behavior, health policy and management, and related social science or data-intensive fields. Candidates should have strong analytical skills and an interest in applied work. Experience with administrative data and mixed-methods organizational research is particularly welcome.
+
+The position is based in Cleveland, Ohio, and requires work in person.
+
+For additional information and to apply, please visit:
+https://applications.case.edu/university-positions/positions/185
+
+
+</jp_full_text>
+		<jp_keywords>Organizational behavior and learning
+Real estate
+Health
+Applied microeconomics
+Mixed methods</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36523">
+			<country>UNITED STATES</country>
+			<state>Ohio</state>
+			<city>Cleveland</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61318">
+			<jc_code>A</jc_code>
+			<jc_description>General Economics and Teaching</jc_description>
+			</jel_class>
+			<jel_class id="61319">
+			<jc_code>I1</jc_code>
+			<jc_description>Health</jc_description>
+			</jel_class>
+			<jel_class id="61320">
+			<jc_code>C8</jc_code>
+			<jc_description>Data Collection and Data Estimation Methodology; Computer Programs</jc_description>
+			</jel_class>
+			<jel_class id="61321">
+			<jc_code>R3</jc_code>
+			<jc_description>Real Estate Markets, Spatial Production Analysis, and Firm Location</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478449">
+		<jp_section>Full-Time Nonacademic</jp_section>
+		<jp_title>Research Fellow </jp_title>
+		<jp_institution>Good Business Lab</jp_institution>
+		<jp_division></jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-03-31 00:00:00</jp_application_deadline>
+		<jp_full_text>Good Business Lab (GBL) is a research-to-action nonprofit that advances access to high-quality jobs for low-income workers. GBL was co-founded by Achyuta Adhvaryu (Professor of Economics, UC San Diego), Anant Nyshadham (Associate Professor, University of Michigan), and Anant Ahuja (Director of ESG and Sustainability, Shahi Exports Pvt. Ltd.).
+
+The Research Fellow will join a team of Principal Investigators (PIs) to provide technical and intellectual leadership across a portfolio of existing research projects and support the development of new research projects. The Fellow will contribute to academic papers, policy briefs, and other research dissemination activities. The position offers an opportunity to work at the intersection of rigorous academic research and real-world policy and practice, in close collaboration with academic researchers, firms, and implementation partners.
+
+The research projects are aligned with GBL's mission of providing better jobs for workers around the globe through evidence-based interventions and policies focused on firms. The projects will cover key thematic areas of GBL's portfolio: Gender, Health, Climate, Livelihoods, and Workplace.</jp_full_text>
+		<jp_keywords></jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36443">
+			<country>INDIA</country>
+			<state></state>
+			<city></city>
+			</location>
+			<location id="36593">
+			<country>UNITED STATES</country>
+			<state></state>
+			<city></city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61174">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478496">
+		<jp_section>US: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant or Associate Professor</jp_title>
+		<jp_institution>Jacksonville University</jp_institution>
+		<jp_division>Linda Berry Stein College of Arts and Sciences</jp_division>
+		<jp_department>Haskell Public Policy Institute</jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-01 00:00:00</jp_application_deadline>
+		<jp_full_text>Job Summary
+The Haskell Public Policy Institute at Jacksonville University seeks two full-time Assistant or Associate Professors beginning August 2027. Successful candidates will teach in the Master in Public Policy (MPP) program and undergraduate offerings while supporting the Institute’s continued growth and mission.
+
+Applicants should have expertise in political science, public policy, economics, or a related field, with the ability to teach MPP courses. The standard teaching load is 4–4, subject to adjustment based on program needs and faculty responsibilities. Applicants must demonstrate effective teaching, student mentorship, and an active research and publication agenda.
+
+Qualifications
+A PhD in Public Policy, Political Science, Economics, or a closely related social science discipline by the appointment date. ABD candidates expecting to finish before August 2027 are eligible.
+
+How to Apply
+To apply, submit: 
+(1) a letter of interest addressing qualifications and teaching and research expertise; 
+(2) curriculum vitae; 
+(3) transcripts for all degrees (unofficial accepted initially); 
+(4) teaching philosophy; 
+(5) teaching evidence, such as syllabi and evaluations; 
+(6) scholarly writing sample;
+(7) three recommendation letters.
+
+Apply through JU Careers and email the materials as one PDF packet to ppi@ju.edu with the subject “Assistant/Associate Professor Search.” Official transcripts are required before employment.
+</jp_full_text>
+		<jp_keywords>Public Policy
+Political Science
+Economics
+</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36498">
+			<country>UNITED STATES</country>
+			<state>Florida</state>
+			<city>Jacksonville</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61285">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478474">
+		<jp_section>International: Other Academic (Visiting or Temporary)</jp_section>
+		<jp_title>Postdoctoral Fellows</jp_title>
+		<jp_institution>Lake Lucerne Institute</jp_institution>
+		<jp_division></jp_division>
+		<jp_department>Department of Wealth Creation</jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-06-30 00:00:00</jp_application_deadline>
+		<jp_full_text>The Department of Wealth Creation at the Lake Lucerne Institute (LLUI Wealth) aims to fill vacancies for Postdoctoral Fellow positions. The appointments are for a term of three years and can be renewed once for a total contract length of six years.
+
+LLUI Wealth is committed to advancing high-impact research that meets the rigorous standards of top-tier academic journals in economics and finance. Additionally, it maintains strong connections with the asset management industry, ensuring its research is practical and highly relevant to the financial sector.
+As a Postdoctoral Fellow, you will join LLUI’s Department of Wealth Creation, work with its team, and be supervised by four affiliated faculty members: Michael Weber, Francesco D’Acunto, Andreas Neuhierl, and Alberto Rossi. They are leading researchers specializing in asset pricing, investments, and behavioral finance. They lead the department’s main focus areas, which cover cutting-edge areas in finance such as big data analytics, machine learning, and behavioral and cognitive finance.
+
+Postdoctoral Fellows are expected to supervise predocs and (once the positions are created) PhD students, collaborate with LLUI-affiliated faculty and researchers on high-impact academic research projects, and disseminate research with national and international presentations as well as academic publications.
+
+Your Role
+ Active participation in the strategic development of the research program
+ National and international networking
+ Engaging in independent research in the areas of asset management, asset pricing, behavioral finance, or household finance at the level of top journals in Economics and Finance
+ Supervising, mentoring, and coordinating pre-doctoral research assistants
+ Presenting results at national and international conferences
+ Assisting with grant applications
+
+Your Profile
+ PhD in Economics, Finance, Behavioral Sciences, or related fields (obtained before July 1, 2027)
+ Strong quantitative background and analytical skills
+ Proficiency in conducting statistical analyses
+ Fluency in English is required; German language skills are an advantage
+ Previous experience in third-party funding acquisition is an advantage
+Workplace
+
+All research activities are conducted in English. The primary workplace is Vitznau (Switzerland), with the flexibility to work remotely up to one day per week.
+
+LLUI Wealth provides a vibrant research environment with ample resources to further develop an existing research program. These include pre-doctoral fellows who can assist in data collection and analysis, internal grants for data acquisition, and a research budget for presenting at conferences. LLUI Wealth regularly hosts leading international academics at its conferences, workshops, PhD summer school, and internal seminar series.</jp_full_text>
+		<jp_keywords>Finance
+Asset Pricing
+Asset Management
+Behavioral Finance
+Household Finance
+Expectations
+Machine Learning
+Big Data
+Postdoc</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36473">
+			<country>SWITZERLAND</country>
+			<state>Canton of Lucerne</state>
+			<city>Vitznau</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61225">
+			<jc_code>G1</jc_code>
+			<jc_description>General Financial Markets</jc_description>
+			</jel_class>
+			<jel_class id="61226">
+			<jc_code>G4</jc_code>
+			<jc_description>Behavioral Finance</jc_description>
+			</jel_class>
+			<jel_class id="61227">
+			<jc_code>G5</jc_code>
+			<jc_description>Household Finance</jc_description>
+			</jel_class>
+			<jel_class id="61228">
+			<jc_code>D8</jc_code>
+			<jc_description>Information, Knowledge, and Uncertainty</jc_description>
+			</jel_class>
+			<jel_class id="61229">
+			<jc_code>C5</jc_code>
+			<jc_description>Econometric Modeling</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478507">
+		<jp_section>Full-Time Nonacademic</jp_section>
+		<jp_title>Quantitative Researcher/Economist - Human Services</jp_title>
+		<jp_institution>Mathematica, Inc.</jp_institution>
+		<jp_division>Nutrition, Health, &amp;amp; Human Services</jp_division>
+		<jp_department>HHS - Human Services</jp_department>
+		<jp_salary_range>$100,000 - $135,000</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-05 00:00:00</jp_application_deadline>
+		<jp_full_text>Mathematica is seeking candidates with expertise in quantitative research methods, causal inference, and policy research to conduct studies and support program evaluation across a range of topics, including TANF, employment, child welfare, early childhood, family strengthening, and economic mobility.  
+
+Examples of our work:
+
+-Evaluating programs that focus on topics such as healthy marriage and relationship education and teen pregnancy prevention using randomized controlled trials
+-Designing and implementing a nationally representative study of supports for family stability in Head Start
+-Conducting systematic evidence reviews of studies that focus on home visiting, teen pregnancy prevention, and employment
+
+Responsibilities: 
+
+-Collaborate with staff in a multidisciplinary environment to apply rigorous quantitative research methods, including study design, causal inference, data management, and statistical and econometric analysis for describing or evaluating programs and policies
+-Learn and apply new methods, tools, and technologies, including AI-enabled tools, data visualization platforms, and emerging analytic approaches
+-Design rigorous mixed-methods evaluations, including primary and secondary data collection 
+-Apply innovative research approaches and advanced statistical methods to answer policy-relevant questions
+
+Preferred qualifications: 
+-Ph.D. or equivalent in economics, psychology, sociology, statistics, data science/data analytics, demography, or a related field
+-Strong quantitative analytical skills. Training in causal inference methodologies is strongly preferred.</jp_full_text>
+		<jp_keywords>Quantitative Research
+Quantitative Research Methods
+Causal Inference
+Policy Research
+Program Evaluation
+Impact Evaluation
+Randomized Controlled Trials
+Experimental Research
+Quasi-Experimental Research
+Econometric Analysis
+Statistical Analysis
+Applied Econometrics
+Mixed Methods Research
+Research Design
+Data Science
+Predictive Analytics
+Administrative Data
+Data Linkage
+Data Management
+Data Visualization
+Evidence-Based Policy
+Human Services Research
+Social Policy
+Federal Human Services Programs
+Temporary Assistance for Needy Families (TANF)
+Child Welfare
+Early Childhood Development
+Family Strengthening
+Economic Mobility
+Employment Programs
+Poverty Research
+Head Start
+Home Visiting Programs
+Systematic Evidence Reviews
+R Programming
+Python
+Stata
+Statistical Programming
+Applied Statistics
+Economics
+Sociology
+Psychology
+Demography
+PhD Research
+U.S. Department of Health and Human Services (HHS)</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36516">
+			<country>UNITED STATES</country>
+			<state></state>
+			<city></city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61306">
+			<jc_code>I3</jc_code>
+			<jc_description>Welfare, Well-Being, and Poverty</jc_description>
+			</jel_class>
+			<jel_class id="61307">
+			<jc_code>I0</jc_code>
+			<jc_description>General</jc_description>
+			</jel_class>
+			<jel_class id="61308">
+			<jc_code>H7</jc_code>
+			<jc_description>State and Local Government; Intergovernmental Relations</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478515">
+		<jp_section>Full-Time Nonacademic</jp_section>
+		<jp_title>Economist</jp_title>
+		<jp_institution>Mercado Libre</jp_institution>
+		<jp_division></jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-03-31 00:00:00</jp_application_deadline>
+		<jp_full_text>Mercado Libre is Latin America's largest e-commerce and fintech ecosystem. Our Economics &amp;amp; Analytics team takes on the questions that shape it, from seller and buyer price elasticities and platform fees to advertising incrementality and the long-run effects of business decisions.
+
+Few places offer an economist this setting: a two-sided marketplace across many countries, millions of buyers and sellers, rich transaction-level data, and a steady flow of experiments and policy changes to learn from. Answers to the questions we pose have an immediate impact in what the company does.
+
+There is far more to do than people to do it, and we see that as the draw. Economists have ample freedom to build their own project portfolio, choosing the design, the methods and the tools, and to carry their work all the way into production. Results reach senior leadership.
+
+We're looking for:
+- A PhD in economics or a related field (completed or near completion)
+- Strong applied microeconomics and empirical skills
+- Python or R, and SQL
+- Spanish or Portuguese
+
+Location: flexible within Latin America.</jp_full_text>
+		<jp_keywords>Applied econometrics
+Causal inference
+Quasi-experimental methods
+Machine Learning
+Industrial organization
+Digital platforms
+Two-sided markets
+Pricing
+Demand estimation</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36524">
+			<country>ARGENTINA</country>
+			<state></state>
+			<city></city>
+			</location>
+			<location id="36525">
+			<country>CHILE</country>
+			<state></state>
+			<city></city>
+			</location>
+			<location id="36526">
+			<country>COLOMBIA</country>
+			<state></state>
+			<city></city>
+			</location>
+			<location id="36527">
+			<country>BRAZIL</country>
+			<state></state>
+			<city></city>
+			</location>
+			<location id="36528">
+			<country>MEXICO</country>
+			<state></state>
+			<city></city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61322">
+			<jc_code>C1</jc_code>
+			<jc_description>Econometric and Statistical Methods and Methodology:  General</jc_description>
+			</jel_class>
+			<jel_class id="61323">
+			<jc_code>C9</jc_code>
+			<jc_description>Design of Experiments</jc_description>
+			</jel_class>
+			<jel_class id="61324">
+			<jc_code>D4</jc_code>
+			<jc_description>Market Structure, Pricing, and Design</jc_description>
+			</jel_class>
+			<jel_class id="61325">
+			<jc_code>L1</jc_code>
+			<jc_description>Market Structure, Firm Strategy, and Market Performance</jc_description>
+			</jel_class>
+			<jel_class id="61326">
+			<jc_code>L8</jc_code>
+			<jc_description>Industry Studies: Services</jc_description>
+			</jel_class>
+			<jel_class id="61327">
+			<jc_code>M3</jc_code>
+			<jc_description>Marketing and Advertising</jc_description>
+			</jel_class>
+			<jel_class id="61328">
+			<jc_code>D1</jc_code>
+			<jc_description>Household Behavior and Family Economics</jc_description>
+			</jel_class>
+			<jel_class id="61329">
+			<jc_code>C5</jc_code>
+			<jc_description>Econometric Modeling</jc_description>
+			</jel_class>
+			<jel_class id="61330">
+			<jc_code>C4</jc_code>
+			<jc_description>Econometric and Statistical Methods:  Special Topics</jc_description>
+			</jel_class>
+			<jel_class id="61331">
+			<jc_code>D8</jc_code>
+			<jc_description>Information, Knowledge, and Uncertainty</jc_description>
+			</jel_class>
+			<jel_class id="61332">
+			<jc_code>G2</jc_code>
+			<jc_description>Financial Institutions and Services</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478503">
+		<jp_section>US: Other Academic (Visiting or Temporary)</jp_section>
+		<jp_title>Dissertation Fellow, Identifying and Nurturing Mathematical Talent Among Youth</jp_title>
+		<jp_institution>National Bureau of Economic Research</jp_institution>
+		<jp_division></jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-01-20 00:00:00</jp_application_deadline>
+		<jp_full_text>To advance research on the mathematical talent development process, the National Bureau of Economic Research (NBER) is offering up to five one-year dissertation fellowships for PhD students in economics and related fields, such as public policy. These fellowships support advanced doctoral students at US and Canadian universities who are studying ways to identify and nurture mathematical talent among youth from all strata of society, including those from socioeconomically disadvantaged backgrounds.
+
+Applicants must have advanced to dissertation candidacy by the start of the fellowship period, which will cover the 2027-2028 academic year.
+
+Each fellowship includes a stipend of $37,000, up to $13,000 in tuition assistance, and a $3,000 research support fund. Fellows will join a network of peers with related research interests, receive guidance from an NBER faculty mentor, and participate in the NBER Summer Institute’s Innovation/Productivity meeting in Cambridge, MA, in July 2027.
+
+Applicants should submit a cover letter, CV, and a one-page research proposal by January 20, 2027, at 5 pm EST.
+
+For more information, please contact Elisa Pepe at epepe@nber.org.</jp_full_text>
+		<jp_keywords>Mathematical (math) talent identification
+Mathematical (math) talent development</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36510">
+			<country>UNITED STATES</country>
+			<state></state>
+			<city></city>
+			</location>
+			<location id="36511">
+			<country>CANADA</country>
+			<state></state>
+			<city></city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61299">
+			<jc_code>I2</jc_code>
+			<jc_description>Education and Research Institutions</jc_description>
+			</jel_class>
+			<jel_class id="61300">
+			<jc_code>J2</jc_code>
+			<jc_description>Demand and Supply of Labor</jc_description>
+			</jel_class>
+			<jel_class id="61301">
+			<jc_code>O1</jc_code>
+			<jc_description>Economic Development</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478483">
+		<jp_section>US: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant Professor of Finance</jp_title>
+		<jp_institution>Pittsburg State University</jp_institution>
+		<jp_division></jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num>9938987</jp_agency_insertion_num>
+		<jp_application_deadline>2027-11-03 00:00:00</jp_application_deadline>
+		<jp_full_text>The Kelce College of Business at Pittsburg State University (KS) invites applicants for a tenure-earning Assistant Professor of Finance. Duties include teaching nine hours per semester of undergraduate and/or graduate courses and scholarly activity commensurate with an AACSB-accredited institution. A Ph.D. in Finance, Financial Economics, or related field (or expected completion by the time of appointment) is required. College teaching experience and experience helping students manage an investment fund are preferred. Preference will be given to candidates with primary teaching areas in investments and financial institutions.
+
+A full description of the position and online application is available at https://pittstate.edu/hr/jobs. Electronic submissions only. Interested and qualified applicants should upload a one-page cover letter, curriculum vitae, one-page statement of research interests, one-page statement on teaching philosophy, teaching evaluations with comments, contact information for three professional references, and graduate transcripts. Applications received by November 13, 2026, will be given first consideration. Position is open until filled. Criminal background and sex offender checks will be required for employment. This position is not eligible for visa sponsorship.
+
+Pittsburg State University is an Equal Opportunity and Affirmative Action employer.
+
+JEL Codes: G1, G2</jp_full_text>
+		<jp_keywords></jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36484">
+			<country>UNITED STATES</country>
+			<state>Kansas</state>
+			<city>Pittsburg</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61253">
+			<jc_code>G</jc_code>
+			<jc_description>Financial Economics</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478476">
+		<jp_section>Full-Time Nonacademic</jp_section>
+		<jp_title>Economist</jp_title>
+		<jp_institution>Small Business Administration Office of Advocacy</jp_institution>
+		<jp_division>Office of Economic Research</jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range>$121,785 – $187,093</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-01-31 00:00:00</jp_application_deadline>
+		<jp_full_text>The Small Business Administration (SBA) Office of Advocacy (Advocacy) is seeking regulatory and research economists.  Advocacy is a voice for small businesses in the federal government, representing small businesses in the regulatory process and reporting on the state of small businesses.
+
+Advocacy seeks a regulatory economist to participate in interagency regulatory review, focusing on analyses of impacts on small businesses, especially analyses required by the Regulatory Flexibility Act (RFA).  Other duties include creating impact analyses for proposed regulations, training agencies on RFA compliance, and crafting research products.  Strong candidates will have advanced degrees in fields like economics and expertise in cost-benefit analysis.
+
+Advocacy also seeks a research economist to meet the data needs of the office and develop new research products for policymakers and the public.  Products range from infographics to complex projects involving multiple data sources and extensive computer programming.  Strong candidates will have doctoral degrees in fields like economics and expertise in statistical software like R or Stata.
+
+U.S. citizenship and a favorable background determination are required.  Work will be performed at SBA Headquarters in Washington, DC.  For details and application instructions, visit:
+
+https://advocacy.sba.gov/home/about/careers/job-board/regulatory-economist/ 
+https://advocacy.sba.gov/home/about/careers/job-board/research-economist/
+</jp_full_text>
+		<jp_keywords></jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36476">
+			<country>UNITED STATES</country>
+			<state>District of Columbia</state>
+			<city>Washington</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61232">
+			<jc_code>D</jc_code>
+			<jc_description>Microeconomics</jc_description>
+			</jel_class>
+			<jel_class id="61233">
+			<jc_code>H</jc_code>
+			<jc_description>Public Economics</jc_description>
+			</jel_class>
+			<jel_class id="61234">
+			<jc_code>I</jc_code>
+			<jc_description>Health, Education, and Welfare</jc_description>
+			</jel_class>
+			<jel_class id="61235">
+			<jc_code>J</jc_code>
+			<jc_description>Labor and Demographic Economics</jc_description>
+			</jel_class>
+			<jel_class id="61236">
+			<jc_code>L</jc_code>
+			<jc_description>Industrial Organization</jc_description>
+			</jel_class>
+			<jel_class id="61237">
+			<jc_code>M</jc_code>
+			<jc_description>Business Administration and Business Economics; Marketing; Accounting; Personnel Economics</jc_description>
+			</jel_class>
+			<jel_class id="61238">
+			<jc_code>O</jc_code>
+			<jc_description>Economic Development, Innovation, Technological Change, and Growth</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478509">
+		<jp_section>US: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Finance Assistant Professor</jp_title>
+		<jp_institution>St. Lawrence University</jp_institution>
+		<jp_division>Academic Affairs</jp_division>
+		<jp_department>Economics</jp_department>
+		<jp_salary_range>$100,000 - $110,000</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-01 00:00:00</jp_application_deadline>
+		<jp_full_text>The Department of Economics at St. Lawrence University invites applications for one tenure-track position at the assistant professor level beginning August 2027. We seek candidates with evidence of successful teaching outcomes in investments and/or corporate finance at both the introductory and upper levels. The finance major is housed in the Department of Economics, which consists of 12 members covering a broad range of fields and interests (including finance and accounting). We have a highly successful Fed Challenge team, active investment and women in economics clubs. Students have access to our 14-terminal Bloomberg Finance Lab in the main library, and department faculty regularly teach using the Bloomberg terminals. The typical teaching assignment is 3 courses per semester consisting of 2 preparations per semester. We are committed to excellence in teaching and scholarship in a diverse liberal arts environment.
+
+Minimum Qualifications	
+PhD or ABD’s near completion will be considered.
+
+Review of applications will begin immediately and continue until the position is filled.
+
+All offers of employment are contingent upon the finalist successfully passing a background (including criminal records) check.
+
+Founded in 1856, St. Lawrence University is a private, independent liberal arts institution of about 1,600 students located in Canton, NY. The educational opportunities at St. Lawrence inspire students and prepare them to be critical and creative thinkers, to find a compass for their lives and careers, and to pursue knowledge and understanding for the benefit of themselves, humanity, and the planet. Through its focus on active engagement with ideas in and beyond the classroom, a St. Lawrence education leads students to make connections that transform lives and communities, from the local to the global.
+
+St. Lawrence University is an Equal Opportunity Employer. For additional information about St. Lawrence, please visit http://www.stlawu.edu.
+
+</jp_full_text>
+		<jp_keywords>Finance
+Economics</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36518">
+			<country>UNITED STATES</country>
+			<state>New York</state>
+			<city>13617</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61310">
+			<jc_code>G0</jc_code>
+			<jc_description>General</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478489">
+		<jp_section>US: Other Academic (Part-time or Adjunct)</jp_section>
+		<jp_title>Postdoctoral Research Associate</jp_title>
+		<jp_institution>Texas A&amp;amp;M University</jp_institution>
+		<jp_division>Mays Business School</jp_division>
+		<jp_department>Department of Finance</jp_department>
+		<jp_salary_range>$5,981.25 monthly</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-31 00:00:00</jp_application_deadline>
+		<jp_full_text>Postdoctoral Research Associate in Finance/Economics
+
+Texas A&amp;amp;M University’s Mays Business School invites applications for a Postdoctoral Research Associate in finance/economics to work with Andrew Fieldhouse and Adam Kolasinski on a funded project measuring firm-level effects of federal contract R&amp;amp;D using restricted-use U.S. Census Bureau microdata under approved Census Project TX03195. This 15-month appointment offers salary of $5,981.25/month, funded conference travel, and opportunities to coauthor papers targeting top finance and economics journals.
+
+The associate will construct firm-level panels linking federal contract R&amp;amp;D to self-funded R&amp;amp;D, patenting, profitability, market share, and stock returns; conduct empirical analysis in the Texas Federal Statistical Research Data Center; implement panel instrumental variables/two-stage least squares designs; prepare Census disclosure requests; maintain replicable code; summarize results; and contribute to papers, presentations, and project reports.
+
+Required: PhD in economics or finance completed by start date. Preferred: Special Sworn Status with the U.S. Census Bureau; experience with restricted Census/IRS data or firm microdata; interests in innovation, corporate finance, public economics, or macroeconomics. Strong applied econometrics, coding, writing, discretion, and teamwork required. Texas A&amp;amp;M is an Equal Opportunity/Veterans/Disability Employer.</jp_full_text>
+		<jp_keywords>Postdoctoral Research Associate; Finance; Economics; Corporate Finance; Innovation; Public Economics; Applied Microeconomics; Empirical Finance; Firm-Level Microdata; Research and Development; Federal R&amp;amp;D; Government Contracts; Firm Performance; Patents; Productivity; Applied Econometrics; Panel Data; Instrumental Variables; Two-Stage Least Squares; Administrative Data; Restricted-Use Data; Census Bureau Data; IRS Data; Federal Statistical Research Data Center; TXRDC; Special Sworn Status; Disclosure Avoidance; Stata; SAS; R; Python; Federal Contract R&amp;amp;D; Innovation Policy; R&amp;amp;D Spillovers; Technology Policy; Industrial Organization; Macroeconomics; Public Finance; Business Economics; Firm Dynamics; Market Share; Profitability; Stock Returns; Compustat; BRDIS; SIRD; RADS; </jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36489">
+			<country>UNITED STATES</country>
+			<state>Texas</state>
+			<city>College Station</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61263">
+			<jc_code>O3</jc_code>
+			<jc_description>Innovation; Research and Development; Technological Change; Intellectual Property Rights</jc_description>
+			</jel_class>
+			<jel_class id="61265">
+			<jc_code>H5</jc_code>
+			<jc_description>National Government Expenditures and Related Policies</jc_description>
+			</jel_class>
+			<jel_class id="61267">
+			<jc_code>G3</jc_code>
+			<jc_description>Corporate Finance and Governance</jc_description>
+			</jel_class>
+			<jel_class id="61268">
+			<jc_code>L2</jc_code>
+			<jc_description>Firm Objectives, Organization, and Behavior</jc_description>
+			</jel_class>
+			<jel_class id="61269">
+			<jc_code>C2</jc_code>
+			<jc_description>Single Equation Models; Single Variables</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478502">
+		<jp_section>Full-Time Nonacademic</jp_section>
+		<jp_title>Research Fellow I/II</jp_title>
+		<jp_institution>The International Food Policy Research Institute </jp_institution>
+		<jp_division>Markets, Trade and Institutions Unit</jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range>The expected salary ranges for this job requisition at grade 22 R between $99,300 - $124,100 and at grade 23 R between $115,800 - $144,800. </jp_salary_range>
+		<jp_agency_insertion_num>26-112</jp_agency_insertion_num>
+		<jp_application_deadline>2026-11-20 00:00:00</jp_application_deadline>
+		<jp_full_text>This position supports IFPRI’s Markets, Trade and Institutions Unit by conducting and leading research on agricultural trade in Africa, with a focus on spatial trade costs, trade and storage policies, trade corridor investments, and regional trade integration. The Research Fellow I/II will apply econometric, spatial, and modeling techniques to analyze trade costs, prices, and market performance, generating evidence to inform government policies and improve trade efficiency across the continent. Responsibilities include designing and managing research projects, developing work plans, conducting policy analysis and simulations, publishing in leading peer-reviewed journals, and translating research findings for policymakers, donors, and other stakeholders. The role also involves building collaborations, supervising research support staff, strengthening local capacity, managing project budgets, and preparing donor reports and funding proposals. Senior-level candidates will be expected to take a leadership role in business development, proposal generation, and stakeholder engagement. Candidates must possess a PhD in Economics, Agricultural Economics, or a related field, a strong publication record, expertise in applied microeconomics and quantitative analysis, demonstrated leadership skills, and experience working with policymakers, donors, and multidisciplinary teams in international settings.
+
+Apply online here: https://phf.tbe.taleo.net/phf04/ats/careers/v2/viewRequisition?org=IFPRI&amp;amp;cws=43&amp;amp;rid=3840   </jp_full_text>
+		<jp_keywords></jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36505">
+			<country>UNITED STATES</country>
+			<state>District of Columbia</state>
+			<city>Washington, DC</city>
+			</location>
+			<location id="36506">
+			<country>SENEGAL</country>
+			<state></state>
+			<city></city>
+			</location>
+			<location id="36509">
+			<country>KENYA</country>
+			<state></state>
+			<city></city>
+			</location>
+			<location id="36508">
+			<country>ETHIOPIA</country>
+			<state></state>
+			<city></city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61298">
+			<jc_code>F1</jc_code>
+			<jc_description>Trade</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478471">
+		<jp_section>US: Other Academic (Visiting or Temporary)</jp_section>
+		<jp_title>USAA Educational Foundation and Lieutenant General Richard G. Trefry Assistant Professor of Economics and Financial Readiness</jp_title>
+		<jp_institution>United States Military Academy</jp_institution>
+		<jp_division></jp_division>
+		<jp_department>Department of Social Sciences</jp_department>
+		<jp_salary_range>$129,503 – $146,410</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-01 00:00:00</jp_application_deadline>
+		<jp_full_text>The Economics Program at the United States Military Academy, West Point, welcomes applications for a full-time, fully endowed non-tenure-track position at the Assistant or Advanced Assistant Professor level.  We seek candidates with an active research agenda in finance or applied microeconomics, particularly household finance, financial literacy, economic resilience, or military financial well-being.
+
+Responsibilities include overseeing the Economics major’s four-course finance curriculum; teaching two sections per semester, typically Financial Data Analysis; conducting research related to service members’ financial well-being; building scholarly networks; contributing economic analysis to the USAA Educational Foundation’s annual State of Military Personal Finance report; and serving as a liaison to the Foundation.
+
+Located in the Hudson Valley, an hour north of New York City, West Point is a highly ranked liberal arts college preparing graduates to serve as Army officers. Faculty may collaborate with the Office of Economic and Manpower Analysis, which houses extensive administrative data on soldiers and veterans.
+
+Preliminary interviews will be conducted online in mid-December. The appointment begins July 2027. A Ph.D. must be completed by the start date. U.S. citizenship is required. Salary is commensurate with qualifications and experience.</jp_full_text>
+		<jp_keywords>Applied Microeconomics; Household Finance; Financial Literacy; Financial Well-being</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36470">
+			<country>UNITED STATES</country>
+			<state>New York</state>
+			<city>West Point</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61215">
+			<jc_code>A</jc_code>
+			<jc_description>General Economics and Teaching</jc_description>
+			</jel_class>
+			<jel_class id="61216">
+			<jc_code>D</jc_code>
+			<jc_description>Microeconomics</jc_description>
+			</jel_class>
+			<jel_class id="61217">
+			<jc_code>H</jc_code>
+			<jc_description>Public Economics</jc_description>
+			</jel_class>
+			<jel_class id="61218">
+			<jc_code>J</jc_code>
+			<jc_description>Labor and Demographic Economics</jc_description>
+			</jel_class>
+			<jel_class id="61219">
+			<jc_code>G</jc_code>
+			<jc_description>Financial Economics</jc_description>
+			</jel_class>
+			<jel_class id="61220">
+			<jc_code>G5</jc_code>
+			<jc_description>Household Finance</jc_description>
+			</jel_class>
+			<jel_class id="61221">
+			<jc_code>D1</jc_code>
+			<jc_description>Household Behavior and Family Economics</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478490">
+		<jp_section>US: Other Academic (Visiting or Temporary)</jp_section>
+		<jp_title>Assistant Teaching Professor</jp_title>
+		<jp_institution>University of Colorado Boulder</jp_institution>
+		<jp_division>Social Responsibility and Sustainability Division</jp_division>
+		<jp_department>Leeds School of Business</jp_department>
+		<jp_salary_range>$90,000 annually</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-04 00:00:00</jp_application_deadline>
+		<jp_full_text>The Leeds School of Business at the University of Colorado Boulder is hiring an Assistant Teaching Professor position in the Social Responsibility and Sustainability Division starting in Spring 2027. To apply, please submit your CV, Cover Letter, teaching statement and Evidence of Teaching excellence to our CU job portal. During the application process you will need to enter contact information for three references who may be contacted to write letters of recommendation later in the process. Full consideration will be given to applications submitted by November 28, 2026. This position will remain open until filled.
+ 
+Application materials will not be accepted via email. 
+
+This is a two-year contract. The annual salary for this appointment is $90,000. We offer $2,000 (or more, if needed) for relocation moving expenses if moving from beyond a 50-mile radius from CU Boulder. 
+
+Our comprehensive benefits package includes medical, dental, and retirement plans; generous paid time off; tuition assistance for you and your dependents; and an ECO Pass for local transit. CU Boulder has been named one of Forbes' America's Best Large Employers, ranking #4 among large employers in Colorado and #28 among universities nationwide. 
+</jp_full_text>
+		<jp_keywords>Social Responsibility and Sustainability</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36490">
+			<country>UNITED STATES</country>
+			<state>Colorado</state>
+			<city>Boulder</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61266">
+			<jc_code>M</jc_code>
+			<jc_description>Business Administration and Business Economics; Marketing; Accounting; Personnel Economics</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478500">
+		<jp_section>US: Other Academic (Visiting or Temporary)</jp_section>
+		<jp_title>Postdoctoral Research Associate in Applied Economics (Health, Environment, Education)</jp_title>
+		<jp_institution>University of Illinois Urbana Champaign</jp_institution>
+		<jp_division></jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range> $75,000–$90,000</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-01-31 00:00:00</jp_application_deadline>
+		<jp_full_text>Seeking a full-time postdoctoral research associate to work on applied economics research in health, environment, and education with Dr. David Molitor (Gies College of Business) as part of the Health Care Research Initiative. The position starts August 16, 2027.
+
+This position is eligible for sponsorship for work authorization, except for sponsorship of a new H1B petition that would incur the $100,000 fee.
+
+The University of Illinois System is an equal opportunity employer, including but not limited to disability and/or veteran status, and complies with all applicable state and federal employment mandates. Please visit Required Employment Notices and Posters to view our non-discrimination statement and find additional information about required background checks, sexual harassment/misconduct disclosures, and employment eligibility review through E-Verify.
+
+Applicants with disabilities are encouraged to apply and may request a reasonable accommodation under the Americans with Disabilities Act (2008) to complete the application and/or interview process. Accommodations may also be requested on the basis of pregnancy, childbirth, and related conditions, or religion. Requests may be submitted through the reasonable accommodations portal, or by contacting the Accessibility &amp;amp; Accommodations Division of the Office for Access and Equity at 217-333-0885, or by emailing accessibility@illinois.edu.
+
+</jp_full_text>
+		<jp_keywords>Health Economics, Education, Environmental Economics and Public Economics
+</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36503">
+			<country>UNITED STATES</country>
+			<state>Illinois</state>
+			<city>Champaign</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61288">
+			<jc_code>I1</jc_code>
+			<jc_description>Health</jc_description>
+			</jel_class>
+			<jel_class id="61289">
+			<jc_code>I2</jc_code>
+			<jc_description>Education and Research Institutions</jc_description>
+			</jel_class>
+			<jel_class id="61290">
+			<jc_code>Q5</jc_code>
+			<jc_description>Environmental Economics</jc_description>
+			</jel_class>
+			<jel_class id="61291">
+			<jc_code>H</jc_code>
+			<jc_description>Public Economics</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478487">
+		<jp_section>US: Other Academic (Visiting or Temporary)</jp_section>
+		<jp_title>Hellenic Studies Post-Doctoral Associate</jp_title>
+		<jp_institution>Yale University</jp_institution>
+		<jp_division></jp_division>
+		<jp_department>Hellenic Studies Program</jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-02-01 00:00:00</jp_application_deadline>
+		<jp_full_text>The Yale Hellenic Studies program invites applications for the Hellenic Studies Post-Doctoral Associate position for the 2027-2028 academic year.
+
+Housed in the MacMillan Center for International and Area Studies, the interdisciplinary Hellenic Studies Program supports and coordinates the teaching and study of topics related to modern Greece at Yale.
+
+The postdoctoral associate will be required to continue research or writing on topics related to Hellenic Studies and contribute to the development of planning, events, and conferences for the Hellenic Studies Program. Ideal candidates should work on topics related to Modern Greece and Modern Greek studies, including various disciplines within the humanities, social sciences, sciences, engineering, and medicine.
+
+Applicants must have completed their PhD within 5 years of beginning at Yale. Postdoctoral Associates are expected to be in full-time residence in New Haven, Connecticut, for the full academic year. For a full list of requirements, visit the application link below.
+
+The salary for this position is commensurate with experience and complies with the Yale Office of Postdoctoral Affairs compensation policy and includes a benefits package.
+
+Applications received by February 1, 2027 will receive priority review. Only submissions through Interfolio will be accepted.  
+
+https://apply.interfolio.com/195786 
+
+All inquiries should be addressed to: hellenic@yale.edu.</jp_full_text>
+		<jp_keywords>Modern Greece
+Modern Greek studies
+humanities
+social sciences
+sciences
+engineering
+medicine</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36488">
+			<country>UNITED STATES</country>
+			<state>Connecticut</state>
+			<city>New Haven</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61261">
+			<jc_code>F</jc_code>
+			<jc_description>International Economics</jc_description>
+			</jel_class>
+			<jel_class id="61262">
+			<jc_code>Z</jc_code>
+			<jc_description>Other Special Topics</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
 	<position jp_id="111478479">
 		<jp_section>Full-Time Nonacademic</jp_section>
 		<jp_title>Economist</jp_title>
@@ -985,9 +2954,9 @@ Assistant Professor of Economics, Tenure/Track
 			</location>
 			</locations>
 			<JEL_Classifications>
-			<jel_class id="61140">
-			<jc_code>A2</jc_code>
-			<jc_description>Economic Education and Teaching of Economics</jc_description>
+			<jel_class id="61451">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
 			</jel_class>
 			</JEL_Classifications>
 	</position>
@@ -1020,9 +2989,9 @@ NYU</jp_keywords>
 			</location>
 			</locations>
 			<JEL_Classifications>
-			<jel_class id="61304">
-			<jc_code>H</jc_code>
-			<jc_description>Public Economics</jc_description>
+			<jel_class id="61450">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
 			</jel_class>
 			</JEL_Classifications>
 	</position>
@@ -3942,7 +5911,7 @@ Submission materials required:
 		<jp_institution>Virginia Tech</jp_institution>
 		<jp_division>College of Science</jp_division>
 		<jp_department>Economics</jp_department>
-		<jp_salary_range>$140,000 - $145,000</jp_salary_range>
+		<jp_salary_range></jp_salary_range>
 		<jp_agency_insertion_num></jp_agency_insertion_num>
 		<jp_application_deadline>2026-11-28 00:00:00</jp_application_deadline>
 		<jp_full_text>The Department of Economics at Virginia Tech invites applications for a tenure-track Assistant Professor position beginning August 2027. We seek candidates with the potential to establish an internationally recognized research program in Economics, Data Science, or related disciplines, with interests broadly connected to the use of data, computation, and quantitative methods to address important economic, business, technological, or societal questions. We particularly value candidates whose research incorporates emerging technologies, including artificial intelligence (AI), machine learning, or related innovations, or who employ modern computational and data-intensive methods to address economic questions and inform decision-making. The successful candidate will be expected to contribute to the department's research mission, teach at the undergraduate and graduate levels, and participate in interdisciplinary activities across the university.
@@ -16360,7 +18329,7 @@ Statistics</jp_keywords>
 		<jp_institution>Federal Reserve Bank of Kansas City</jp_institution>
 		<jp_division></jp_division>
 		<jp_department></jp_department>
-		<jp_salary_range>$132,200-$217,300</jp_salary_range>
+		<jp_salary_range>$132,200-$246,900</jp_salary_range>
 		<jp_agency_insertion_num></jp_agency_insertion_num>
 		<jp_application_deadline>2026-12-01 00:00:00</jp_application_deadline>
 		<jp_full_text>When you join the Federal Reserve System, you'll play a key role in the national economy, collaborating with leading professionals to strengthen our economy, protect financial stability, and support critical payment systems. We invest in contemporary and emerging technology each year to support the Federal Reserve and our economy, and we're building a dynamic and diverse team for our future.
@@ -16418,8 +18387,8 @@ Relocation Assistance: Yes
 
 Salary:
 
-$132,200 – $171,100 / Economist
-$167,900 – $217,300 / Senior Economist
+$132,200 – $194,400 / Economist
+$167,900 – $246,900 / Senior Economist
 The listed salary applies to the Federal Reserve Bank of Kansas City. Final offers are determined by factors including the candidate’s qualifications, internal alignment considerations, district assignment, and geographic location.  
  
 
@@ -16638,48 +18607,6 @@ AI Applications in Finance.  </jp_keywords>
 			</jel_class>
 			</JEL_Classifications>
 	</position>
-	<position jp_id="111478079">
-		<jp_section>US: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
-		<jp_title>Faculty Positions in Economics</jp_title>
-		<jp_institution>Stanford Graduate School of Business</jp_institution>
-		<jp_division></jp_division>
-		<jp_department></jp_department>
-		<jp_salary_range>$270,000  - $470,000</jp_salary_range>
-		<jp_agency_insertion_num></jp_agency_insertion_num>
-		<jp_application_deadline>2026-11-10 00:00:00</jp_application_deadline>
-		<jp_full_text>The Graduate School of Business at Stanford University invites applications for tenure-track faculty positions in economics beginning September 1, 2027.  All fields of economics will be considered.  Candidates should possess strong research and teaching abilities and must have, or expect to have, a PhD by September 1, 2027.  Duties include research and teaching in the MBA and PhD programs at the Graduate School of Business.  
-
-Applicants should submit their applications electronically by visiting the website https://econjobmarket.org/positions/12733 and uploading their curriculum vitae, research papers and publications, and teaching evaluations (if applicable) on that site. For an application to be considered complete, all applicants must submit a CV, a job market paper, and arrange for three letters of recommendation. The submission deadline is 4 p.m. Pacific Time on Tuesday, November 10, 2026 (midnight GMT). For questions regarding the application process, please send an email to Faculty_Recruiter@gsb.stanford.edu.
-
-The expected base pay range for this position is: 
-
-Assistant Professor: 	$270,000 - $290,000
-Associate Professor: 	$325,000 - $375,000
-Full Professor:	 	$395,000 - $470,000
-
-Stanford University has provided a pay range representing its good faith estimate of what the university reasonably expects to pay for the position. The pay offered to the selected candidate will be determined based on factors including (but not limited to) the experience and qualifications of the selected candidate, including years since terminal degree, training, and field or discipline; departmental budget availability; internal equity; and external market pay for comparable jobs.
-
-Stanford is an equal employment opportunity and affirmative action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or any other characteristic protected by law. Stanford welcomes applications from all who would bring additional dimensions to the University’s research, teaching, and clinical missions.
-
-Consistent with its obligations under the law, the University will provide reasonable accommodations to applicants and employees with disabilities. Applicants requiring a reasonable accommodation for any part of the application or hiring process should contact disability.access@stanford.edu.
-</jp_full_text>
-		<jp_keywords></jp_keywords>
-		<jp_status></jp_status>
-		<jp_new></jp_new>
-			<locations>
-			<location id="36034">
-			<country>UNITED STATES</country>
-			<state>California</state>
-			<city>Stanford</city>
-			</location>
-			</locations>
-			<JEL_Classifications>
-			<jel_class id="60161">
-			<jc_code>A1</jc_code>
-			<jc_description>General Economics</jc_description>
-			</jel_class>
-			</JEL_Classifications>
-	</position>
 	<position jp_id="111478080">
 		<jp_section>US: Other Academic (Visiting or Temporary)</jp_section>
 		<jp_title>Assistant or Associate Professor of Public Policy - Non-Tenure Track</jp_title>
@@ -16799,9 +18726,7 @@ The successful candidate will contribute to teaching, research, and service, wit
 
 Applicants should hold a PhD in Economics or an equivalent degree with a strong focus on cost-effectiveness analysis and health economics and outcomes research.
 
-Salary Range: $120,000–$140,000, commensurate with qualifications and experience.
-
-Please do not submit an application through the UMB job portal. Interested candidates should instead contact Dr. C. Daniel Mullins directly at Daniel.Mullins@rx.umaryland.edu for application instructions and consideration.</jp_full_text>
+Salary Range: $120,000–$140,000, commensurate with qualifications and experience.</jp_full_text>
 		<jp_keywords>Pharmacoeconomics
 Tenure Track
 Pharmacy
@@ -21767,7 +23692,7 @@ This is an ideal opportunity for a data scientist and/or macroeconomist who has 
 		<jp_department></jp_department>
 		<jp_salary_range></jp_salary_range>
 		<jp_agency_insertion_num></jp_agency_insertion_num>
-		<jp_application_deadline>2026-10-31 00:00:00</jp_application_deadline>
+		<jp_application_deadline>2026-11-30 00:00:00</jp_application_deadline>
 		<jp_full_text>The Budget Lab, a policy research center at Yale Law School, is searching for one or more applied microeconomists.
 
 The successful candidate will take a lead role in the analysis of current and proposed public policies. This entails developing research designs, policy questions, and work plans relevant to the Budget Lab’s work. In some cases, it requires building new modeling capacity for exploration of policy counterfactuals.
@@ -22307,7 +24232,6 @@ The referenced salary range is based on Johns Hopkins University's good faith be
 		<jp_department></jp_department>
 		<jp_salary_range>Competitive/Market</jp_salary_range>
 		<jp_agency_insertion_num></jp_agency_insertion_num>
-		<jp_application_deadline>2026-10-31 00:00:00</jp_application_deadline>
 		<jp_full_text>KnowKancer | US-Based, Remote | Part-Time
 
 KnowKancer is building the intelligence layer for cancer early detection — using data to identify who is most at risk. We are seeking a part-time data scientist to join a small, mission-driven team at an early-stage company at a pivotal moment.

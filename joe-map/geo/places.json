@@ -1,4 +1,8 @@
 {
+"13617|New York|UNITED STATES": [
+40.71427,
+-74.00597
+],
 "AHMEDABAD|Gujarat|INDIA": [
 23.02579,
 72.58727
@@ -162,6 +166,10 @@
 "Buffalo|New York|UNITED STATES": [
 42.88645,
 -78.87837
+],
+"Bunkyo-ku|Tokyo|JAPAN": [
+35.5331,
+139.4217
 ],
 "Burnaby|British Columbia|CANADA": [
 49.26636,
@@ -375,6 +383,10 @@
 50.11552,
 8.68417
 ],
+"Frankfurt||GERMANY": [
+50.11552,
+8.68417
+],
 "Fribourg|Fribourg|SWITZERLAND": [
 46.80237,
 7.15128
@@ -398,6 +410,10 @@
 "Grand Rapids|Michigan|UNITED STATES": [
 42.96336,
 -85.66809
+],
+"Greensboro|North Carolina|UNITED STATES": [
+36.07264,
+-79.79198
 ],
 "Greenville|South Carolina|UNITED STATES": [
 34.85262,
@@ -491,9 +507,17 @@
 42.44063,
 -76.49661
 ],
+"Jacksonville|Florida|UNITED STATES": [
+30.33218,
+-81.65565
+],
 "Jinan||CHINA": [
 36.66833,
 116.99722
+],
+"Kalamazoo|Michigan|UNITED STATES": [
+42.29171,
+-85.58723
 ],
 "Kansas City|Missouri|UNITED STATES": [
 39.09973,
@@ -699,6 +723,10 @@
 45.50884,
 -73.58781
 ],
+"Muncie|Indiana|UNITED STATES": [
+40.19338,
+-85.38636
+],
 "Munich|Bavaria|GERMANY": [
 48.13743,
 11.57549
@@ -886,6 +914,10 @@
 "Rome||ITALY": [
 41.89193,
 12.51133
+],
+"SHANGHAI||CHINA": [
+31.22222,
+121.45806
 ],
 "Saint Paul|Minnesota|UNITED STATES": [
 44.94441,
