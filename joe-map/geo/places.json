@@ -23,6 +23,10 @@
 24.45118,
 54.39696
 ],
+"Albuquerque|New Mexico|UNITED STATES": [
+35.08449,
+-106.65114
+],
 "Alexandria|Virginia|UNITED STATES": [
 38.80484,
 -77.04692
@@ -30,6 +34,10 @@
 "Aliso Viejo|California|UNITED STATES": [
 33.56504,
 -117.72712
+],
+"Allston|Massachusetts|UNITED STATES": [
+42.35843,
+-71.12589
 ],
 "Ames|Iowa|UNITED STATES": [
 42.03471,
@@ -75,6 +83,10 @@
 30.26715,
 -97.74306
 ],
+"BEIJING|BEIJING|CHINA": [
+39.9075,
+116.39723
+],
 "Baltimore|Maryland|UNITED STATES": [
 39.29038,
 -76.61219
@@ -102,6 +114,10 @@
 "Beijing||CHINA": [
 39.9075,
 116.39723
+],
+"Beirut||LEBANON": [
+33.89332,
+35.50157
 ],
 "Beloit|Wisconsin|UNITED STATES": [
 42.50835,
@@ -183,6 +199,10 @@
 34.12111,
 35.64806
 ],
+"CHENGDU|SICHUAN|CHINA": [
+30.66667,
+104.06667
+],
 "Cairo|Other / Non-US|EGYPT": [
 30.06263,
 31.24967
@@ -206,6 +226,10 @@
 "Carbondale|Illinois|UNITED STATES": [
 37.72727,
 -89.21675
+],
+"Cergy|Ile de France|FRANCE": [
+49.03645,
+2.07613
 ],
 "Champaign|Illinois|UNITED STATES": [
 40.11642,
@@ -295,6 +319,10 @@
 38.91222,
 121.60222
 ],
+"Dalian|Liaoning|CHINA": [
+38.91222,
+121.60222
+],
 "Dallas|Texas|UNITED STATES": [
 32.78306,
 -96.80667
@@ -306,6 +334,10 @@
 "Davis|California|UNITED STATES": [
 38.54491,
 -121.74052
+],
+"Denton|Texas|UNITED STATES": [
+33.21484,
+-97.13307
 ],
 "Denver|Colorado|UNITED STATES": [
 39.73915,
@@ -567,6 +599,10 @@
 37.98869,
 -84.47772
 ],
+"Lima|Lima|PERU": [
+-12.04318,
+-77.02824
+],
 "Lincoln|Nebraska|UNITED STATES": [
 40.8,
 -96.66696
@@ -659,6 +695,14 @@
 37.30216,
 -120.48297
 ],
+"Mexico City|CDMX|MEXICO": [
+19.42847,
+-99.12766
+],
+"Mexico City|Ciudad de M\u00e9xico|MEXICO": [
+19.42847,
+-99.12766
+],
 "Mexico City|Mexico City|MEXICO": [
 19.42847,
 -99.12766
@@ -666,6 +710,10 @@
 "Mexico City||MEXICO": [
 19.42847,
 -99.12766
+],
+"Miami|Florida|UNITED STATES": [
+25.77427,
+-80.19366
 ],
 "Middletown|Connecticut|UNITED STATES": [
 41.56232,
@@ -755,6 +803,10 @@
 28.65195,
 77.23149
 ],
+"New Delhi||INDIA": [
+28.65195,
+77.23149
+],
 "New Haven|Connecticut|UNITED STATES": [
 41.30815,
 -72.92816
@@ -786,6 +838,10 @@
 "Nicosia|Nicosia|CYPRUS": [
 35.17284,
 33.35397
+],
+"Ningbo|Zhejiang|CHINA": [
+29.87819,
+121.54945
 ],
 "Nottingham|Nottinghamshire|UNITED KINGDOM": [
 52.9536,
@@ -819,6 +875,10 @@
 39.507,
 -84.74523
 ],
+"Oxford|Oxfordshire|UNITED KINGDOM": [
+51.75222,
+-1.25596
+],
 "Palo Alto|California|UNITED STATES": [
 37.44188,
 -122.14302
@@ -838,6 +898,10 @@
 "Philadelphia|Pennsylvania|UNITED STATES": [
 39.95238,
 -75.16362
+],
+"Piscataway|New Jersey|UNITED STATES": [
+40.49927,
+-74.39904
 ],
 "Pittsburgh|Pennsylvania|UNITED STATES": [
 40.44062,
@@ -963,6 +1027,10 @@
 -33.45694,
 -70.64827
 ],
+"Santiago|Regi\u00f3n Metropolitana|CHILE": [
+-33.45694,
+-70.64827
+],
 "Santiago||CHILE": [
 -33.45694,
 -70.64827
@@ -986,6 +1054,10 @@
 "Seattle|Washington|UNITED STATES": [
 47.60621,
 -122.33207
+],
+"Sejong|Sejong|KOREA, REPUBLIC OF": [
+36.59245,
+127.29223
 ],
 "Sejong||KOREA, REPUBLIC OF": [
 36.59245,
@@ -1022,6 +1094,10 @@
 "Shenzhen|Guangdong|CHINA": [
 22.54554,
 114.0683
+],
+"Shibuya|Tokyo|JAPAN": [
+35.6589,
+139.70665
 ],
 "Silver Spring|Maryland|UNITED STATES": [
 38.99067,
@@ -1163,6 +1239,10 @@
 42.37649,
 -71.23561
 ],
+"Washington D.C.|District of Columbia|UNITED STATES": [
+38.89511,
+-77.03637
+],
 "Washington DC|District of Columbia|UNITED STATES": [
 38.89511,
 -77.03637
@@ -1222,6 +1302,10 @@
 "Wuhan|Huhei|CHINA": [
 30.58333,
 114.26667
+],
+"Xi'an|Shaanxi|CHINA": [
+34.25833,
+108.92861
 ],
 "Xiamen|Fujian|CHINA": [
 24.47979,

@@ -379,5 +379,41 @@
 39.83,
 -98.58,
 "United States (city not specified)"
+],
+"Abuja||NIGERIA": [
+9.076,
+7.399
+],
+"Blagoevgrad|Blagoevgrad|BULGARIA": [
+42.021,
+23.094
+],
+"Geneva|New York|UNITED STATES": [
+42.869,
+-76.978
+],
+"Kyiv|Kyiv|UKRAINE": [
+50.45,
+30.523
+],
+"Mandaluyong City|Metro Manila|PHILIPPINES": [
+14.578,
+121.034,
+"Mandaluyong (Metro Manila), Philippines"
+],
+"Sejongsi||KOREA, REPUBLIC OF": [
+36.48,
+127.289,
+"Sejong, Korea, Republic Of"
+],
+"Smithfield|Rhode Island|UNITED STATES MINOR OUTLYING ISLANDS": [
+41.922,
+-71.549,
+"Smithfield, RI"
+],
+"|Tianjin|CHINA": [
+39.142,
+117.177,
+"Tianjin, China"
 ]
 }
