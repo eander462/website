@@ -1,6 +1,526 @@
 <JOE_EXPORT>
 <year joe_year_ID="2026">
 <issue joe_issue_ID="2">
+	<position jp_id="111477695">
+		<jp_section>Full-Time Nonacademic</jp_section>
+		<jp_title>Data Scientist, Financials</jp_title>
+		<jp_institution>Freestone Grove Partners</jp_institution>
+		<jp_division></jp_division>
+		<jp_department>Quantitative Strategies </jp_department>
+		<jp_salary_range>$175,000-$250,000</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-05-31 00:00:00</jp_application_deadline>
+		<jp_full_text>Data Scientist, Financials | Freestone Grove
+San Francisco or New York | In-office 5 days a week
+
+About us
+Freestone Grove is a multi-strategy long/short equities firm built on fundamental talent, quantitative expertise and a differentiated platform. We are hiring a Data Scientist to work alongside the portfolio managers and analysts who cover financials: banks, asset managers, investment banks, specialty lenders, insurers and fintech.
+
+The role
+Financial firms are macroeconomic transmission mechanisms with balance sheets, and each one’s sensitivity to shocks differs. You will measure those differences with sound forecasting models of company, industry and macro fundamentals, built for a bottom-up investment process.
+
+This is a dedicated financials seat. From day one you will own questions end to end: framing, identification, data construction, estimation and write-up. You will reach conclusions, size your confidence in them, and defend them to people who act on your work. We value process, robustness, interpretability and economic significance.
+
+How a deposit franchise reprices, what a loss reserve implies about management’s forecast, how asset-liability duration interacts with a pricing cycle: these are questions of economics and accounting before they are questions of data science. A researcher who has spent years on monetary policy transmission, financial intermediation, or insurance economics arrives already fluent in the machinery.
+
+Representative projects
+
+Map a bank’s lending exposures and borrower health, assess charge-off risk, and connect it to provisions, reserve adequacy, and earnings
+Estimate deposit betas and model net interest margin sensitivity across banks
+Model how reserves, asset-liability duration, and pricing cycles drive insurer earnings under rate and credit scenarios
+Link market levels, fund flows and fees to asset-manager revenue, or payment and lending volumes to fintech unit economics
+Infer what a bank’s reserve assumptions imply about management’s macro outlook, and where divergence from consensus creates mispricing
+
+Day to day
+
+Work directly with PMs, analysts, and our Heads of Data Science and Quantitative Strategies
+Source, clean, and explore regulatory, company-disclosed, transactional, and alternative datasets, many new to the firm
+Build forecasting models grounded in the economics of the business
+Measure a dataset’s predictive content for single-name or sector questions, and test hypotheses against it
+Turn recurring research into durable trackers the investment team runs independently
+
+Who we are looking for
+
+A PhD in economics, finance, accounting or a related field. Exceptional master’s-level candidates with a comparable research record will be considered.
+A strong record of independent research and the ability to take an ambiguous question to a defensible conclusion
+Fluency in Python or R, with code others can read and audit, and working SQL
+Excellent written and verbal communication, including making technical results legible to investors, and the discipline to quantify uncertainty honestly
+Curiosity about how financial businesses make money, and willingness to be challenged in the room
+
+The strongest applicants will have written a dissertation or job market paper in a field relevant to financials (monetary policy transmission, financial intermediation, credit risk, insurance economics, asset pricing, household finance, financial regulation). They will also have worked directly with firm-level data such as the FR Y-9C, FFIEC Call Reports, NAIC statutory filings, loan-level tapes, HMDA or SEC filings.
+
+Equal Opportunity
+
+Freestone Grove Partners is proud to be an equal opportunity employer. We provide employment opportunities without regard to age, race, color, ancestry, national origin, religion, disability, sex, gender identity or expression, sexual orientation, veteran status, or any other protected class. 
+
+The posted range is the expected base salary and does not include other potential components of the compensation package, such as discretionary bonus, benefits, and perks.</jp_full_text>
+		<jp_keywords>Banking
+Financial Intermediation
+Monetary Policy Transmission
+Credit Risk
+Financial Regulation
+Hedge Fund 
+Forecasting
+Data Scientist
+Quantitative Researcher</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36636">
+			<country>UNITED STATES</country>
+			<state>California</state>
+			<city>San Francisco</city>
+			</location>
+			<location id="36637">
+			<country>UNITED STATES</country>
+			<state>New York</state>
+			<city>New York City</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61556">
+			<jc_code>G</jc_code>
+			<jc_description>Financial Economics</jc_description>
+			</jel_class>
+			<jel_class id="61557">
+			<jc_code>E</jc_code>
+			<jc_description>Macroeconomics and Monetary Economics</jc_description>
+			</jel_class>
+			<jel_class id="61558">
+			<jc_code>C</jc_code>
+			<jc_description>Mathematical and Quantitative Methods</jc_description>
+			</jel_class>
+			<jel_class id="61559">
+			<jc_code>M</jc_code>
+			<jc_description>Business Administration and Business Economics; Marketing; Accounting; Personnel Economics</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478611">
+		<jp_section>US: Other Academic (Visiting or Temporary)</jp_section>
+		<jp_title>Post-Doctoral Fellow, Economics of Talent</jp_title>
+		<jp_institution>National Bureau of Economic Research</jp_institution>
+		<jp_division></jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-07 00:00:00</jp_application_deadline>
+		<jp_full_text>NBER's Post-Doctoral Fellowship on Economics of Talent, with support from Carina Initiatives, enables two early-career economists to visit NBER's Cambridge headquarters for a year of intensive research studying topics including the efficacy of interventions for identifying talented individuals at early stages in the education system, factors that affect whether talented individuals realize their potential, factors that determine where and within which firms these individuals work, contributions of talented individuals to academia, innovation, or entrepreneurship, and links between organizational structures in business, government, and the educational sector and productivity of high-talent individuals.
+
+Each fellowship will provide a 12-month stipend of $110,000, reimbursement for health insurance, a travel and research allowance, and an office at the NBER. Fellowships are subject to funding availability.
+
+Applications from researchers just completing their PhDs and from junior faculty who may be able to combine the fellowship with early career leave are welcome. The NBER may be able to sponsor the fellowship recipients for a J-1 visa under its research scholars’ program.
+
+Applicants must have completed their PhD by June 2027. Applications must be marked &amp;quot;Complete&amp;quot; by the deadline to be considered.
+
+Candidates must submit the application materials by December 7, 2026, at 5 pm EST. </jp_full_text>
+		<jp_keywords>Talented and Gifted Education 
+STEM Education
+Entrepreneurship and Innovation
+</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36631">
+			<country>UNITED STATES</country>
+			<state>Massachusetts</state>
+			<city>Cambridge</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61546">
+			<jc_code>I</jc_code>
+			<jc_description>Health, Education, and Welfare</jc_description>
+			</jel_class>
+			<jel_class id="61547">
+			<jc_code>O3</jc_code>
+			<jc_description>Innovation; Research and Development; Technological Change; Intellectual Property Rights</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478613">
+		<jp_section>International: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant/Associate Professor</jp_title>
+		<jp_institution>Pontificia Universidad Católica de Chile (PUC), Santiago, CHILE</jp_institution>
+		<jp_division>Mathematical and Computational Engineering and Economics </jp_division>
+		<jp_department>Instituto de Economía and Institute for Mathematical and Computational Engineering (IMC)</jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-08-31 00:00:00</jp_application_deadline>
+		<jp_full_text>Job Openings for Economists (JOE)
+Position: Joint Faculty Position in Mathematical and Computational Engineering and Economics – Assistant/Associate Professor
+Institution: Instituto de Economía and Institute for Mathematical and Computational Engineering (IMC), Pontificia Universidad Católica de Chile (PUC), Santiago, CHILE
+Section: International: Full-Time Academic (Permanent, Tenure Track or Tenured)
+Start Date: September 1, 2027
+Application Period:
+
+        Ad published: November 18, 2026
+	Selection period: November 18, 2026 – August 31, 2027 (priority deadline: December 15, 2026; rolling review thereafter)
+
+ 
+Full Description
+The Institute of Economics (IE) and the Institute for Mathematical and Computational Engineering (IMC) at Pontificia Universidad Católica de Chile invite applications for one joint faculty position at the level of Assistant or Associate Professor. This position seeks to strengthen interdisciplinary research at the intersection of economics, artificial intelligence, applied mathematics, computer science, econometrics and statistics, fostering sustained collaboration between the two institutes. We welcome highly qualified candidates whose research establishes substantive connections between the fields represented by both institutes. 
+ 
+What We Offer
+	Joint appointment: The successful candidate will hold a joint appointment in IMC and IE and will participate actively in the academic life of both units.
+	Language: Command of Spanish is not required at the time of application, but the selected candidate will be expected to learn the language.
+	Competitive compensation package at an international level.
+
+ 
+Candidate Profile
+	Ph.D. (completed or close to completion) in Economics, Applied Mathematics, Operations Research, Computer Science, Statistics, or a closely related field.
+ 
+Application Package
+Applicants should submit the following documents:
+	Cover Letter (1–2 pages)
+	Curriculum Vitae 
+	Job Market Paper and/or research publications
+	Teaching evaluations (if available)
+	Three letters of recommendation (Assistant Professor applicants)
+	For Associate Professor applicants: three references (letters optional)
+
+Applications received by December 5 will receive priority consideration. Review will begin on that date and continue on a rolling basis until the position is filled.
+
+
+	UC Chile is committed to equal opportunities, to building an inclusive, diverse, and fraternal community, and to promoting the academic development of women and men.
+	Please note that a candidate of foreign nationality without permanent residency in Chile, or applying from abroad, if selected for the position, will need to apply for and obtain the corresponding visa in their country of origin to join the university faculty.
+
+ 
+Contact &amp;amp; Submission
+For more information, please contact Alejandra Zabaleta at:
+</jp_full_text>
+		<jp_keywords>artificial intelligence, applied mathematics, computer science, econometrics and statistics</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36633">
+			<country>CHILE</country>
+			<state>Región Metropolitana</state>
+			<city>Santiago</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61550">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478609">
+		<jp_section>US: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant Professor (Tenure Eligible)</jp_title>
+		<jp_institution>University of Arizona</jp_institution>
+		<jp_division></jp_division>
+		<jp_department>Agricultural and Applied Economics</jp_department>
+		<jp_salary_range>salary at 1.0 full-time equivalency (FTE)</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-01-05 00:00:00</jp_application_deadline>
+		<jp_full_text>The Department of Agricultural and Applied Economics (AAE) at the University of Arizona is seeking applicants for an Assistant Professor (tenure eligible) position to conduct research and teach courses related to water resources economics, or closely related field. This is a 9-month, full-time appointment with opportunity for promotion in rank and tenure. This position is part of a strategic, interdisciplinary cluster hire designed to strengthen the University of Arizona’s national leadership in water resource economics and related fields. The successful candidate is expected to develop a nationally and internationally recognized research program, publish high-quality research in leading peer-reviewed journals, and actively pursue extramural funding in support of their research. 
+ 
+
+Applicants should submit a cover letter, curriculum vitae, two (2) page research statement describing the goals and vision for your future research program in this position and copies of or links to important publications and/or working papers. 
+ 
+
+Applicants must provide the names and contact information of three individuals for letters of recommendation. All candidates must apply online at https://arizona.csod.com/ux/ats/careersite/4/home/requisition/27673?c=arizona. Applications must be received by January 5, 2027 to be guaranteed full consideration, but will be accepted until the position is filled.</jp_full_text>
+		<jp_keywords>Agricultural and Applied Economics</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36629">
+			<country>UNITED STATES</country>
+			<state>Arizona</state>
+			<city>Tucson</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61543">
+			<jc_code>Q1</jc_code>
+			<jc_description>Agriculture</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478599">
+		<jp_section>US: Other Academic (Visiting or Temporary)</jp_section>
+		<jp_title>Lecturer</jp_title>
+		<jp_institution>University of North Carolina at Charlotte</jp_institution>
+		<jp_division>Belk College of Business</jp_division>
+		<jp_department>Finance</jp_department>
+		<jp_salary_range>Based on qualifications</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-02-17 00:00:00</jp_application_deadline>
+		<jp_full_text>Primary Purpose of Department
+The Department of Finance is one of six departments in the Belk College of Business. The Belk College is committed to creating an inclusive culture that inspires a passion for knowledge and intellectual growth as well as a dedication to service. We engage in research that fosters innovative business theory, policy, and practice. In strategic partnership with the greater Charlotte region, we educate our students to become leaders who are critical thinkers, ethically informed, and globally aware.
+The University of North Carolina at Charlotte recognizes the differentiation of mission, goals, and objectives inherent in the diversity of disciplines represented by its colleges and departments. Thus, the Job Responsibilities and Essential Functions for Non-Tenure Track Faculty should be interpreted in the context of the related departmental and collegiate teaching goals. 
+
+Teaching – Faculty responsibilities and essential functions with respect to teaching may include but are not limited to: subject matter competence, course design, course presentation, and grading student work.
+
+Description of Work
+If conducting or supporting research is an element of the work required in this position, then the following statement is applicable: This position is subject to research-security screening. As part of the application, applicants must disclose, either in their CV or in a separate document submitted with the application, all current appointments or affiliations with foreign institutions or organizations, foreign research support, and ongoing research collaborations with foreign institutions, organizations, or their personnel. Before candidates advance to an on-campus interview, the university will review this information and other publicly available information for relationships involving institutions on the current Section 1286 list and any other applicable U.S. restricted-party lists. A disclosed or identified relationship does not automatically disqualify a candidate. As a condition of employment, a selected candidate must resolve any relationship the university determines would violate applicable law or sponsor requirements or materially impair the candidate’s or the university’s eligibility for federal funding.
+
+Essential Duties and Responsibilities
+The Department of Finance in the Belk College of Business at the University of North Carolina at Charlotte is seeking to fill a lecturer, senior lecturer, or clinical assistant professor position in finance. The position is full-time and non-tenure track. The primary role of this position is to teach undergraduate finance courses—with a preference for candidates who can teach investment-related courses—and, if suitably qualified, graduate-level courses. In addition to delivering high-quality instruction and interacting with students professionally and respectfully, depending on the position, the successful candidate will be expected to engage in research and/or professional activities necessary to meet the College’s Faculty Qualification Standards, as well as participate in appropriate departmental and college service. We are seeking candidates who demonstrate a commitment to maintaining professional credentials, possess excellent communication skills, and show a strong willingness to build and maintain active relationships with key business partners.
+
+Minimum Experience/Education
+UNC Charlotte gives primary consideration to the earned master's and/or terminal degree in the teaching discipline or a related discipline.
+
+Preferred Education, Skills and Experience
+Candidates for the lecturer position must hold a master’s degree with a major in finance or a related field or a M.B.A. degree with a major in finance or a related field. Appointment as a lecturer or senior lecturer depends on qualifications and experience. Candidates for the clinical assistant professor position must hold either a Ph.D. or DBA in finance or a related field or ABD in the process of obtaining a Ph.D. or DBA in finance or a related field.
+
+N/A
+Special Notes to Applicants: The position is open until filled. To ensure full consideration, please submit application materials by January 31, 2027. Review of applicants will begin immediately. Applications must be made electronically at https://jobs.charlotte.edu and include a cover letter and current CV. If available, applicants should submit evidence of teaching effectiveness, including teaching evaluations (optional). Applicants for the clinical positions should submit a writing sample. Finalists will be asked to forward official transcripts, three letters of reference, and other supportive materials as requested by the Search Committee. Informal inquiries may be directed to the Chairs of the Search Committee at financefacsearch@charlotte.edu. All applications will be considered strictly confidential. 
+
+The University of North Carolina at Charlotte is an equal opportunity employer and does not discriminate against employees or applicants for employment based on race, color, religion, sex, sexual orientation, gender identity, age, national origin, physical or mental disability, veteran status, or any other protected status. In keeping with this commitment, UNC Charlotte ensures that persons of any background are invited, included, and treated equally in the terms and conditions of employment.
+ The candidate chosen for this position will be required to provide an official transcript of their highest earned degree and submit to a criminal background check.
+</jp_full_text>
+		<jp_keywords>Lecturer, Department of Finance</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36620">
+			<country>UNITED STATES</country>
+			<state>North Carolina</state>
+			<city>Charlotte</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61521">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478601">
+		<jp_section>International: Other Academic (Visiting or Temporary)</jp_section>
+		<jp_title>Research Fellow in Economic History</jp_title>
+		<jp_institution>Australian National University</jp_institution>
+		<jp_division>Research School of Economics</jp_division>
+		<jp_department></jp_department>
+		<jp_salary_range>124,638 to 141,317 AUD</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-01-10 00:00:00</jp_application_deadline>
+		<jp_full_text>The Research School of Economics at the Australian National University (ANU) is seeking expressions of interest from highly qualified candidates for a three-year Research Fellowship in Economic History. The Research Fellow will conduct independent high-quality research, contribute to the strategic agenda of the School's Centre for Economic History, and teach one course per year in economic history. We welcome projects on any aspect of the field of economic history.
+
+We are looking for an early-career researcher who must hold a PhD in Economics or Economic History obtained within the past three years or to be awarded before the position starts. Expressions of interest should be accompanied by a research plan, a brief statement of why the fellowship is being sought, and at least three letters of recommendation. The selection of the successful candidate will be based on the quality of the candidate's research plan and their potential to contribute to the development of economic history research.
+
+Applications close on 10 January. Shortlisted candidates will be interviewed in January 2027, with a planned start in mid-2027 or by agreement. The position is full-time, and the Research Fellow is expected to conduct their research at the ANU campus in Canberra.
+
+For more information, please contact Andy Martin, School Manager: schoolmanager.rse@anu.edu.au
+
+About us:
+
+The ANU Research School of Economics is one of Australia’s premier academic institutions and provides an outstanding environment for economic research, teaching, and research training. The successful applicant will join a strong team of academics who publish in top international journals, hold external competitive grants, and receive recognition for their sustained pursuit of educational and research excellence. The School's Centre for Economic History builds on the fine tradition at the ANU for leadership in the field of economic history research in Australia. It involves a network of the most innovative economic historians and promotes interchange and collaboration, drawing on a wide range of expertise in Australia and overseas. The Centre for Economic History fosters scholarship through a variety of linkages, projects and events. It takes a thematic approach and seeks to set the research agenda by pioneering new topics and by promoting historical understanding through the use of modern methods of analysis in economics and business studies.
+
+The ANU is one of the world’s great universities, ranking 29th in the 2027 QS World University Rankings. The ANU provides attractive benefits and excellent support to maintain a healthy work/life balance and offers generous remuneration benefits, including four weeks paid vacation per year, assistance with relocation expenses, and 17% employer contribution to superannuation. We also offer generous parental leave, a parental and aged care support program, dual career hire programs, staff and family tuition fee discounts, ANU school holiday programs, and childcare facilities on campus.
+
+You'll find ANU in the heart of Canberra, Australia's capital city. The ANU campus is well renowned for its landscape setting and is an easy walk, bike ride, or drive from some of Australia's most significant political and cultural institutions including Australian Parliament House. Canberra’s beauty, accessibility, and friendliness make it the perfect place to work.</jp_full_text>
+		<jp_keywords>Economic History</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36622">
+			<country>AUSTRALIA</country>
+			<state>ACT</state>
+			<city>Canberra</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61525">
+			<jc_code>N</jc_code>
+			<jc_description>Economic History</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478519">
+		<jp_section>International: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant Professor/Associate Professor/Professor</jp_title>
+		<jp_institution>Istanbul Technical University</jp_institution>
+		<jp_division></jp_division>
+		<jp_department>Department of Economics</jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-01-31 00:00:00</jp_application_deadline>
+		<jp_full_text>
+The Department of Economics at Istanbul Technical University (ITU) invites applications for tenure-track or tenured positions at all ranks in Economics, beginning in Fall 2027, subject to budgetary approval. Applications are welcome from candidates across all fields of Economics.
+The language of instruction is English, and Turkish citizenship is not required. Applicants must hold a Ph.D. in Economics by Summer 2027. Candidates should demonstrate a commitment to high-quality research and effective teaching. Applicants for senior positions should have an established record of scholarly contributions appropriate to the rank sought.
+Primary responsibilities include conducting and publishing research, teaching undergraduate and graduate courses, supervising students, and contributing to departmental activities. Successful candidates will be expected to participate in the department’s academic activities and support its research and educational objectives.
+The application deadline is January 31, 2027. Interviews will be conducted online. For questions about the positions or the application process, please email itueconsearch@gmail.com
+</jp_full_text>
+		<jp_keywords></jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36532">
+			<country>TURKEY</country>
+			<state></state>
+			<city>Istanbul</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61341">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478597">
+		<jp_section>International: Other Academic (Visiting or Temporary)</jp_section>
+		<jp_title>Visiting Research Fellowships</jp_title>
+		<jp_institution>Kyiv School of Economics</jp_institution>
+		<jp_division></jp_division>
+		<jp_department>Economics</jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-04-30 00:00:00</jp_application_deadline>
+		<jp_full_text>The Kyiv School of Economics (KSE — https://kse.ua/en/) offers multiple Visiting Research Fellowships for individuals interested in joining KSE on a part-time basis to collaborate on research projects and engage with our academic ecosystem.
+
+KSE is a dynamic, highly rated private university, well linked to European and global academic communities. In the nearly five years since Russia’s full-scale invasion began, KSE has never closed its doors and, indeed, has grown rapidly. Instruction is primarily in English.
+
+Candidates must be willing to travel to Kyiv and must have a record of (or demonstrated potential for) significant research.
+
+Candidates are invited to submit their c.v. and a job market paper or other research sample. Non-tenured researchers may be asked for letters of reference.</jp_full_text>
+		<jp_keywords></jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36618">
+			<country>UKRAINE</country>
+			<state>Kyiv</state>
+			<city>Kyiv</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61518">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478595">
+		<jp_section>International: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant/Associate/Full Professor</jp_title>
+		<jp_institution>Renmin University of China</jp_institution>
+		<jp_division></jp_division>
+		<jp_department>School of Agricultural Economics and Rural Development</jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-01-10 00:00:00</jp_application_deadline>
+		<jp_full_text>The School of Agricultural Economics and Rural Development (SARD) at Renmin University of China is the leading program in agricultural economics and rural development.
+
+Our school is offering multiple positions at all levels. Candidates are required to hold a Ph.D. (or expected completion in 2027) and have a strong background in agricultural economics, rural development, agribusiness and management, forestry and resource economics, food economics, agricultural resource &amp;amp; environmental economics and management, artificial intelligence for agricultural economics, sannongology, or related areas. Salaries and benefits are competitive and commensurate with qualifications and experience. 
+
+For the 2027 recruitment cycle, our priority recruitment areas are: (1) Agribusiness and Management, Food Economics and Management, and Forestry Economics and Management; and (2) Sannongology, Agrarian History, Agricultural Finance, and Smart Agriculture.
+
+Interested and qualified applicants should submit their application materials (including a cover letter, CV, job market paper(s), and three letters of recommendation) through the JOE system or via email to wangxr1020@ruc.edu.cn.
+
+Our school plans to hold online introductory meetings with interested applicants in January 2027 to exchange information about their research interests and potential opportunities at SARD. The deadline for application is January 10, 2027.
+
+For more information, please visit our website at http://www.sard.ruc.edu.cn/.</jp_full_text>
+		<jp_keywords>Agricultural Economics
+Rural Development
+Agribusiness and Management
+Forestry and Resource Economics
+Food Economics
+Agricultural Resource &amp;amp; Environmental Economics and Management
+AI for Agricultural Economics
+Sannongology</jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36616">
+			<country>CHINA</country>
+			<state>Beijing</state>
+			<city>Beijing</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61514">
+			<jc_code>Q</jc_code>
+			<jc_description>Agricultural and Natural Resource Economics; Environmental and Ecological Economics</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478596">
+		<jp_section>US: Other Academic (Visiting or Temporary)</jp_section>
+		<jp_title>Teaching Assistant Professor of Economics</jp_title>
+		<jp_institution>University of Arkansas</jp_institution>
+		<jp_division>Sam M. Walton College of Business</jp_division>
+		<jp_department>Economics</jp_department>
+		<jp_salary_range></jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2026-12-17 00:00:00</jp_application_deadline>
+		<jp_full_text>The Sam M. Walton College of Business invites applications for a non-tenure track Teaching Assistant Professor in the Department of Economics.  This 9-month teaching professor position has a four-course teaching requirement each semester (12 credit hours per semester), with a potential mix of face-to-face and online courses, as needed.  Teaching responsibilities for this position will involve a mix of Microeconomics, Macroeconomics, and Econometrics courses at the undergraduate level.  The expected start date for the position is August 16, 2027.  The appointment is potentially renewable and the salary is competitive and commensurate with experience.
+
+This is an in-person position. Most University classes are offered face-to-face and this role requires regular on-campus presence to support high-quality instruction and student learning. Participation in selected departmental or programmatic activities that advance teaching quality and student success is also expected, consistent with the responsibilities of non-tenure track faculty as defined by the academic department.
+
+Regular on-campus availability, in-person teaching, and active contribution to the life of the department, including exhibiting respect and cooperation in shared academic and administrative tasks are essential duties.</jp_full_text>
+		<jp_keywords>Microeconomics
+Macroeconomics
+Econometrics </jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36617">
+			<country>UNITED STATES</country>
+			<state>Arkansas</state>
+			<city>Fayetteville</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61515">
+			<jc_code>C</jc_code>
+			<jc_description>Mathematical and Quantitative Methods</jc_description>
+			</jel_class>
+			<jel_class id="61516">
+			<jc_code>D</jc_code>
+			<jc_description>Microeconomics</jc_description>
+			</jel_class>
+			<jel_class id="61517">
+			<jc_code>E</jc_code>
+			<jc_description>Macroeconomics and Monetary Economics</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
+	<position jp_id="111478643">
+		<jp_section>US: Full-Time Academic (Permanent, Tenure Track or Tenured)</jp_section>
+		<jp_title>Assistant Professor of Teaching in Applied Economics and Marketing</jp_title>
+		<jp_institution>University of California, Davis</jp_institution>
+		<jp_division></jp_division>
+		<jp_department>Department of Agricultural and Resource Economics</jp_department>
+		<jp_salary_range>The salary range for this position is $145,900 - $173,700 (annual)</jp_salary_range>
+		<jp_agency_insertion_num></jp_agency_insertion_num>
+		<jp_application_deadline>2027-01-05 00:00:00</jp_application_deadline>
+		<jp_full_text>The Department of Agricultural and Resource Economics invites applications for a full-time Assistant Professor of Teaching with potential for security of employment (equivalent to tenure track).  Professor of Teaching faculty are Academic Senate faculty members whose expertise and responsibilities center on undergraduate education, and scholarly analysis/improvement of teaching methods. The appointee may be required to teach up to six quarter-long undergraduate courses per year (e.g., two courses per quarter: 2-2-2) in departmental undergraduate curricula as assigned by the department chair. The successful applicant will be responsible for teaching both lower and upper division undergraduate courses; primary teaching responsibilities include ARE 113 Marketing Management, ARE 135 Agribusiness Marketing Plan Development, ARE 136 Managerial Marketing, another course in Marketing that the successful applicant may develop, ARE 133 Introduction to Behavioral Economics; the successful candidate may also be asked to teach ARE 100A and 100B Microeconomics, ARE 106 Econometrics, ARE 130 Agricultural Markets, ARE 155 Operations Research &amp;amp; Management Science, ARE 157 Analysis for Operations &amp;amp; Production Management, and ARE 194 Senior Research Thesis. They will also be expected to play a leadership role in teaching and learning, working with other faculty to develop, implement and assess new pedagogical initiatives. 
+
+Qualified applicants must have a Ph.D. or equivalent in economics, agricultural economics, applied economics, marketing, or a closely related discipline at the time of appointment. Other preferred qualifications include documented success in some or all of the following areas as related to applied economics and marketing: teaching large undergraduate classes, use of evidence-based teaching practices, use of modern instructional technology, experience with effective teaching strategies for diverse student populations, experience conducting disciplinary and pedagogical research.
+
+This is an academic year (9-month), Assistant Professor of Teaching with potential for security of employment (equivalent to tenure track) position.
+
+Initial review date: January 5, 2027. Open until filled.
+
+To start the application process, please visit: https://recruit.ucdavis.edu
+
+ </jp_full_text>
+		<jp_keywords></jp_keywords>
+		<jp_status></jp_status>
+		<jp_new></jp_new>
+			<locations>
+			<location id="36673">
+			<country>UNITED STATES</country>
+			<state>California</state>
+			<city>Davis</city>
+			</location>
+			</locations>
+			<JEL_Classifications>
+			<jel_class id="61625">
+			<jc_code>00</jc_code>
+			<jc_description>00 - Default: Any Field</jc_description>
+			</jel_class>
+			<jel_class id="61626">
+			<jc_code>M3</jc_code>
+			<jc_description>Marketing and Advertising</jc_description>
+			</jel_class>
+			</JEL_Classifications>
+	</position>
 	<position jp_id="111478504">
 		<jp_section>Full-Time Nonacademic</jp_section>
 		<jp_title>Research Economist</jp_title>
@@ -7525,7 +8045,7 @@ Apply Now: https://rb.wd5.myworkdayjobs.com/FRS/job/Minneapolis-MN/Economist--An
 		<jp_department></jp_department>
 		<jp_salary_range></jp_salary_range>
 		<jp_agency_insertion_num></jp_agency_insertion_num>
-		<jp_application_deadline>2026-12-31 00:00:00</jp_application_deadline>
+		<jp_application_deadline>2026-11-27 00:00:00</jp_application_deadline>
 		<jp_full_text>About the Opportunity 
 The Research Department conducts research to support policymaking and thought leadership on issues important to the Federal Reserve and Fifth District communities. The department is currently recruiting for an Economist position to contribute to the Bank's standing in the economics profession by producing research for publication in top-tier journals, counseling Bank leadership on the national, regional, and international economy, monetary policy, banking and financial regulation, and financial markets, and contributing to the high-priority initiatives of the department.
 
@@ -14678,7 +15198,7 @@ Environmental Studies
 		<jp_department>Economics</jp_department>
 		<jp_salary_range>$70,000 12-month salary</jp_salary_range>
 		<jp_agency_insertion_num></jp_agency_insertion_num>
-		<jp_application_deadline>2026-11-24 00:00:00</jp_application_deadline>
+		<jp_application_deadline>2026-11-30 00:00:00</jp_application_deadline>
 		<jp_full_text>The University of Alaska Anchorage Department of Economics is searching for a scholar with interests in applied economics. Areas of emphasis can include natural resource and development economics, environmental economics, public, labor, health, urban, industrial organization, experimental economics or related fields. Preference will be given to candidates with strong training in applied economic methods and a research agenda that engages important policy questions from a microeconomic or macroeconomic perspective. Responsibilities include 1) engaging in high-quality research that informs public policy and that leads to publications in top journals, and 2) working collaboratively on research projects with members of the Department of Economics. Salary will be $70,000 per year. The successful candidate will also receive a generous benefits package, relocation funds, and a $5000 annual research/travel budget. The appointment is for one year, renewable for a second year subject to satisfactory performance. For questions, contact James Murphy, jjmurphy2@alaska.edu</jp_full_text>
 		<jp_keywords>Environmental Economics
 Sustainability
@@ -21838,7 +22358,7 @@ URL: www.aucegypt.edu/about/jobs/faculty-vacancies
 
 PI287234692</jp_full_text>
 		<jp_keywords></jp_keywords>
-		<jp_status></jp_status>
+		<jp_status>Position is no longer available</jp_status>
 		<jp_new></jp_new>
 			<locations>
 			<location id="36010">
@@ -23486,7 +24006,7 @@ All applicants must submit the following documents:
 URL: www.aucegypt.edu/about/jobs/faculty-vacancies
 PI287234624</jp_full_text>
 		<jp_keywords></jp_keywords>
-		<jp_status></jp_status>
+		<jp_status>Position is no longer available</jp_status>
 		<jp_new></jp_new>
 			<locations>
 			<location id="35972">
@@ -24026,7 +24546,7 @@ URL: www.aucegypt.edu/about/jobs/faculty-vacancies
 
 PI287205473</jp_full_text>
 		<jp_keywords></jp_keywords>
-		<jp_status></jp_status>
+		<jp_status>Position is no longer available</jp_status>
 		<jp_new></jp_new>
 			<locations>
 			<location id="35962">

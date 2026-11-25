@@ -219,6 +219,10 @@
 42.3751,
 -71.10561
 ],
+"Canberra|ACT|AUSTRALIA": [
+-35.28346,
+149.12807
+],
 "Canberra|Australian Capital Territory|AUSTRALIA": [
 -35.28346,
 149.12807
@@ -391,6 +395,10 @@
 41.14121,
 -73.26373
 ],
+"Fayetteville|Arkansas|UNITED STATES": [
+36.06258,
+-94.15743
+],
 "Florence|Alabama|UNITED STATES": [
 34.79981,
 -87.67725
@@ -534,6 +542,10 @@
 "Irvine|California|UNITED STATES": [
 33.66946,
 -117.82311
+],
+"Istanbul||TURKEY": [
+41.01384,
+28.94966
 ],
 "Ithaca|New York|UNITED STATES": [
 42.44063,
